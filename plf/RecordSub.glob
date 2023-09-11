@@ -1,0 +1,1879 @@
+DIGEST c2473d80f19747d4c6099ae5694c17ee
+FPLF.RecordSub
+R514:527 Coq.Strings.String <> <> lib
+R554:557 PLF.Maps <> <> lib
+R584:592 PLF.Smallstep <> <> lib
+mod 603:611 <> RecordSub
+ind 815:816 RecordSub ty
+constr 853:858 RecordSub Ty_Top
+constr 871:877 RecordSub Ty_Base
+constr 899:906 RecordSub Ty_Arrow
+constr 950:956 RecordSub Ty_RNil
+constr 967:974 RecordSub Ty_RCons
+R864:865 PLF.RecordSub <> ty:1 ind
+R888:891 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R882:887 Coq.Strings.String <> string ind
+R892:893 PLF.RecordSub <> ty:1 ind
+R912:915 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R910:911 PLF.RecordSub <> ty:1 ind
+R918:921 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R916:917 PLF.RecordSub <> ty:1 ind
+R922:923 PLF.RecordSub <> ty:1 ind
+R960:961 PLF.RecordSub <> ty:1 ind
+R984:987 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R978:983 Coq.Strings.String <> string ind
+R990:993 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R988:989 PLF.RecordSub <> ty:1 ind
+R996:999 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R994:995 PLF.RecordSub <> ty:1 ind
+R1000:1001 PLF.RecordSub <> ty:1 ind
+ind 1015:1016 RecordSub tm
+constr 1053:1058 RecordSub tm_var
+constr 1079:1084 RecordSub tm_app
+constr 1107:1112 RecordSub tm_abs
+constr 1145:1152 RecordSub tm_rproj
+constr 1200:1206 RecordSub tm_rnil
+constr 1218:1225 RecordSub tm_rcons
+R1068:1071 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1062:1067 Coq.Strings.String <> string ind
+R1072:1073 PLF.RecordSub <> tm:3 ind
+R1090:1093 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1088:1089 PLF.RecordSub <> tm:3 ind
+R1096:1099 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1094:1095 PLF.RecordSub <> tm:3 ind
+R1100:1101 PLF.RecordSub <> tm:3 ind
+R1122:1125 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1116:1121 Coq.Strings.String <> string ind
+R1128:1131 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1126:1127 PLF.RecordSub RecordSub ty ind
+R1134:1137 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1132:1133 PLF.RecordSub <> tm:3 ind
+R1138:1139 PLF.RecordSub <> tm:3 ind
+R1158:1161 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1156:1157 PLF.RecordSub <> tm:3 ind
+R1168:1171 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1162:1167 Coq.Strings.String <> string ind
+R1172:1173 PLF.RecordSub <> tm:3 ind
+R1211:1212 PLF.RecordSub <> tm:3 ind
+R1235:1238 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1229:1234 Coq.Strings.String <> string ind
+R1241:1244 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1239:1240 PLF.RecordSub <> tm:3 ind
+R1247:1250 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1245:1246 PLF.RecordSub <> tm:3 ind
+R1251:1252 PLF.RecordSub <> tm:3 ind
+not 1323:1323 RecordSub :::'<{'_x_'}>'
+not 1376:1376 RecordSub :::'<{{'_x_'}}>'
+not 1434:1434 RecordSub :stlc::'('_x_')'
+not 1489:1489 RecordSub :stlc_ty::'('_x_')'
+not 1547:1547 RecordSub :stlc::x
+not 1615:1615 RecordSub :stlc_ty::x
+R1699:1706 PLF.RecordSub RecordSub Ty_Arrow constr
+not 1686:1686 RecordSub :stlc_ty::x_'->'_x
+R1786:1791 PLF.RecordSub RecordSub tm_app constr
+not 1776:1776 RecordSub :stlc::x_x
+R1876:1881 PLF.RecordSub RecordSub tm_abs constr
+not 1856:1856 RecordSub :stlc::'\'_x_':'_x_','_x
+R2075:2105 PLF.RecordSub RecordSub tm_var constr
+not 2118:2118 RecordSub :stlc::'{'_x_'}'
+R2195:2201 PLF.RecordSub RecordSub Ty_Base constr
+not 2180:2180 RecordSub :stlc_ty::'Base'_x
+R2274:2281 PLF.RecordSub RecordSub Ty_RCons constr
+not 2248:2248 RecordSub :stlc_ty::x_':'_x_'::'_x
+R2377:2384 PLF.RecordSub RecordSub tm_rcons constr
+not 2354:2354 RecordSub :stlc::x_':='_x_'::'_x
+R2466:2472 PLF.RecordSub RecordSub Ty_RNil constr
+not 2454:2454 RecordSub :stlc_ty::'nil'
+R2517:2523 PLF.RecordSub RecordSub tm_rnil constr
+not 2505:2505 RecordSub :stlc::'nil'
+R2567:2574 PLF.RecordSub RecordSub tm_rproj constr
+not 2553:2553 RecordSub :stlc::x_'-->'_x
+R2632:2637 PLF.RecordSub RecordSub Ty_Top constr
+not 2620:2620 RecordSub :stlc_ty::'Top'
+ind 3120:3128 RecordSub record_ty
+constr 3150:3154 RecordSub RTnil
+constr 3192:3197 RecordSub RTcons
+R3134:3137 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3132:3133 PLF.RecordSub RecordSub ty ind
+R3166:3174 PLF.RecordSub <> record_ty:5 ind
+R3176:3179 PLF.RecordSub RecordSub :::'<{{'_x_'}}>' not
+R3183:3186 PLF.RecordSub RecordSub :::'<{{'_x_'}}>' not
+R3180:3182 PLF.RecordSub RecordSub :stlc_ty::'nil' not
+binder 3208:3208 <> i:7
+binder 3210:3211 <> T1:8
+binder 3213:3214 <> T2:9
+R3225:3233 PLF.RecordSub <> record_ty:5 ind
+R3235:3238 PLF.RecordSub RecordSub :::'<{{'_x_'}}>' not
+R3251:3254 PLF.RecordSub RecordSub :::'<{{'_x_'}}>' not
+R3240:3242 PLF.RecordSub RecordSub :stlc_ty::x_':'_x_'::'_x not
+R3245:3248 PLF.RecordSub RecordSub :stlc_ty::x_':'_x_'::'_x not
+R3239:3239 PLF.RecordSub <> i:7 var
+R3243:3244 PLF.RecordSub <> T1:8 var
+R3249:3250 PLF.RecordSub <> T2:9 var
+ind 3268:3276 RecordSub record_tm
+constr 3298:3302 RecordSub rtnil
+constr 3338:3343 RecordSub rtcons
+R3282:3285 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3280:3281 PLF.RecordSub RecordSub tm ind
+R3314:3322 PLF.RecordSub <> record_tm:10 ind
+R3324:3326 PLF.RecordSub RecordSub :::'<{'_x_'}>' not
+R3330:3332 PLF.RecordSub RecordSub :::'<{'_x_'}>' not
+R3327:3329 PLF.RecordSub RecordSub :stlc::'nil' not
+binder 3354:3354 <> i:12
+binder 3356:3357 <> t1:13
+binder 3359:3360 <> t2:14
+R3371:3379 PLF.RecordSub <> record_tm:10 ind
+R3381:3383 PLF.RecordSub RecordSub :::'<{'_x_'}>' not
+R3397:3399 PLF.RecordSub RecordSub :::'<{'_x_'}>' not
+R3385:3388 PLF.RecordSub RecordSub :stlc::x_':='_x_'::'_x not
+R3391:3394 PLF.RecordSub RecordSub :stlc::x_':='_x_'::'_x not
+R3384:3384 PLF.RecordSub <> i:12 var
+R3389:3390 PLF.RecordSub <> t1:13 var
+R3395:3396 PLF.RecordSub <> t2:14 var
+ind 3413:3426 RecordSub well_formed_ty
+constr 3449:3453 RecordSub wfTop
+constr 3496:3501 RecordSub wfBase
+constr 3568:3574 RecordSub wfArrow
+constr 3694:3699 RecordSub wfRNil
+constr 3742:3748 RecordSub wfRCons
+R3432:3435 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3430:3431 PLF.RecordSub RecordSub ty ind
+R3465:3478 PLF.RecordSub <> well_formed_ty:15 ind
+R3480:3483 PLF.RecordSub RecordSub :::'<{{'_x_'}}>' not
+R3487:3490 PLF.RecordSub RecordSub :::'<{{'_x_'}}>' not
+R3484:3486 PLF.RecordSub RecordSub :stlc_ty::'Top' not
+R3517:3522 Coq.Strings.String <> string ind
+binder 3513:3513 <> i:17
+R3534:3547 PLF.RecordSub <> well_formed_ty:15 ind
+R3549:3552 PLF.RecordSub RecordSub :::'<{{'_x_'}}>' not
+R3559:3562 PLF.RecordSub RecordSub :::'<{{'_x_'}}>' not
+R3553:3557 PLF.RecordSub RecordSub :stlc_ty::'Base'_x not
+R3558:3558 PLF.RecordSub <> i:17 var
+binder 3585:3586 <> T1:18
+binder 3588:3589 <> T2:19
+R3617:3628 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3600:3613 PLF.RecordSub <> well_formed_ty:15 ind
+R3615:3616 PLF.RecordSub <> T1:18 var
+R3646:3657 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3629:3642 PLF.RecordSub <> well_formed_ty:15 ind
+R3644:3645 PLF.RecordSub <> T2:19 var
+R3658:3671 PLF.RecordSub <> well_formed_ty:15 ind
+R3673:3676 PLF.RecordSub RecordSub :::'<{{'_x_'}}>' not
+R3685:3688 PLF.RecordSub RecordSub :::'<{{'_x_'}}>' not
+R3679:3682 PLF.RecordSub RecordSub :stlc_ty::x_'->'_x not
+R3677:3678 PLF.RecordSub <> T1:18 var
+R3683:3684 PLF.RecordSub <> T2:19 var
+R3711:3724 PLF.RecordSub <> well_formed_ty:15 ind
+R3726:3729 PLF.RecordSub RecordSub :::'<{{'_x_'}}>' not
+R3733:3736 PLF.RecordSub RecordSub :::'<{{'_x_'}}>' not
+R3730:3732 PLF.RecordSub RecordSub :stlc_ty::'nil' not
+binder 3759:3759 <> i:20
+binder 3761:3762 <> T1:21
+binder 3764:3765 <> T2:22
+R3793:3804 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3776:3789 PLF.RecordSub <> well_formed_ty:15 ind
+R3791:3792 PLF.RecordSub <> T1:21 var
+R3822:3833 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3805:3818 PLF.RecordSub <> well_formed_ty:15 ind
+R3820:3821 PLF.RecordSub <> T2:22 var
+R3846:3857 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3834:3842 PLF.RecordSub RecordSub record_ty ind
+R3844:3845 PLF.RecordSub <> T2:22 var
+R3858:3871 PLF.RecordSub <> well_formed_ty:15 ind
+R3873:3876 PLF.RecordSub RecordSub :::'<{{'_x_'}}>' not
+R3889:3892 PLF.RecordSub RecordSub :::'<{{'_x_'}}>' not
+R3878:3880 PLF.RecordSub RecordSub :stlc_ty::x_':'_x_'::'_x not
+R3883:3886 PLF.RecordSub RecordSub :stlc_ty::x_':'_x_'::'_x not
+R3877:3877 PLF.RecordSub <> i:20 var
+R3881:3882 PLF.RecordSub <> T1:21 var
+R3887:3888 PLF.RecordSub <> T2:22 var
+R3914:3922 PLF.RecordSub <> record_ty ind
+R3924:3932 PLF.RecordSub <> record_tm ind
+R3934:3947 PLF.RecordSub <> well_formed_ty ind
+def 4194:4198 RecordSub subst
+R4205:4210 Coq.Strings.String <> string ind
+binder 4201:4201 <> x:23
+R4218:4219 PLF.RecordSub RecordSub tm ind
+binder 4214:4214 <> s:24
+R4227:4228 PLF.RecordSub RecordSub tm ind
+binder 4223:4223 <> t:25
+R4233:4234 PLF.RecordSub RecordSub tm ind
+R4635:4639 PLF.RecordSub <> subst:26 def
+R4247:4247 PLF.RecordSub <> t:25 var
+R4258:4263 PLF.RecordSub RecordSub tm_var constr
+R4279:4288 Coq.Strings.String <> eqb def
+R4290:4290 PLF.RecordSub <> x:23 var
+R4306:4306 PLF.RecordSub <> t:25 var
+R4299:4299 PLF.RecordSub <> s:24 var
+R4312:4313 PLF.RecordSub RecordSub :::'<{'_x_'}>' not
+R4322:4323 PLF.RecordSub RecordSub :::'<{'_x_'}>' not
+R4314:4314 PLF.RecordSub RecordSub :stlc::'\'_x_':'_x_','_x not
+R4316:4316 PLF.RecordSub RecordSub :stlc::'\'_x_':'_x_','_x not
+R4318:4319 PLF.RecordSub RecordSub :stlc::'\'_x_':'_x_','_x not
+R4337:4346 Coq.Strings.String <> eqb def
+R4348:4348 PLF.RecordSub <> x:23 var
+R4364:4365 PLF.RecordSub RecordSub :::'<{'_x_'}>' not
+R4381:4382 PLF.RecordSub RecordSub :::'<{'_x_'}>' not
+R4366:4366 PLF.RecordSub RecordSub :stlc::'\'_x_':'_x_','_x not
+R4368:4368 PLF.RecordSub RecordSub :stlc::'\'_x_':'_x_','_x not
+R4370:4371 PLF.RecordSub RecordSub :stlc::'\'_x_':'_x_','_x not
+R4372:4372 PLF.RecordSub RecordSub :stlc::'['_x_':='_x_']'_x not
+R4374:4375 PLF.RecordSub RecordSub :stlc::'['_x_':='_x_']'_x not
+R4377:4378 PLF.RecordSub RecordSub :stlc::'['_x_':='_x_']'_x not
+R4373:4373 PLF.RecordSub <> x:23 var
+R4376:4376 PLF.RecordSub <> s:24 var
+R4357:4357 PLF.RecordSub <> t:25 var
+R4388:4389 PLF.RecordSub RecordSub :::'<{'_x_'}>' not
+R4395:4396 PLF.RecordSub RecordSub :::'<{'_x_'}>' not
+R4392:4392 PLF.RecordSub RecordSub :stlc::x_x not
+R4407:4408 PLF.RecordSub RecordSub :::'<{'_x_'}>' not
+R4432:4433 PLF.RecordSub RecordSub :::'<{'_x_'}>' not
+R4420:4420 PLF.RecordSub RecordSub :stlc::x_x not
+R4409:4409 PLF.RecordSub RecordSub :stlc::'('_x_')' not
+R4419:4419 PLF.RecordSub RecordSub :stlc::'('_x_')' not
+R4410:4410 PLF.RecordSub RecordSub :stlc::'['_x_':='_x_']'_x not
+R4412:4413 PLF.RecordSub RecordSub :stlc::'['_x_':='_x_']'_x not
+R4415:4416 PLF.RecordSub RecordSub :stlc::'['_x_':='_x_']'_x not
+R4411:4411 PLF.RecordSub <> x:23 var
+R4414:4414 PLF.RecordSub <> s:24 var
+R4421:4421 PLF.RecordSub RecordSub :stlc::'('_x_')' not
+R4431:4431 PLF.RecordSub RecordSub :stlc::'('_x_')' not
+R4422:4422 PLF.RecordSub RecordSub :stlc::'['_x_':='_x_']'_x not
+R4424:4425 PLF.RecordSub RecordSub :stlc::'['_x_':='_x_']'_x not
+R4427:4428 PLF.RecordSub RecordSub :stlc::'['_x_':='_x_']'_x not
+R4423:4423 PLF.RecordSub <> x:23 var
+R4426:4426 PLF.RecordSub <> s:24 var
+R4439:4441 PLF.RecordSub RecordSub :::'<{'_x_'}>' not
+R4450:4452 PLF.RecordSub RecordSub :::'<{'_x_'}>' not
+R4444:4448 PLF.RecordSub RecordSub :stlc::x_'-->'_x not
+R4463:4465 PLF.RecordSub RecordSub :::'<{'_x_'}>' not
+R4486:4488 PLF.RecordSub RecordSub :::'<{'_x_'}>' not
+R4480:4484 PLF.RecordSub RecordSub :stlc::x_'-->'_x not
+R4466:4467 PLF.RecordSub RecordSub :stlc::'('_x_')' not
+R4479:4479 PLF.RecordSub RecordSub :stlc::'('_x_')' not
+R4468:4468 PLF.RecordSub RecordSub :stlc::'['_x_':='_x_']'_x not
+R4470:4473 PLF.RecordSub RecordSub :stlc::'['_x_':='_x_']'_x not
+R4475:4476 PLF.RecordSub RecordSub :stlc::'['_x_':='_x_']'_x not
+R4469:4469 PLF.RecordSub <> x:23 var
+R4474:4474 PLF.RecordSub <> s:24 var
+R4494:4496 PLF.RecordSub RecordSub :::'<{'_x_'}>' not
+R4500:4502 PLF.RecordSub RecordSub :::'<{'_x_'}>' not
+R4497:4499 PLF.RecordSub RecordSub :stlc::'nil' not
+R4513:4515 PLF.RecordSub RecordSub :::'<{'_x_'}>' not
+R4519:4521 PLF.RecordSub RecordSub :::'<{'_x_'}>' not
+R4516:4518 PLF.RecordSub RecordSub :stlc::'nil' not
+R4527:4529 PLF.RecordSub RecordSub :::'<{'_x_'}>' not
+R4543:4545 PLF.RecordSub RecordSub :::'<{'_x_'}>' not
+R4531:4534 PLF.RecordSub RecordSub :stlc::x_':='_x_'::'_x not
+R4537:4540 PLF.RecordSub RecordSub :stlc::x_':='_x_'::'_x not
+R4555:4557 PLF.RecordSub RecordSub :::'<{'_x_'}>' not
+R4593:4595 PLF.RecordSub RecordSub :::'<{'_x_'}>' not
+R4559:4563 PLF.RecordSub RecordSub :stlc::x_':='_x_'::'_x not
+R4575:4578 PLF.RecordSub RecordSub :stlc::x_':='_x_'::'_x not
+R4564:4564 PLF.RecordSub RecordSub :stlc::'['_x_':='_x_']'_x not
+R4566:4569 PLF.RecordSub RecordSub :stlc::'['_x_':='_x_']'_x not
+R4571:4572 PLF.RecordSub RecordSub :stlc::'['_x_':='_x_']'_x not
+R4565:4565 PLF.RecordSub <> x:23 var
+R4570:4570 PLF.RecordSub <> s:24 var
+R4579:4580 PLF.RecordSub RecordSub :stlc::'('_x_')' not
+R4592:4592 PLF.RecordSub RecordSub :stlc::'('_x_')' not
+R4581:4581 PLF.RecordSub RecordSub :stlc::'['_x_':='_x_']'_x not
+R4583:4586 PLF.RecordSub RecordSub :stlc::'['_x_':='_x_']'_x not
+R4588:4589 PLF.RecordSub RecordSub :stlc::'['_x_':='_x_']'_x not
+R4582:4582 PLF.RecordSub <> x:23 var
+R4587:4587 PLF.RecordSub <> s:24 var
+R4635:4639 PLF.RecordSub RecordSub subst def
+not 4610:4610 RecordSub :stlc::'['_x_':='_x_']'_x
+ind 4771:4775 RecordSub value
+constr 4797:4801 RecordSub v_abs
+constr 4857:4862 RecordSub v_rnil
+constr 4886:4892 RecordSub v_rcons
+R4781:4784 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4779:4780 PLF.RecordSub RecordSub tm ind
+binder 4812:4812 <> x:30
+binder 4814:4815 <> T2:31
+binder 4817:4818 <> t1:32
+R4827:4831 PLF.RecordSub <> value:28 ind
+R4834:4836 PLF.RecordSub RecordSub :::'<{'_x_'}>' not
+R4849:4851 PLF.RecordSub RecordSub :::'<{'_x_'}>' not
+R4837:4838 PLF.RecordSub RecordSub :stlc::'\'_x_':'_x_','_x not
+R4840:4842 PLF.RecordSub RecordSub :stlc::'\'_x_':'_x_','_x not
+R4845:4846 PLF.RecordSub RecordSub :stlc::'\'_x_':'_x_','_x not
+R4839:4839 PLF.RecordSub <> x:30 var
+R4843:4844 PLF.RecordSub <> T2:31 var
+R4847:4848 PLF.RecordSub <> t1:32 var
+R4866:4870 PLF.RecordSub <> value:28 ind
+R4872:4874 PLF.RecordSub RecordSub :::'<{'_x_'}>' not
+R4878:4880 PLF.RecordSub RecordSub :::'<{'_x_'}>' not
+R4875:4877 PLF.RecordSub RecordSub :stlc::'nil' not
+binder 4903:4903 <> i:33
+binder 4905:4906 <> v1:34
+binder 4908:4909 <> vr:35
+R4926:4935 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4918:4922 PLF.RecordSub <> value:28 ind
+R4924:4925 PLF.RecordSub <> v1:34 var
+R4944:4953 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4936:4940 PLF.RecordSub <> value:28 ind
+R4942:4943 PLF.RecordSub <> vr:35 var
+R4954:4958 PLF.RecordSub <> value:28 ind
+R4960:4962 PLF.RecordSub RecordSub :::'<{'_x_'}>' not
+R4976:4978 PLF.RecordSub RecordSub :::'<{'_x_'}>' not
+R4964:4967 PLF.RecordSub RecordSub :stlc::x_':='_x_'::'_x not
+R4970:4973 PLF.RecordSub RecordSub :stlc::x_':='_x_'::'_x not
+R4963:4963 PLF.RecordSub <> i:33 var
+R4968:4969 PLF.RecordSub <> v1:34 var
+R4974:4975 PLF.RecordSub <> vr:35 var
+R5000:5004 PLF.RecordSub <> value ind
+def 5024:5030 RecordSub Tlookup
+R5035:5040 Coq.Strings.String <> string ind
+binder 5033:5033 <> i:36
+R5047:5048 PLF.RecordSub RecordSub ty ind
+binder 5044:5045 <> Tr:37
+R5053:5058 Coq.Init.Datatypes <> option ind
+R5060:5061 PLF.RecordSub RecordSub ty ind
+R5074:5075 PLF.RecordSub <> Tr:37 var
+R5086:5089 PLF.RecordSub RecordSub :::'<{{'_x_'}}>' not
+R5103:5106 PLF.RecordSub RecordSub :::'<{{'_x_'}}>' not
+R5092:5094 PLF.RecordSub RecordSub :stlc_ty::x_':'_x_'::'_x not
+R5096:5099 PLF.RecordSub RecordSub :stlc_ty::x_':'_x_'::'_x not
+R5120:5129 Coq.Strings.String <> eqb def
+R5131:5131 PLF.RecordSub <> i:36 var
+R5153:5159 PLF.RecordSub <> Tlookup:38 def
+R5161:5161 PLF.RecordSub <> i:36 var
+R5141:5144 Coq.Init.Datatypes <> Some constr
+R5176:5179 Coq.Init.Datatypes <> None constr
+def 5198:5204 RecordSub tlookup
+R5209:5214 Coq.Strings.String <> string ind
+binder 5207:5207 <> i:40
+R5221:5222 PLF.RecordSub RecordSub tm ind
+binder 5218:5219 <> tr:41
+R5227:5232 Coq.Init.Datatypes <> option ind
+R5234:5235 PLF.RecordSub RecordSub tm ind
+R5248:5249 PLF.RecordSub <> tr:41 var
+R5260:5262 PLF.RecordSub RecordSub :::'<{'_x_'}>' not
+R5277:5279 PLF.RecordSub RecordSub :::'<{'_x_'}>' not
+R5265:5268 PLF.RecordSub RecordSub :stlc::x_':='_x_'::'_x not
+R5270:5273 PLF.RecordSub RecordSub :stlc::x_':='_x_'::'_x not
+R5293:5302 Coq.Strings.String <> eqb def
+R5304:5304 PLF.RecordSub <> i:40 var
+R5326:5332 PLF.RecordSub <> tlookup:42 def
+R5334:5334 PLF.RecordSub <> i:40 var
+R5314:5317 Coq.Init.Datatypes <> Some constr
+R5349:5352 Coq.Init.Datatypes <> None constr
+ind 5419:5422 RecordSub step
+constr 5450:5458 RecordSub ST_AppAbs
+constr 5554:5560 RecordSub ST_App1
+constr 5643:5649 RecordSub ST_App2
+constr 5754:5761 RecordSub ST_Proj1
+constr 5851:5860 RecordSub ST_ProjRcd
+constr 5968:5978 RecordSub ST_Rcd_Head
+constr 6084:6094 RecordSub ST_Rcd_Tail
+R5428:5431 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5426:5427 PLF.RecordSub RecordSub tm ind
+R5434:5437 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5432:5433 PLF.RecordSub RecordSub tm ind
+R6243:6246 PLF.RecordSub <> step:45 ind
+binder 5469:5469 <> x:46
+binder 5471:5472 <> T2:47
+binder 5474:5475 <> t1:48
+binder 5477:5478 <> v2:49
+R5498:5510 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5490:5494 PLF.RecordSub RecordSub value ind
+R5496:5497 PLF.RecordSub <> v2:49 var
+R5529:5533 PLF.RecordSub RecordSub :::x_'-->'_x not
+R5511:5512 PLF.RecordSub RecordSub :::'<{'_x_'}>' not
+R5527:5528 PLF.RecordSub RecordSub :::'<{'_x_'}>' not
+R5524:5524 PLF.RecordSub RecordSub :stlc::x_x not
+R5513:5513 PLF.RecordSub RecordSub :stlc::'('_x_')' not
+R5523:5523 PLF.RecordSub RecordSub :stlc::'('_x_')' not
+R5514:5514 PLF.RecordSub RecordSub :stlc::'\'_x_':'_x_','_x not
+R5516:5516 PLF.RecordSub RecordSub :stlc::'\'_x_':'_x_','_x not
+R5519:5520 PLF.RecordSub RecordSub :stlc::'\'_x_':'_x_','_x not
+R5515:5515 PLF.RecordSub <> x:46 var
+R5517:5518 PLF.RecordSub <> T2:47 var
+R5521:5522 PLF.RecordSub <> t1:48 var
+R5525:5526 PLF.RecordSub <> v2:49 var
+R5534:5536 PLF.RecordSub RecordSub :::'<{'_x_'}>' not
+R5546:5548 PLF.RecordSub RecordSub :::'<{'_x_'}>' not
+R5537:5537 PLF.RecordSub RecordSub :stlc::'['_x_':='_x_']'_x not
+R5539:5540 PLF.RecordSub RecordSub :stlc::'['_x_':='_x_']'_x not
+R5543:5543 PLF.RecordSub RecordSub :stlc::'['_x_':='_x_']'_x not
+R5538:5538 PLF.RecordSub <> x:46 var
+R5541:5542 PLF.RecordSub <> v2:49 var
+R5544:5545 PLF.RecordSub <> t1:48 var
+binder 5571:5572 <> t1:50
+binder 5574:5576 <> t1':51
+binder 5578:5579 <> t2:52
+R5601:5613 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5593:5597 PLF.RecordSub RecordSub :::x_'-->'_x not
+R5591:5592 PLF.RecordSub <> t1:50 var
+R5598:5600 PLF.RecordSub <> t1':51 var
+R5623:5627 PLF.RecordSub RecordSub :::x_'-->'_x not
+R5614:5615 PLF.RecordSub RecordSub :::'<{'_x_'}>' not
+R5621:5622 PLF.RecordSub RecordSub :::'<{'_x_'}>' not
+R5618:5618 PLF.RecordSub RecordSub :stlc::x_x not
+R5616:5617 PLF.RecordSub <> t1:50 var
+R5619:5620 PLF.RecordSub <> t2:52 var
+R5628:5629 PLF.RecordSub RecordSub :::'<{'_x_'}>' not
+R5636:5637 PLF.RecordSub RecordSub :::'<{'_x_'}>' not
+R5633:5633 PLF.RecordSub RecordSub :stlc::x_x not
+R5630:5632 PLF.RecordSub <> t1':51 var
+R5634:5635 PLF.RecordSub <> t2:52 var
+binder 5660:5661 <> v1:53
+binder 5663:5664 <> t2:54
+binder 5666:5668 <> t2':55
+R5688:5700 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5680:5684 PLF.RecordSub RecordSub value ind
+R5686:5687 PLF.RecordSub <> v1:53 var
+R5711:5723 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5703:5707 PLF.RecordSub RecordSub :::x_'-->'_x not
+R5701:5702 PLF.RecordSub <> t2:54 var
+R5708:5710 PLF.RecordSub <> t2':55 var
+R5733:5737 PLF.RecordSub RecordSub :::x_'-->'_x not
+R5724:5725 PLF.RecordSub RecordSub :::'<{'_x_'}>' not
+R5731:5732 PLF.RecordSub RecordSub :::'<{'_x_'}>' not
+R5728:5728 PLF.RecordSub RecordSub :stlc::x_x not
+R5726:5727 PLF.RecordSub <> v1:53 var
+R5729:5730 PLF.RecordSub <> t2:54 var
+R5738:5739 PLF.RecordSub RecordSub :::'<{'_x_'}>' not
+R5747:5748 PLF.RecordSub RecordSub :::'<{'_x_'}>' not
+R5742:5743 PLF.RecordSub RecordSub :stlc::x_x not
+R5740:5741 PLF.RecordSub <> v1:53 var
+R5744:5746 PLF.RecordSub <> t2':55 var
+binder 5772:5773 <> t1:56
+binder 5775:5777 <> t1':57
+binder 5779:5779 <> i:58
+R5800:5811 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5792:5796 PLF.RecordSub RecordSub :::x_'-->'_x not
+R5790:5791 PLF.RecordSub <> t1:56 var
+R5797:5799 PLF.RecordSub <> t1':57 var
+R5826:5830 PLF.RecordSub RecordSub :::x_'-->'_x not
+R5812:5814 PLF.RecordSub RecordSub :::'<{'_x_'}>' not
+R5823:5825 PLF.RecordSub RecordSub :::'<{'_x_'}>' not
+R5817:5821 PLF.RecordSub RecordSub :stlc::x_'-->'_x not
+R5815:5816 PLF.RecordSub <> t1:56 var
+R5822:5822 PLF.RecordSub <> i:58 var
+R5831:5833 PLF.RecordSub RecordSub :::'<{'_x_'}>' not
+R5843:5845 PLF.RecordSub RecordSub :::'<{'_x_'}>' not
+R5837:5841 PLF.RecordSub RecordSub :stlc::x_'-->'_x not
+R5834:5836 PLF.RecordSub <> t1':57 var
+R5842:5842 PLF.RecordSub <> i:58 var
+binder 5871:5872 <> tr:59
+binder 5874:5874 <> i:60
+binder 5876:5877 <> vi:61
+R5896:5907 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5888:5892 PLF.RecordSub RecordSub value ind
+R5894:5895 PLF.RecordSub <> tr:59 var
+R5930:5941 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5920:5922 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5908:5914 PLF.RecordSub RecordSub tlookup def
+R5916:5916 PLF.RecordSub <> i:60 var
+R5918:5919 PLF.RecordSub <> tr:59 var
+R5923:5926 Coq.Init.Datatypes <> Some constr
+R5928:5929 PLF.RecordSub <> vi:61 var
+R5956:5960 PLF.RecordSub RecordSub :::x_'-->'_x not
+R5942:5944 PLF.RecordSub RecordSub :::'<{'_x_'}>' not
+R5953:5955 PLF.RecordSub RecordSub :::'<{'_x_'}>' not
+R5947:5951 PLF.RecordSub RecordSub :stlc::x_'-->'_x not
+R5945:5946 PLF.RecordSub <> tr:59 var
+R5952:5952 PLF.RecordSub <> i:60 var
+R5961:5962 PLF.RecordSub <> vi:61 var
+binder 5989:5989 <> i:62
+binder 5991:5992 <> t1:63
+binder 5994:5996 <> t1':64
+binder 5998:6000 <> tr2:65
+R6021:6032 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6013:6017 PLF.RecordSub RecordSub :::x_'-->'_x not
+R6011:6012 PLF.RecordSub <> t1:63 var
+R6018:6020 PLF.RecordSub <> t1':64 var
+R6053:6057 PLF.RecordSub RecordSub :::x_'-->'_x not
+R6033:6035 PLF.RecordSub RecordSub :::'<{'_x_'}>' not
+R6050:6052 PLF.RecordSub RecordSub :::'<{'_x_'}>' not
+R6037:6040 PLF.RecordSub RecordSub :stlc::x_':='_x_'::'_x not
+R6043:6046 PLF.RecordSub RecordSub :stlc::x_':='_x_'::'_x not
+R6036:6036 PLF.RecordSub <> i:62 var
+R6041:6042 PLF.RecordSub <> t1:63 var
+R6047:6049 PLF.RecordSub <> tr2:65 var
+R6058:6060 PLF.RecordSub RecordSub :::'<{'_x_'}>' not
+R6076:6078 PLF.RecordSub RecordSub :::'<{'_x_'}>' not
+R6062:6065 PLF.RecordSub RecordSub :stlc::x_':='_x_'::'_x not
+R6069:6072 PLF.RecordSub RecordSub :stlc::x_':='_x_'::'_x not
+R6061:6061 PLF.RecordSub <> i:62 var
+R6066:6068 PLF.RecordSub <> t1':64 var
+R6073:6075 PLF.RecordSub <> tr2:65 var
+binder 6105:6105 <> i:66
+binder 6107:6108 <> v1:67
+binder 6110:6112 <> tr2:68
+binder 6114:6117 <> tr2':69
+R6136:6147 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6128:6132 PLF.RecordSub RecordSub value ind
+R6134:6135 PLF.RecordSub <> v1:67 var
+R6160:6171 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6151:6155 PLF.RecordSub RecordSub :::x_'-->'_x not
+R6148:6150 PLF.RecordSub <> tr2:68 var
+R6156:6159 PLF.RecordSub <> tr2':69 var
+R6192:6196 PLF.RecordSub RecordSub :::x_'-->'_x not
+R6172:6174 PLF.RecordSub RecordSub :::'<{'_x_'}>' not
+R6189:6191 PLF.RecordSub RecordSub :::'<{'_x_'}>' not
+R6176:6179 PLF.RecordSub RecordSub :stlc::x_':='_x_'::'_x not
+R6182:6185 PLF.RecordSub RecordSub :stlc::x_':='_x_'::'_x not
+R6175:6175 PLF.RecordSub <> i:66 var
+R6180:6181 PLF.RecordSub <> v1:67 var
+R6186:6188 PLF.RecordSub <> tr2:68 var
+R6197:6199 PLF.RecordSub RecordSub :::'<{'_x_'}>' not
+R6215:6217 PLF.RecordSub RecordSub :::'<{'_x_'}>' not
+R6201:6204 PLF.RecordSub RecordSub :stlc::x_':='_x_'::'_x not
+R6207:6210 PLF.RecordSub RecordSub :stlc::x_':='_x_'::'_x not
+R6200:6200 PLF.RecordSub <> i:66 var
+R6205:6206 PLF.RecordSub <> v1:67 var
+R6211:6214 PLF.RecordSub <> tr2':69 var
+R6243:6246 PLF.RecordSub RecordSub step ind
+not 6226:6226 RecordSub :::x_'-->'_x
+R6274:6277 PLF.RecordSub <> step ind
+ind 7090:7096 RecordSub subtype
+constr 7163:7168 RecordSub S_Refl
+constr 7221:7227 RecordSub S_Trans
+constr 7288:7292 RecordSub S_Top
+constr 7355:7361 RecordSub S_Arrow
+constr 7501:7510 RecordSub S_RcdWidth
+constr 7617:7626 RecordSub S_RcdDepth
+constr 7785:7793 RecordSub S_RcdPerm
+R7102:7105 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7100:7101 PLF.RecordSub RecordSub ty ind
+R7108:7111 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7106:7107 PLF.RecordSub RecordSub ty ind
+R7997:8003 PLF.RecordSub <> subtype:71 ind
+binder 7179:7179 <> T:72
+R7202:7209 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7186:7199 PLF.RecordSub RecordSub well_formed_ty ind
+R7201:7201 PLF.RecordSub <> T:72 var
+R7211:7214 PLF.RecordSub RecordSub :::x_'<:'_x not
+R7210:7210 PLF.RecordSub <> T:72 var
+R7215:7215 PLF.RecordSub <> T:72 var
+binder 7238:7238 <> S:73
+binder 7240:7240 <> U:74
+binder 7242:7242 <> T:75
+R7255:7262 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7250:7253 PLF.RecordSub RecordSub :::x_'<:'_x not
+R7249:7249 PLF.RecordSub <> S:73 var
+R7254:7254 PLF.RecordSub <> U:74 var
+R7269:7276 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7264:7267 PLF.RecordSub RecordSub :::x_'<:'_x not
+R7263:7263 PLF.RecordSub <> U:74 var
+R7268:7268 PLF.RecordSub <> T:75 var
+R7278:7281 PLF.RecordSub RecordSub :::x_'<:'_x not
+R7277:7277 PLF.RecordSub <> S:73 var
+R7282:7282 PLF.RecordSub <> T:75 var
+binder 7303:7303 <> S:76
+R7326:7333 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7310:7323 PLF.RecordSub RecordSub well_formed_ty ind
+R7325:7325 PLF.RecordSub <> S:76 var
+R7335:7338 PLF.RecordSub RecordSub :::x_'<:'_x not
+R7334:7334 PLF.RecordSub <> S:76 var
+R7339:7342 PLF.RecordSub RecordSub :::'<{{'_x_'}}>' not
+R7346:7349 PLF.RecordSub RecordSub :::'<{{'_x_'}}>' not
+R7343:7345 PLF.RecordSub RecordSub :stlc_ty::'Top' not
+binder 7372:7373 <> S1:77
+binder 7375:7376 <> S2:78
+binder 7378:7379 <> T1:79
+binder 7381:7382 <> T2:80
+R7397:7404 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7391:7394 PLF.RecordSub RecordSub :::x_'<:'_x not
+R7389:7390 PLF.RecordSub <> T1:79 var
+R7395:7396 PLF.RecordSub <> S1:77 var
+R7413:7420 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7407:7410 PLF.RecordSub RecordSub :::x_'<:'_x not
+R7405:7406 PLF.RecordSub <> S2:78 var
+R7411:7412 PLF.RecordSub <> T2:80 var
+R7437:7440 PLF.RecordSub RecordSub :::x_'<:'_x not
+R7421:7424 PLF.RecordSub RecordSub :::'<{{'_x_'}}>' not
+R7433:7436 PLF.RecordSub RecordSub :::'<{{'_x_'}}>' not
+R7427:7430 PLF.RecordSub RecordSub :stlc_ty::x_'->'_x not
+R7425:7426 PLF.RecordSub <> S1:77 var
+R7431:7432 PLF.RecordSub <> S2:78 var
+R7441:7444 PLF.RecordSub RecordSub :::'<{{'_x_'}}>' not
+R7453:7456 PLF.RecordSub RecordSub :::'<{{'_x_'}}>' not
+R7447:7450 PLF.RecordSub RecordSub :stlc_ty::x_'->'_x not
+R7445:7446 PLF.RecordSub <> T1:79 var
+R7451:7452 PLF.RecordSub <> T2:80 var
+binder 7521:7521 <> i:81
+binder 7523:7524 <> T1:82
+binder 7526:7527 <> T2:83
+R7569:7576 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7534:7547 PLF.RecordSub RecordSub well_formed_ty ind
+R7549:7552 PLF.RecordSub RecordSub :::'<{{'_x_'}}>' not
+R7565:7568 PLF.RecordSub RecordSub :::'<{{'_x_'}}>' not
+R7554:7556 PLF.RecordSub RecordSub :stlc_ty::x_':'_x_'::'_x not
+R7559:7562 PLF.RecordSub RecordSub :stlc_ty::x_':'_x_'::'_x not
+R7553:7553 PLF.RecordSub <> i:81 var
+R7557:7558 PLF.RecordSub <> T1:82 var
+R7563:7564 PLF.RecordSub <> T2:83 var
+R7597:7600 PLF.RecordSub RecordSub :::x_'<:'_x not
+R7577:7580 PLF.RecordSub RecordSub :::'<{{'_x_'}}>' not
+R7593:7596 PLF.RecordSub RecordSub :::'<{{'_x_'}}>' not
+R7582:7584 PLF.RecordSub RecordSub :stlc_ty::x_':'_x_'::'_x not
+R7587:7590 PLF.RecordSub RecordSub :stlc_ty::x_':'_x_'::'_x not
+R7581:7581 PLF.RecordSub <> i:81 var
+R7585:7586 PLF.RecordSub <> T1:82 var
+R7591:7592 PLF.RecordSub <> T2:83 var
+R7601:7604 PLF.RecordSub RecordSub :::'<{{'_x_'}}>' not
+R7608:7611 PLF.RecordSub RecordSub :::'<{{'_x_'}}>' not
+R7605:7607 PLF.RecordSub RecordSub :stlc_ty::'nil' not
+binder 7637:7637 <> i:84
+binder 7639:7640 <> S1:85
+binder 7642:7643 <> T1:86
+binder 7645:7647 <> Sr2:87
+binder 7649:7651 <> Tr2:88
+R7666:7673 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7660:7663 PLF.RecordSub RecordSub :::x_'<:'_x not
+R7658:7659 PLF.RecordSub <> S1:85 var
+R7664:7665 PLF.RecordSub <> T1:86 var
+R7684:7691 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7677:7680 PLF.RecordSub RecordSub :::x_'<:'_x not
+R7674:7676 PLF.RecordSub <> Sr2:87 var
+R7681:7683 PLF.RecordSub <> Tr2:88 var
+R7705:7712 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7692:7700 PLF.RecordSub RecordSub record_ty ind
+R7702:7704 PLF.RecordSub <> Sr2:87 var
+R7726:7733 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7713:7721 PLF.RecordSub RecordSub record_ty ind
+R7723:7725 PLF.RecordSub <> Tr2:88 var
+R7755:7758 PLF.RecordSub RecordSub :::x_'<:'_x not
+R7734:7737 PLF.RecordSub RecordSub :::'<{{'_x_'}}>' not
+R7751:7754 PLF.RecordSub RecordSub :::'<{{'_x_'}}>' not
+R7739:7741 PLF.RecordSub RecordSub :stlc_ty::x_':'_x_'::'_x not
+R7744:7747 PLF.RecordSub RecordSub :stlc_ty::x_':'_x_'::'_x not
+R7738:7738 PLF.RecordSub <> i:84 var
+R7742:7743 PLF.RecordSub <> S1:85 var
+R7748:7750 PLF.RecordSub <> Sr2:87 var
+R7759:7762 PLF.RecordSub RecordSub :::'<{{'_x_'}}>' not
+R7776:7779 PLF.RecordSub RecordSub :::'<{{'_x_'}}>' not
+R7764:7766 PLF.RecordSub RecordSub :stlc_ty::x_':'_x_'::'_x not
+R7769:7772 PLF.RecordSub RecordSub :stlc_ty::x_':'_x_'::'_x not
+R7763:7763 PLF.RecordSub <> i:84 var
+R7767:7768 PLF.RecordSub <> T1:86 var
+R7773:7775 PLF.RecordSub <> Tr2:88 var
+binder 7804:7805 <> i1:89
+binder 7807:7808 <> i2:90
+binder 7810:7811 <> T1:91
+binder 7813:7814 <> T2:92
+binder 7816:7818 <> Tr3:93
+R7873:7880 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7825:7838 PLF.RecordSub RecordSub well_formed_ty ind
+R7840:7843 PLF.RecordSub RecordSub :::'<{{'_x_'}}>' not
+R7869:7872 PLF.RecordSub RecordSub :::'<{{'_x_'}}>' not
+R7846:7848 PLF.RecordSub RecordSub :stlc_ty::x_':'_x_'::'_x not
+R7851:7854 PLF.RecordSub RecordSub :stlc_ty::x_':'_x_'::'_x not
+R7844:7845 PLF.RecordSub <> i1:89 var
+R7849:7850 PLF.RecordSub <> T1:91 var
+R7857:7859 PLF.RecordSub RecordSub :stlc_ty::x_':'_x_'::'_x not
+R7862:7865 PLF.RecordSub RecordSub :stlc_ty::x_':'_x_'::'_x not
+R7855:7856 PLF.RecordSub <> i2:90 var
+R7860:7861 PLF.RecordSub <> T2:92 var
+R7866:7868 PLF.RecordSub <> Tr3:93 var
+R7889:7899 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7883:7886 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R7881:7882 PLF.RecordSub <> i1:89 var
+R7887:7888 PLF.RecordSub <> i2:90 var
+R7933:7940 PLF.RecordSub RecordSub :::x_'<:'_x not
+R7900:7903 PLF.RecordSub RecordSub :::'<{{'_x_'}}>' not
+R7929:7932 PLF.RecordSub RecordSub :::'<{{'_x_'}}>' not
+R7906:7908 PLF.RecordSub RecordSub :stlc_ty::x_':'_x_'::'_x not
+R7911:7914 PLF.RecordSub RecordSub :stlc_ty::x_':'_x_'::'_x not
+R7904:7905 PLF.RecordSub <> i1:89 var
+R7909:7910 PLF.RecordSub <> T1:91 var
+R7917:7919 PLF.RecordSub RecordSub :stlc_ty::x_':'_x_'::'_x not
+R7922:7925 PLF.RecordSub RecordSub :stlc_ty::x_':'_x_'::'_x not
+R7915:7916 PLF.RecordSub <> i2:90 var
+R7920:7921 PLF.RecordSub <> T2:92 var
+R7926:7928 PLF.RecordSub <> Tr3:93 var
+R7941:7944 PLF.RecordSub RecordSub :::'<{{'_x_'}}>' not
+R7970:7973 PLF.RecordSub RecordSub :::'<{{'_x_'}}>' not
+R7947:7949 PLF.RecordSub RecordSub :stlc_ty::x_':'_x_'::'_x not
+R7952:7955 PLF.RecordSub RecordSub :stlc_ty::x_':'_x_'::'_x not
+R7945:7946 PLF.RecordSub <> i2:90 var
+R7950:7951 PLF.RecordSub <> T2:92 var
+R7958:7960 PLF.RecordSub RecordSub :stlc_ty::x_':'_x_'::'_x not
+R7963:7966 PLF.RecordSub RecordSub :stlc_ty::x_':'_x_'::'_x not
+R7956:7957 PLF.RecordSub <> i1:89 var
+R7961:7962 PLF.RecordSub <> T1:91 var
+R7967:7969 PLF.RecordSub <> Tr3:93 var
+R7997:8003 PLF.RecordSub RecordSub subtype ind
+not 7982:7982 RecordSub :::x_'<:'_x
+R8030:8036 PLF.RecordSub <> subtype ind
+mod 8146:8153 <> RecordSub.Examples
+abbrev 8191:8191 RecordSub.Examples x
+abbrev 8210:8210 RecordSub.Examples y
+abbrev 8229:8229 RecordSub.Examples z
+abbrev 8248:8248 RecordSub.Examples j
+abbrev 8267:8267 RecordSub.Examples k
+abbrev 8286:8286 RecordSub.Examples i
+abbrev 8305:8305 RecordSub.Examples A
+R8310:8313 PLF.RecordSub RecordSub :::'<{{'_x_'}}>' not
+R8322:8325 PLF.RecordSub RecordSub :::'<{{'_x_'}}>' not
+R8314:8318 PLF.RecordSub RecordSub :stlc_ty::'Base'_x not
+abbrev 8337:8337 RecordSub.Examples B
+R8342:8345 PLF.RecordSub RecordSub :::'<{{'_x_'}}>' not
+R8354:8357 PLF.RecordSub RecordSub :::'<{{'_x_'}}>' not
+R8346:8350 PLF.RecordSub RecordSub :stlc_ty::'Base'_x not
+abbrev 8369:8369 RecordSub.Examples C
+R8374:8377 PLF.RecordSub RecordSub :::'<{{'_x_'}}>' not
+R8386:8389 PLF.RecordSub RecordSub :::'<{{'_x_'}}>' not
+R8378:8382 PLF.RecordSub RecordSub :stlc_ty::'Base'_x not
+def 8404:8409 RecordSub.Examples TRcd_j
+R8417:8420 PLF.RecordSub RecordSub :::'<{{'_x_'}}>' not
+R8441:8444 PLF.RecordSub RecordSub :::'<{{'_x_'}}>' not
+R8422:8425 PLF.RecordSub RecordSub :stlc_ty::x_':'_x_'::'_x not
+R8434:8437 PLF.RecordSub RecordSub :stlc_ty::x_':'_x_'::'_x not
+R8421:8421 PLF.RecordSub RecordSub.Examples j abbrev
+R8426:8426 PLF.RecordSub RecordSub :stlc_ty::'('_x_')' not
+R8433:8433 PLF.RecordSub RecordSub :stlc_ty::'('_x_')' not
+R8428:8431 PLF.RecordSub RecordSub :stlc_ty::x_'->'_x not
+R8427:8427 PLF.RecordSub RecordSub.Examples B abbrev
+R8432:8432 PLF.RecordSub RecordSub.Examples B abbrev
+R8438:8440 PLF.RecordSub RecordSub :stlc_ty::'nil' not
+def 8477:8483 RecordSub.Examples TRcd_kj
+R8490:8493 PLF.RecordSub RecordSub :::'<{{'_x_'}}>' not
+R8516:8519 PLF.RecordSub RecordSub :::'<{{'_x_'}}>' not
+R8495:8497 PLF.RecordSub RecordSub :stlc_ty::x_':'_x_'::'_x not
+R8506:8509 PLF.RecordSub RecordSub :stlc_ty::x_':'_x_'::'_x not
+R8494:8494 PLF.RecordSub RecordSub.Examples k abbrev
+R8498:8498 PLF.RecordSub RecordSub :stlc_ty::'('_x_')' not
+R8505:8505 PLF.RecordSub RecordSub :stlc_ty::'('_x_')' not
+R8500:8503 PLF.RecordSub RecordSub :stlc_ty::x_'->'_x not
+R8499:8499 PLF.RecordSub RecordSub.Examples A abbrev
+R8504:8504 PLF.RecordSub RecordSub.Examples A abbrev
+R8510:8515 PLF.RecordSub RecordSub.Examples TRcd_j def
+def 8558:8576 RecordSub.Examples subtyping_example_0
+R8602:8605 PLF.RecordSub RecordSub :::x_'<:'_x not
+R8582:8585 PLF.RecordSub RecordSub :::'<{{'_x_'}}>' not
+R8598:8601 PLF.RecordSub RecordSub :::'<{{'_x_'}}>' not
+R8587:8590 PLF.RecordSub RecordSub :stlc_ty::x_'->'_x not
+R8586:8586 PLF.RecordSub RecordSub.Examples C abbrev
+R8591:8597 PLF.RecordSub RecordSub.Examples TRcd_kj def
+R8606:8609 PLF.RecordSub RecordSub :::'<{{'_x_'}}>' not
+R8618:8621 PLF.RecordSub RecordSub :::'<{{'_x_'}}>' not
+R8611:8614 PLF.RecordSub RecordSub :stlc_ty::x_'->'_x not
+R8610:8610 PLF.RecordSub RecordSub.Examples C abbrev
+R8615:8617 PLF.RecordSub RecordSub :stlc_ty::'nil' not
+R8639:8645 PLF.RecordSub RecordSub S_Arrow constr
+R8639:8645 PLF.RecordSub RecordSub S_Arrow constr
+R8658:8663 PLF.RecordSub RecordSub S_Refl constr
+R8658:8663 PLF.RecordSub RecordSub S_Refl constr
+R8683:8689 PLF.RecordSub RecordSub.Examples TRcd_kj def
+R8692:8697 PLF.RecordSub RecordSub.Examples TRcd_j def
+R8706:8715 PLF.RecordSub RecordSub S_RcdWidth constr
+R8706:8715 PLF.RecordSub RecordSub S_RcdWidth constr
+def 8949:8967 RecordSub.Examples subtyping_example_1
+R8980:8983 PLF.RecordSub RecordSub :::x_'<:'_x not
+R8973:8979 PLF.RecordSub RecordSub.Examples TRcd_kj def
+R8984:8989 PLF.RecordSub RecordSub.Examples TRcd_j def
+R9054:9060 PLF.RecordSub RecordSub.Examples TRcd_kj def
+R9063:9068 PLF.RecordSub RecordSub.Examples TRcd_j def
+R9078:9084 PLF.RecordSub RecordSub S_Trans constr
+R9078:9084 PLF.RecordSub RecordSub S_Trans constr
+R9097:9105 PLF.RecordSub RecordSub S_RcdPerm constr
+R9097:9105 PLF.RecordSub RecordSub S_RcdPerm constr
+R9119:9128 Coq.Strings.String <> eqb def
+R9130:9130 PLF.RecordSub RecordSub.Examples k abbrev
+R9132:9132 PLF.RecordSub RecordSub.Examples j abbrev
+R9119:9128 Coq.Strings.String <> eqb def
+R9130:9130 PLF.RecordSub RecordSub.Examples k abbrev
+R9132:9132 PLF.RecordSub RecordSub.Examples j abbrev
+R9153:9158 Coq.Strings.String <> eqb_eq thm
+R9153:9158 Coq.Strings.String <> eqb_eq thm
+R9190:9196 Coq.Strings.String <> eqb_neq thm
+R9190:9196 Coq.Strings.String <> eqb_neq thm
+R9217:9226 PLF.RecordSub RecordSub S_RcdDepth constr
+R9217:9226 PLF.RecordSub RecordSub S_RcdDepth constr
+def 9307:9325 RecordSub.Examples subtyping_example_2
+R9353:9366 PLF.RecordSub RecordSub :::x_'<:'_x not
+R9331:9334 PLF.RecordSub RecordSub :::'<{{'_x_'}}>' not
+R9349:9352 PLF.RecordSub RecordSub :::'<{{'_x_'}}>' not
+R9338:9341 PLF.RecordSub RecordSub :stlc_ty::x_'->'_x not
+R9335:9337 PLF.RecordSub RecordSub :stlc_ty::'Top' not
+R9342:9348 PLF.RecordSub RecordSub.Examples TRcd_kj def
+R9367:9370 PLF.RecordSub RecordSub :::'<{{'_x_'}}>' not
+R9389:9392 PLF.RecordSub RecordSub :::'<{{'_x_'}}>' not
+R9379:9382 PLF.RecordSub RecordSub :stlc_ty::x_'->'_x not
+R9371:9371 PLF.RecordSub RecordSub :stlc_ty::'('_x_')' not
+R9378:9378 PLF.RecordSub RecordSub :stlc_ty::'('_x_')' not
+R9373:9376 PLF.RecordSub RecordSub :stlc_ty::x_'->'_x not
+R9372:9372 PLF.RecordSub RecordSub.Examples C abbrev
+R9377:9377 PLF.RecordSub RecordSub.Examples C abbrev
+R9383:9388 PLF.RecordSub RecordSub.Examples TRcd_j def
+R9419:9425 PLF.RecordSub RecordSub S_Arrow constr
+R9419:9425 PLF.RecordSub RecordSub S_Arrow constr
+R9436:9454 PLF.RecordSub RecordSub.Examples subtyping_example_1 ex
+R9436:9454 PLF.RecordSub RecordSub.Examples subtyping_example_1 ex
+def 9542:9560 RecordSub.Examples subtyping_example_3
+R9595:9608 PLF.RecordSub RecordSub :::x_'<:'_x not
+R9566:9569 PLF.RecordSub RecordSub :::'<{{'_x_'}}>' not
+R9591:9594 PLF.RecordSub RecordSub :::'<{{'_x_'}}>' not
+R9573:9576 PLF.RecordSub RecordSub :stlc_ty::x_'->'_x not
+R9570:9572 PLF.RecordSub RecordSub :stlc_ty::'nil' not
+R9577:9577 PLF.RecordSub RecordSub :stlc_ty::'('_x_')' not
+R9590:9590 PLF.RecordSub RecordSub :stlc_ty::'('_x_')' not
+R9579:9581 PLF.RecordSub RecordSub :stlc_ty::x_':'_x_'::'_x not
+R9583:9586 PLF.RecordSub RecordSub :stlc_ty::x_':'_x_'::'_x not
+R9578:9578 PLF.RecordSub RecordSub.Examples j abbrev
+R9582:9582 PLF.RecordSub RecordSub.Examples A abbrev
+R9587:9589 PLF.RecordSub RecordSub :stlc_ty::'nil' not
+R9609:9612 PLF.RecordSub RecordSub :::'<{{'_x_'}}>' not
+R9634:9637 PLF.RecordSub RecordSub :::'<{{'_x_'}}>' not
+R9627:9630 PLF.RecordSub RecordSub :stlc_ty::x_'->'_x not
+R9613:9613 PLF.RecordSub RecordSub :stlc_ty::'('_x_')' not
+R9626:9626 PLF.RecordSub RecordSub :stlc_ty::'('_x_')' not
+R9615:9617 PLF.RecordSub RecordSub :stlc_ty::x_':'_x_'::'_x not
+R9619:9622 PLF.RecordSub RecordSub :stlc_ty::x_':'_x_'::'_x not
+R9614:9614 PLF.RecordSub RecordSub.Examples k abbrev
+R9618:9618 PLF.RecordSub RecordSub.Examples B abbrev
+R9623:9625 PLF.RecordSub RecordSub :stlc_ty::'nil' not
+R9631:9633 PLF.RecordSub RecordSub :stlc_ty::'nil' not
+R9693:9699 PLF.RecordSub RecordSub S_Arrow constr
+R9693:9699 PLF.RecordSub RecordSub S_Arrow constr
+def 9790:9808 RecordSub.Examples subtyping_example_4
+R9852:9857 PLF.RecordSub RecordSub :::x_'<:'_x not
+R9814:9817 PLF.RecordSub RecordSub :::'<{{'_x_'}}>' not
+R9848:9851 PLF.RecordSub RecordSub :::'<{{'_x_'}}>' not
+R9819:9821 PLF.RecordSub RecordSub :stlc_ty::x_':'_x_'::'_x not
+R9823:9826 PLF.RecordSub RecordSub :stlc_ty::x_':'_x_'::'_x not
+R9818:9818 PLF.RecordSub RecordSub.Examples x abbrev
+R9822:9822 PLF.RecordSub RecordSub.Examples A abbrev
+R9828:9830 PLF.RecordSub RecordSub :stlc_ty::x_':'_x_'::'_x not
+R9832:9835 PLF.RecordSub RecordSub :stlc_ty::x_':'_x_'::'_x not
+R9827:9827 PLF.RecordSub RecordSub.Examples y abbrev
+R9831:9831 PLF.RecordSub RecordSub.Examples B abbrev
+R9837:9839 PLF.RecordSub RecordSub :stlc_ty::x_':'_x_'::'_x not
+R9841:9844 PLF.RecordSub RecordSub :stlc_ty::x_':'_x_'::'_x not
+R9836:9836 PLF.RecordSub RecordSub.Examples z abbrev
+R9840:9840 PLF.RecordSub RecordSub.Examples C abbrev
+R9845:9847 PLF.RecordSub RecordSub :stlc_ty::'nil' not
+R9858:9861 PLF.RecordSub RecordSub :::'<{{'_x_'}}>' not
+R9892:9895 PLF.RecordSub RecordSub :::'<{{'_x_'}}>' not
+R9863:9865 PLF.RecordSub RecordSub :stlc_ty::x_':'_x_'::'_x not
+R9867:9870 PLF.RecordSub RecordSub :stlc_ty::x_':'_x_'::'_x not
+R9862:9862 PLF.RecordSub RecordSub.Examples z abbrev
+R9866:9866 PLF.RecordSub RecordSub.Examples C abbrev
+R9872:9874 PLF.RecordSub RecordSub :stlc_ty::x_':'_x_'::'_x not
+R9876:9879 PLF.RecordSub RecordSub :stlc_ty::x_':'_x_'::'_x not
+R9871:9871 PLF.RecordSub RecordSub.Examples y abbrev
+R9875:9875 PLF.RecordSub RecordSub.Examples B abbrev
+R9881:9883 PLF.RecordSub RecordSub :stlc_ty::x_':'_x_'::'_x not
+R9885:9888 PLF.RecordSub RecordSub :stlc_ty::x_':'_x_'::'_x not
+R9880:9880 PLF.RecordSub RecordSub.Examples x abbrev
+R9884:9884 PLF.RecordSub RecordSub.Examples A abbrev
+R9889:9891 PLF.RecordSub RecordSub :stlc_ty::'nil' not
+R9939:9941 PLF.RecordSub RecordSub :::'<{{'_x_'}}>' not
+R9972:9975 PLF.RecordSub RecordSub :::'<{{'_x_'}}>' not
+R9943:9945 PLF.RecordSub RecordSub :stlc_ty::x_':'_x_'::'_x not
+R9947:9950 PLF.RecordSub RecordSub :stlc_ty::x_':'_x_'::'_x not
+R9942:9942 PLF.RecordSub RecordSub.Examples y abbrev
+R9946:9946 PLF.RecordSub RecordSub.Examples B abbrev
+R9952:9954 PLF.RecordSub RecordSub :stlc_ty::x_':'_x_'::'_x not
+R9956:9959 PLF.RecordSub RecordSub :stlc_ty::x_':'_x_'::'_x not
+R9951:9951 PLF.RecordSub RecordSub.Examples x abbrev
+R9955:9955 PLF.RecordSub RecordSub.Examples A abbrev
+R9961:9963 PLF.RecordSub RecordSub :stlc_ty::x_':'_x_'::'_x not
+R9965:9968 PLF.RecordSub RecordSub :stlc_ty::x_':'_x_'::'_x not
+R9960:9960 PLF.RecordSub RecordSub.Examples z abbrev
+R9964:9964 PLF.RecordSub RecordSub.Examples C abbrev
+R9969:9971 PLF.RecordSub RecordSub :stlc_ty::'nil' not
+R9925:9931 PLF.RecordSub RecordSub S_Trans constr
+R9939:9941 PLF.RecordSub RecordSub :::'<{{'_x_'}}>' not
+R9972:9975 PLF.RecordSub RecordSub :::'<{{'_x_'}}>' not
+R9943:9945 PLF.RecordSub RecordSub :stlc_ty::x_':'_x_'::'_x not
+R9947:9950 PLF.RecordSub RecordSub :stlc_ty::x_':'_x_'::'_x not
+R9942:9942 PLF.RecordSub RecordSub.Examples y abbrev
+R9946:9946 PLF.RecordSub RecordSub.Examples B abbrev
+R9952:9954 PLF.RecordSub RecordSub :stlc_ty::x_':'_x_'::'_x not
+R9956:9959 PLF.RecordSub RecordSub :stlc_ty::x_':'_x_'::'_x not
+R9951:9951 PLF.RecordSub RecordSub.Examples x abbrev
+R9955:9955 PLF.RecordSub RecordSub.Examples A abbrev
+R9961:9963 PLF.RecordSub RecordSub :stlc_ty::x_':'_x_'::'_x not
+R9965:9968 PLF.RecordSub RecordSub :stlc_ty::x_':'_x_'::'_x not
+R9960:9960 PLF.RecordSub RecordSub.Examples z abbrev
+R9964:9964 PLF.RecordSub RecordSub.Examples C abbrev
+R9969:9971 PLF.RecordSub RecordSub :stlc_ty::'nil' not
+R9925:9931 PLF.RecordSub RecordSub S_Trans constr
+R9987:9995 PLF.RecordSub RecordSub S_RcdPerm constr
+R9987:9995 PLF.RecordSub RecordSub S_RcdPerm constr
+R10009:10018 Coq.Strings.String <> eqb def
+R10020:10020 PLF.RecordSub RecordSub.Examples x abbrev
+R10022:10022 PLF.RecordSub RecordSub.Examples y abbrev
+R10009:10018 Coq.Strings.String <> eqb def
+R10020:10020 PLF.RecordSub RecordSub.Examples x abbrev
+R10022:10022 PLF.RecordSub RecordSub.Examples y abbrev
+R10041:10046 Coq.Strings.String <> eqb_eq thm
+R10041:10046 Coq.Strings.String <> eqb_eq thm
+R10076:10082 Coq.Strings.String <> eqb_neq thm
+R10076:10082 Coq.Strings.String <> eqb_neq thm
+R10117:10119 PLF.RecordSub RecordSub :::'<{{'_x_'}}>' not
+R10150:10153 PLF.RecordSub RecordSub :::'<{{'_x_'}}>' not
+R10121:10123 PLF.RecordSub RecordSub :stlc_ty::x_':'_x_'::'_x not
+R10125:10128 PLF.RecordSub RecordSub :stlc_ty::x_':'_x_'::'_x not
+R10120:10120 PLF.RecordSub RecordSub.Examples y abbrev
+R10124:10124 PLF.RecordSub RecordSub.Examples B abbrev
+R10130:10132 PLF.RecordSub RecordSub :stlc_ty::x_':'_x_'::'_x not
+R10134:10136 PLF.RecordSub RecordSub :stlc_ty::x_':'_x_'::'_x not
+R10129:10129 PLF.RecordSub RecordSub.Examples z abbrev
+R10133:10133 PLF.RecordSub RecordSub.Examples C abbrev
+R10138:10140 PLF.RecordSub RecordSub :stlc_ty::x_':'_x_'::'_x not
+R10142:10146 PLF.RecordSub RecordSub :stlc_ty::x_':'_x_'::'_x not
+R10137:10137 PLF.RecordSub RecordSub.Examples x abbrev
+R10141:10141 PLF.RecordSub RecordSub.Examples A abbrev
+R10147:10149 PLF.RecordSub RecordSub :stlc_ty::'nil' not
+R10103:10109 PLF.RecordSub RecordSub S_Trans constr
+R10117:10119 PLF.RecordSub RecordSub :::'<{{'_x_'}}>' not
+R10150:10153 PLF.RecordSub RecordSub :::'<{{'_x_'}}>' not
+R10121:10123 PLF.RecordSub RecordSub :stlc_ty::x_':'_x_'::'_x not
+R10125:10128 PLF.RecordSub RecordSub :stlc_ty::x_':'_x_'::'_x not
+R10120:10120 PLF.RecordSub RecordSub.Examples y abbrev
+R10124:10124 PLF.RecordSub RecordSub.Examples B abbrev
+R10130:10132 PLF.RecordSub RecordSub :stlc_ty::x_':'_x_'::'_x not
+R10134:10136 PLF.RecordSub RecordSub :stlc_ty::x_':'_x_'::'_x not
+R10129:10129 PLF.RecordSub RecordSub.Examples z abbrev
+R10133:10133 PLF.RecordSub RecordSub.Examples C abbrev
+R10138:10140 PLF.RecordSub RecordSub :stlc_ty::x_':'_x_'::'_x not
+R10142:10146 PLF.RecordSub RecordSub :stlc_ty::x_':'_x_'::'_x not
+R10137:10137 PLF.RecordSub RecordSub.Examples x abbrev
+R10141:10141 PLF.RecordSub RecordSub.Examples A abbrev
+R10147:10149 PLF.RecordSub RecordSub :stlc_ty::'nil' not
+R10103:10109 PLF.RecordSub RecordSub S_Trans constr
+R10166:10175 PLF.RecordSub RecordSub S_RcdDepth constr
+R10166:10175 PLF.RecordSub RecordSub S_RcdDepth constr
+R10186:10194 PLF.RecordSub RecordSub S_RcdPerm constr
+R10186:10194 PLF.RecordSub RecordSub S_RcdPerm constr
+R10208:10217 Coq.Strings.String <> eqb def
+R10219:10219 PLF.RecordSub RecordSub.Examples x abbrev
+R10221:10221 PLF.RecordSub RecordSub.Examples z abbrev
+R10208:10217 Coq.Strings.String <> eqb def
+R10219:10219 PLF.RecordSub RecordSub.Examples x abbrev
+R10221:10221 PLF.RecordSub RecordSub.Examples z abbrev
+R10241:10246 Coq.Strings.String <> eqb_eq thm
+R10241:10246 Coq.Strings.String <> eqb_eq thm
+R10277:10283 Coq.Strings.String <> eqb_neq thm
+R10277:10283 Coq.Strings.String <> eqb_neq thm
+R10303:10311 PLF.RecordSub RecordSub S_RcdPerm constr
+R10303:10311 PLF.RecordSub RecordSub S_RcdPerm constr
+R10325:10334 Coq.Strings.String <> eqb def
+R10336:10336 PLF.RecordSub RecordSub.Examples y abbrev
+R10338:10338 PLF.RecordSub RecordSub.Examples z abbrev
+R10325:10334 Coq.Strings.String <> eqb def
+R10336:10336 PLF.RecordSub RecordSub.Examples y abbrev
+R10338:10338 PLF.RecordSub RecordSub.Examples z abbrev
+R10358:10363 Coq.Strings.String <> eqb_eq thm
+R10358:10363 Coq.Strings.String <> eqb_eq thm
+R10394:10400 Coq.Strings.String <> eqb_neq thm
+R10394:10400 Coq.Strings.String <> eqb_neq thm
+R10430:10437 PLF.RecordSub RecordSub.Examples <> mod
+prf 10968:10978 RecordSub subtype__wf
+binder 10989:10989 <> S:94
+binder 10991:10991 <> T:95
+R11007:11012 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10996:11002 PLF.RecordSub RecordSub subtype ind
+R11004:11004 PLF.RecordSub <> S:94 var
+R11006:11006 PLF.RecordSub <> T:95 var
+R11029:11032 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R11013:11026 PLF.RecordSub RecordSub well_formed_ty ind
+R11028:11028 PLF.RecordSub <> T:95 var
+R11033:11046 PLF.RecordSub RecordSub well_formed_ty ind
+R11048:11048 PLF.RecordSub <> S:94 var
+prf 11244:11256 RecordSub wf_rcd_lookup
+binder 11267:11267 <> i:96
+binder 11269:11269 <> T:97
+binder 11271:11272 <> Ti:98
+R11293:11298 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11277:11290 PLF.RecordSub RecordSub well_formed_ty ind
+R11292:11292 PLF.RecordSub <> T:97 var
+R11320:11325 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11310:11312 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11299:11305 PLF.RecordSub RecordSub Tlookup def
+R11307:11307 PLF.RecordSub <> i:96 var
+R11309:11309 PLF.RecordSub <> T:97 var
+R11313:11316 Coq.Init.Datatypes <> Some constr
+R11318:11319 PLF.RecordSub <> Ti:98 var
+R11326:11339 PLF.RecordSub RecordSub well_formed_ty ind
+R11341:11342 PLF.RecordSub <> Ti:98 var
+R11468:11474 PLF.RecordSub RecordSub Tlookup def
+R11497:11506 Coq.Strings.String <> eqb def
+R11497:11506 Coq.Strings.String <> eqb def
+prf 12012:12026 RecordSub rcd_types_match
+binder 12037:12037 <> S:99
+binder 12039:12039 <> T:100
+binder 12041:12041 <> i:101
+binder 12043:12044 <> Ti:102
+R12060:12065 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12049:12055 PLF.RecordSub RecordSub subtype ind
+R12057:12057 PLF.RecordSub <> S:99 var
+R12059:12059 PLF.RecordSub <> T:100 var
+R12087:12092 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12077:12079 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R12066:12072 PLF.RecordSub RecordSub Tlookup def
+R12074:12074 PLF.RecordSub <> i:101 var
+R12076:12076 PLF.RecordSub <> T:100 var
+R12080:12083 Coq.Init.Datatypes <> Some constr
+R12085:12086 PLF.RecordSub <> Ti:102 var
+R12093:12099 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R12102:12103 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 12100:12101 <> Si:103
+R12125:12128 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R12115:12117 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R12104:12110 PLF.RecordSub RecordSub Tlookup def
+R12112:12112 PLF.RecordSub <> i:101 var
+R12114:12114 PLF.RecordSub <> S:99 var
+R12118:12121 Coq.Init.Datatypes <> Some constr
+R12123:12124 PLF.RecordSub <> Si:103 var
+R12129:12135 PLF.RecordSub RecordSub subtype ind
+R12137:12138 PLF.RecordSub <> Si:103 var
+R12140:12141 PLF.RecordSub <> Ti:102 var
+R12168:12180 PLF.RecordSub RecordSub wf_rcd_lookup thm
+R12530:12536 PLF.RecordSub RecordSub Tlookup def
+R12546:12552 PLF.RecordSub RecordSub Tlookup def
+R12577:12586 Coq.Strings.String <> eqb def
+R12577:12586 Coq.Strings.String <> eqb def
+R12766:12772 PLF.RecordSub RecordSub Tlookup def
+R12782:12788 PLF.RecordSub RecordSub Tlookup def
+R12815:12822 Coq.Strings.String <> eqb_spec thm
+R12815:12822 Coq.Strings.String <> eqb_spec thm
+R12908:12915 Coq.Strings.String <> eqb_spec thm
+R12908:12915 Coq.Strings.String <> eqb_spec thm
+def 13289:13329 RecordSub manual_grade_for_rcd_types_match_informal
+R13333:13338 Coq.Init.Datatypes <> option ind
+R13344:13344 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R13341:13343 Coq.Init.Datatypes <> nat ind
+R13345:13350 Coq.Strings.String <> string ind
+R13356:13359 Coq.Init.Datatypes <> None constr
+prf 13552:13570 RecordSub sub_inversion_arrow
+binder 13581:13581 <> U:104
+binder 13583:13584 <> V1:105
+binder 13586:13587 <> V2:106
+R13616:13624 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13596:13599 PLF.RecordSub RecordSub :::x_'<:'_x not
+R13595:13595 PLF.RecordSub <> U:104 var
+R13600:13603 PLF.RecordSub RecordSub :::'<{{'_x_'}}>' not
+R13612:13615 PLF.RecordSub RecordSub :::'<{{'_x_'}}>' not
+R13606:13609 PLF.RecordSub RecordSub :stlc_ty::x_'->'_x not
+R13604:13605 PLF.RecordSub <> V1:105 var
+R13610:13611 PLF.RecordSub <> V2:106 var
+R13625:13631 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R13637:13645 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 13632:13633 <> U1:107
+binder 13635:13636 <> U2:108
+R13646:13646 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R13666:13671 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R13648:13649 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R13647:13647 PLF.RecordSub <> U:104 var
+R13650:13653 PLF.RecordSub RecordSub :::'<{{'_x_'}}>' not
+R13662:13665 PLF.RecordSub RecordSub :::'<{{'_x_'}}>' not
+R13656:13659 PLF.RecordSub RecordSub :stlc_ty::x_'->'_x not
+R13654:13655 PLF.RecordSub <> U1:107 var
+R13660:13661 PLF.RecordSub <> U2:108 var
+R13672:13672 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R13681:13686 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R13695:13695 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R13675:13678 PLF.RecordSub RecordSub :::x_'<:'_x not
+R13673:13674 PLF.RecordSub <> V1:105 var
+R13679:13680 PLF.RecordSub <> U1:107 var
+R13689:13692 PLF.RecordSub RecordSub :::x_'<:'_x not
+R13687:13688 PLF.RecordSub <> U2:108 var
+R13693:13694 PLF.RecordSub <> V2:106 var
+R13748:13751 PLF.RecordSub RecordSub :::'<{{'_x_'}}>' not
+R13760:13763 PLF.RecordSub RecordSub :::'<{{'_x_'}}>' not
+R13754:13757 PLF.RecordSub RecordSub :stlc_ty::x_'->'_x not
+R13748:13751 PLF.RecordSub RecordSub :::'<{{'_x_'}}>' not
+R13760:13763 PLF.RecordSub RecordSub :::'<{{'_x_'}}>' not
+R13754:13757 PLF.RecordSub RecordSub :stlc_ty::x_'->'_x not
+def 14157:14163 RecordSub context
+R14168:14178 PLF.Maps <> partial_map def
+R14180:14181 PLF.RecordSub RecordSub ty ind
+ind 14351:14358 RecordSub has_type
+constr 14397:14401 RecordSub T_Var
+constr 14514:14518 RecordSub T_Abs
+constr 14676:14680 RecordSub T_App
+constr 14809:14814 RecordSub T_Proj
+constr 14954:14958 RecordSub T_Sub
+constr 15089:15094 RecordSub T_RNil
+constr 15144:15150 RecordSub T_RCons
+R14369:14372 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14362:14368 PLF.RecordSub RecordSub context def
+R14375:14378 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14373:14374 PLF.RecordSub RecordSub tm ind
+R14381:14384 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14379:14380 PLF.RecordSub RecordSub ty ind
+R15362:15369 PLF.RecordSub <> has_type:110 ind
+binder 14412:14416 <> Gamma:111
+R14423:14428 Coq.Strings.String <> string ind
+binder 14419:14419 <> x:112
+binder 14431:14431 <> T:113
+R14456:14465 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14447:14449 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14440:14444 PLF.RecordSub <> Gamma:111 var
+R14446:14446 PLF.RecordSub <> x:112 var
+R14450:14453 Coq.Init.Datatypes <> Some constr
+R14455:14455 PLF.RecordSub <> T:113 var
+R14482:14491 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14466:14479 PLF.RecordSub RecordSub well_formed_ty ind
+R14481:14481 PLF.RecordSub <> T:113 var
+R14497:14501 PLF.RecordSub RecordSub :::x_'|--'_x_'\in'_x not
+R14503:14507 PLF.RecordSub RecordSub :::x_'|--'_x_'\in'_x not
+R14492:14496 PLF.RecordSub <> Gamma:111 var
+R14502:14502 PLF.RecordSub <> x:112 var
+R14508:14508 PLF.RecordSub <> T:113 var
+binder 14529:14533 <> Gamma:114
+binder 14535:14535 <> x:115
+binder 14537:14539 <> T11:116
+binder 14541:14543 <> T12:117
+binder 14545:14547 <> t12:118
+R14574:14583 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14556:14569 PLF.RecordSub RecordSub well_formed_ty ind
+R14571:14573 PLF.RecordSub <> T11:116 var
+R14618:14627 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14584:14584 PLF.RecordSub RecordSub :::x_'|--'_x_'\in'_x not
+R14601:14606 PLF.RecordSub RecordSub :::x_'|--'_x_'\in'_x not
+R14610:14614 PLF.RecordSub RecordSub :::x_'|--'_x_'\in'_x not
+R14586:14590 PLF.Maps <> :::x_'|->'_x_';'_x not
+R14594:14595 PLF.Maps <> :::x_'|->'_x_';'_x not
+R14596:14600 PLF.RecordSub <> Gamma:114 var
+R14585:14585 PLF.RecordSub <> x:115 var
+R14591:14593 PLF.RecordSub <> T11:116 var
+R14607:14609 PLF.RecordSub <> t12:118 var
+R14615:14617 PLF.RecordSub <> T12:117 var
+R14633:14637 PLF.RecordSub RecordSub :::x_'|--'_x_'\in'_x not
+R14654:14658 PLF.RecordSub RecordSub :::x_'|--'_x_'\in'_x not
+R14628:14632 PLF.RecordSub <> Gamma:114 var
+R14638:14638 PLF.RecordSub RecordSub :stlc::'('_x_')' not
+R14653:14653 PLF.RecordSub RecordSub :stlc::'('_x_')' not
+R14639:14640 PLF.RecordSub RecordSub :stlc::'\'_x_':'_x_','_x not
+R14642:14644 PLF.RecordSub RecordSub :stlc::'\'_x_':'_x_','_x not
+R14648:14649 PLF.RecordSub RecordSub :stlc::'\'_x_':'_x_','_x not
+R14641:14641 PLF.RecordSub <> x:115 var
+R14645:14647 PLF.RecordSub <> T11:116 var
+R14650:14652 PLF.RecordSub <> t12:118 var
+R14659:14659 PLF.RecordSub RecordSub :stlc_ty::'('_x_')' not
+R14670:14670 PLF.RecordSub RecordSub :stlc_ty::'('_x_')' not
+R14663:14666 PLF.RecordSub RecordSub :stlc_ty::x_'->'_x not
+R14660:14662 PLF.RecordSub <> T11:116 var
+R14667:14669 PLF.RecordSub <> T12:117 var
+binder 14691:14692 <> T1:119
+binder 14694:14695 <> T2:120
+binder 14697:14701 <> Gamma:121
+binder 14703:14704 <> t1:122
+binder 14706:14707 <> t2:123
+R14743:14752 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14721:14725 PLF.RecordSub RecordSub :::x_'|--'_x_'\in'_x not
+R14728:14732 PLF.RecordSub RecordSub :::x_'|--'_x_'\in'_x not
+R14716:14720 PLF.RecordSub <> Gamma:121 var
+R14726:14727 PLF.RecordSub <> t1:122 var
+R14733:14733 PLF.RecordSub RecordSub :stlc_ty::'('_x_')' not
+R14742:14742 PLF.RecordSub RecordSub :stlc_ty::'('_x_')' not
+R14736:14739 PLF.RecordSub RecordSub :stlc_ty::x_'->'_x not
+R14734:14735 PLF.RecordSub <> T1:119 var
+R14740:14741 PLF.RecordSub <> T2:120 var
+R14772:14781 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14758:14762 PLF.RecordSub RecordSub :::x_'|--'_x_'\in'_x not
+R14765:14769 PLF.RecordSub RecordSub :::x_'|--'_x_'\in'_x not
+R14753:14757 PLF.RecordSub <> Gamma:121 var
+R14763:14764 PLF.RecordSub <> t2:123 var
+R14770:14771 PLF.RecordSub <> T1:119 var
+R14787:14791 PLF.RecordSub RecordSub :::x_'|--'_x_'\in'_x not
+R14797:14801 PLF.RecordSub RecordSub :::x_'|--'_x_'\in'_x not
+R14782:14786 PLF.RecordSub <> Gamma:121 var
+R14794:14794 PLF.RecordSub RecordSub :stlc::x_x not
+R14792:14793 PLF.RecordSub <> t1:122 var
+R14795:14796 PLF.RecordSub <> t2:123 var
+R14802:14803 PLF.RecordSub <> T2:120 var
+binder 14825:14829 <> Gamma:124
+binder 14831:14831 <> i:125
+binder 14833:14833 <> t:126
+binder 14835:14835 <> T:127
+binder 14837:14838 <> Ti:128
+R14864:14873 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14852:14856 PLF.RecordSub RecordSub :::x_'|--'_x_'\in'_x not
+R14858:14862 PLF.RecordSub RecordSub :::x_'|--'_x_'\in'_x not
+R14847:14851 PLF.RecordSub <> Gamma:124 var
+R14857:14857 PLF.RecordSub <> t:126 var
+R14863:14863 PLF.RecordSub <> T:127 var
+R14895:14904 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14885:14887 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14874:14880 PLF.RecordSub RecordSub Tlookup def
+R14882:14882 PLF.RecordSub <> i:125 var
+R14884:14884 PLF.RecordSub <> T:127 var
+R14888:14891 Coq.Init.Datatypes <> Some constr
+R14893:14894 PLF.RecordSub <> Ti:128 var
+R14910:14914 PLF.RecordSub RecordSub :::x_'|--'_x_'\in'_x not
+R14922:14926 PLF.RecordSub RecordSub :::x_'|--'_x_'\in'_x not
+R14905:14909 PLF.RecordSub <> Gamma:124 var
+R14916:14920 PLF.RecordSub RecordSub :stlc::x_'-->'_x not
+R14915:14915 PLF.RecordSub <> t:126 var
+R14921:14921 PLF.RecordSub <> i:125 var
+R14927:14928 PLF.RecordSub <> Ti:128 var
+binder 14969:14973 <> Gamma:129
+binder 14975:14975 <> t:130
+binder 14977:14977 <> S:131
+binder 14979:14979 <> T:132
+R15005:15014 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14993:14997 PLF.RecordSub RecordSub :::x_'|--'_x_'\in'_x not
+R14999:15003 PLF.RecordSub RecordSub :::x_'|--'_x_'\in'_x not
+R14988:14992 PLF.RecordSub <> Gamma:129 var
+R14998:14998 PLF.RecordSub <> t:130 var
+R15004:15004 PLF.RecordSub <> S:131 var
+R15026:15035 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15015:15021 PLF.RecordSub RecordSub subtype ind
+R15023:15023 PLF.RecordSub <> S:131 var
+R15025:15025 PLF.RecordSub <> T:132 var
+R15041:15045 PLF.RecordSub RecordSub :::x_'|--'_x_'\in'_x not
+R15047:15051 PLF.RecordSub RecordSub :::x_'|--'_x_'\in'_x not
+R15036:15040 PLF.RecordSub <> Gamma:129 var
+R15046:15046 PLF.RecordSub <> t:130 var
+R15052:15052 PLF.RecordSub <> T:132 var
+binder 15105:15109 <> Gamma:133
+R15123:15127 PLF.RecordSub RecordSub :::x_'|--'_x_'\in'_x not
+R15131:15135 PLF.RecordSub RecordSub :::x_'|--'_x_'\in'_x not
+R15118:15122 PLF.RecordSub <> Gamma:133 var
+R15128:15130 PLF.RecordSub RecordSub :stlc::'nil' not
+R15136:15138 PLF.RecordSub RecordSub :stlc_ty::'nil' not
+binder 15161:15165 <> Gamma:134
+binder 15167:15167 <> i:135
+binder 15169:15169 <> t:136
+binder 15171:15171 <> T:137
+binder 15173:15174 <> tr:138
+binder 15176:15177 <> Tr:139
+R15203:15212 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15191:15195 PLF.RecordSub RecordSub :::x_'|--'_x_'\in'_x not
+R15197:15201 PLF.RecordSub RecordSub :::x_'|--'_x_'\in'_x not
+R15186:15190 PLF.RecordSub <> Gamma:134 var
+R15196:15196 PLF.RecordSub <> t:136 var
+R15202:15202 PLF.RecordSub <> T:137 var
+R15232:15241 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15218:15222 PLF.RecordSub RecordSub :::x_'|--'_x_'\in'_x not
+R15225:15229 PLF.RecordSub RecordSub :::x_'|--'_x_'\in'_x not
+R15213:15217 PLF.RecordSub <> Gamma:134 var
+R15223:15224 PLF.RecordSub <> tr:138 var
+R15230:15231 PLF.RecordSub <> Tr:139 var
+R15254:15263 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15242:15250 PLF.RecordSub RecordSub record_ty ind
+R15252:15253 PLF.RecordSub <> Tr:139 var
+R15276:15285 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15264:15272 PLF.RecordSub RecordSub record_tm ind
+R15274:15275 PLF.RecordSub <> tr:138 var
+R15291:15295 PLF.RecordSub RecordSub :::x_'|--'_x_'\in'_x not
+R15308:15312 PLF.RecordSub RecordSub :::x_'|--'_x_'\in'_x not
+R15286:15290 PLF.RecordSub <> Gamma:134 var
+R15297:15300 PLF.RecordSub RecordSub :stlc::x_':='_x_'::'_x not
+R15302:15305 PLF.RecordSub RecordSub :stlc::x_':='_x_'::'_x not
+R15296:15296 PLF.RecordSub <> i:135 var
+R15301:15301 PLF.RecordSub <> t:136 var
+R15306:15307 PLF.RecordSub <> tr:138 var
+R15313:15313 PLF.RecordSub RecordSub :stlc_ty::'('_x_')' not
+R15325:15325 PLF.RecordSub RecordSub :stlc_ty::'('_x_')' not
+R15315:15317 PLF.RecordSub RecordSub :stlc_ty::x_':'_x_'::'_x not
+R15319:15322 PLF.RecordSub RecordSub :stlc_ty::x_':'_x_'::'_x not
+R15314:15314 PLF.RecordSub <> i:135 var
+R15318:15318 PLF.RecordSub <> T:137 var
+R15323:15324 PLF.RecordSub <> Tr:139 var
+R15362:15369 PLF.RecordSub RecordSub has_type ind
+not 15334:15334 RecordSub :::x_'|--'_x_'\in'_x
+R15402:15409 PLF.RecordSub <> has_type ind
+mod 15526:15534 <> RecordSub.Examples2
+R15544:15551 PLF.RecordSub RecordSub.Examples <> mod
+def 15624:15630 RecordSub.Examples2 trcd_kj
+R15637:15639 PLF.RecordSub RecordSub :::'<{'_x_'}>' not
+R15683:15685 PLF.RecordSub RecordSub :::'<{'_x_'}>' not
+R15641:15644 PLF.RecordSub RecordSub :stlc::x_':='_x_'::'_x not
+R15656:15659 PLF.RecordSub RecordSub :stlc::x_':='_x_'::'_x not
+R15640:15640 PLF.RecordSub RecordSub.Examples k abbrev
+R15645:15645 PLF.RecordSub RecordSub :stlc::'('_x_')' not
+R15655:15655 PLF.RecordSub RecordSub :stlc::'('_x_')' not
+R15646:15646 PLF.RecordSub RecordSub :stlc::'\'_x_':'_x_','_x not
+R15648:15650 PLF.RecordSub RecordSub :stlc::'\'_x_':'_x_','_x not
+R15652:15653 PLF.RecordSub RecordSub :stlc::'\'_x_':'_x_','_x not
+R15647:15647 PLF.RecordSub RecordSub.Examples z abbrev
+R15651:15651 PLF.RecordSub RecordSub.Examples A abbrev
+R15654:15654 PLF.RecordSub RecordSub.Examples z abbrev
+R15661:15664 PLF.RecordSub RecordSub :stlc::x_':='_x_'::'_x not
+R15676:15679 PLF.RecordSub RecordSub :stlc::x_':='_x_'::'_x not
+R15660:15660 PLF.RecordSub RecordSub.Examples j abbrev
+R15665:15665 PLF.RecordSub RecordSub :stlc::'('_x_')' not
+R15675:15675 PLF.RecordSub RecordSub :stlc::'('_x_')' not
+R15666:15666 PLF.RecordSub RecordSub :stlc::'\'_x_':'_x_','_x not
+R15668:15670 PLF.RecordSub RecordSub :stlc::'\'_x_':'_x_','_x not
+R15672:15673 PLF.RecordSub RecordSub :stlc::'\'_x_':'_x_','_x not
+R15667:15667 PLF.RecordSub RecordSub.Examples z abbrev
+R15671:15671 PLF.RecordSub RecordSub.Examples B abbrev
+R15674:15674 PLF.RecordSub RecordSub.Examples z abbrev
+R15680:15682 PLF.RecordSub RecordSub :stlc::'nil' not
+def 15697:15712 RecordSub.Examples2 typing_example_0
+R15723:15727 PLF.RecordSub RecordSub :::x_'|--'_x_'\in'_x not
+R15735:15739 PLF.RecordSub RecordSub :::x_'|--'_x_'\in'_x not
+R15718:15722 PLF.Maps <> empty def
+R15728:15734 PLF.RecordSub RecordSub.Examples2 trcd_kj def
+R15740:15746 PLF.RecordSub RecordSub.Examples TRcd_kj def
+R15837:15843 PLF.RecordSub RecordSub.Examples2 trcd_kj def
+R15845:15851 PLF.RecordSub RecordSub.Examples TRcd_kj def
+R15854:15859 PLF.RecordSub RecordSub.Examples TRcd_j def
+R15868:15874 PLF.RecordSub RecordSub T_RCons constr
+R15868:15874 PLF.RecordSub RecordSub T_RCons constr
+def 15953:15968 RecordSub.Examples2 typing_example_1
+R15979:15983 PLF.RecordSub RecordSub :::x_'|--'_x_'\in'_x not
+R16014:16018 PLF.RecordSub RecordSub :::x_'|--'_x_'\in'_x not
+R15974:15978 PLF.Maps <> empty def
+R16006:16006 PLF.RecordSub RecordSub :stlc::x_x not
+R15984:15984 PLF.RecordSub RecordSub :stlc::'('_x_')' not
+R16005:16005 PLF.RecordSub RecordSub :stlc::'('_x_')' not
+R15985:15985 PLF.RecordSub RecordSub :stlc::'\'_x_':'_x_','_x not
+R15987:15989 PLF.RecordSub RecordSub :stlc::'\'_x_':'_x_','_x not
+R15996:15997 PLF.RecordSub RecordSub :stlc::'\'_x_':'_x_','_x not
+R15986:15986 PLF.RecordSub RecordSub.Examples x abbrev
+R15990:15995 PLF.RecordSub RecordSub.Examples TRcd_j def
+R15999:16003 PLF.RecordSub RecordSub :stlc::x_'-->'_x not
+R15998:15998 PLF.RecordSub RecordSub.Examples x abbrev
+R16004:16004 PLF.RecordSub RecordSub.Examples j abbrev
+R16007:16013 PLF.RecordSub RecordSub.Examples2 trcd_kj def
+R16019:16019 PLF.RecordSub RecordSub :stlc_ty::'('_x_')' not
+R16026:16026 PLF.RecordSub RecordSub :stlc_ty::'('_x_')' not
+R16021:16024 PLF.RecordSub RecordSub :stlc_ty::x_'->'_x not
+R16020:16020 PLF.RecordSub RecordSub.Examples B abbrev
+R16025:16025 PLF.RecordSub RecordSub.Examples B abbrev
+R16161:16166 PLF.RecordSub RecordSub.Examples TRcd_j def
+R16150:16154 PLF.RecordSub RecordSub T_App constr
+R16161:16166 PLF.RecordSub RecordSub.Examples TRcd_j def
+R16150:16154 PLF.RecordSub RecordSub T_App constr
+R16177:16181 PLF.RecordSub RecordSub T_Abs constr
+R16177:16181 PLF.RecordSub RecordSub T_Abs constr
+R16194:16199 PLF.RecordSub RecordSub.Examples TRcd_j def
+R16224:16229 PLF.RecordSub RecordSub.Examples TRcd_j def
+R16212:16217 PLF.RecordSub RecordSub T_Proj constr
+R16224:16229 PLF.RecordSub RecordSub.Examples TRcd_j def
+R16212:16217 PLF.RecordSub RecordSub T_Proj constr
+R16240:16244 PLF.RecordSub RecordSub T_Var constr
+R16240:16244 PLF.RecordSub RecordSub T_Var constr
+R16256:16261 PLF.RecordSub RecordSub.Examples TRcd_j def
+R16284:16290 PLF.RecordSub RecordSub.Examples TRcd_kj def
+R16273:16277 PLF.RecordSub RecordSub T_Sub constr
+R16284:16290 PLF.RecordSub RecordSub.Examples TRcd_kj def
+R16273:16277 PLF.RecordSub RecordSub T_Sub constr
+R16300:16315 PLF.RecordSub RecordSub.Examples2 typing_example_0 ex
+R16300:16315 PLF.RecordSub RecordSub.Examples2 typing_example_0 ex
+R16325:16343 PLF.RecordSub RecordSub.Examples subtyping_example_1 ex
+R16325:16343 PLF.RecordSub RecordSub.Examples subtyping_example_1 ex
+def 16429:16444 RecordSub.Examples2 typing_example_2
+R16455:16459 PLF.RecordSub RecordSub :::x_'|--'_x_'\in'_x not
+R16551:16555 PLF.RecordSub RecordSub :::x_'|--'_x_'\in'_x not
+R16450:16454 PLF.Maps <> empty def
+R16512:16524 PLF.RecordSub RecordSub :stlc::x_x not
+R16460:16460 PLF.RecordSub RecordSub :stlc::'('_x_')' not
+R16510:16511 PLF.RecordSub RecordSub :stlc::'('_x_')' not
+R16461:16462 PLF.RecordSub RecordSub :stlc::'\'_x_':'_x_','_x not
+R16464:16466 PLF.RecordSub RecordSub :stlc::'\'_x_':'_x_','_x not
+R16485:16486 PLF.RecordSub RecordSub :stlc::'\'_x_':'_x_','_x not
+R16463:16463 PLF.RecordSub RecordSub.Examples z abbrev
+R16475:16478 PLF.RecordSub RecordSub :stlc_ty::x_'->'_x not
+R16467:16467 PLF.RecordSub RecordSub :stlc_ty::'('_x_')' not
+R16474:16474 PLF.RecordSub RecordSub :stlc_ty::'('_x_')' not
+R16469:16472 PLF.RecordSub RecordSub :stlc_ty::x_'->'_x not
+R16468:16468 PLF.RecordSub RecordSub.Examples C abbrev
+R16473:16473 PLF.RecordSub RecordSub.Examples C abbrev
+R16479:16484 PLF.RecordSub RecordSub.Examples TRcd_j def
+R16504:16508 PLF.RecordSub RecordSub :stlc::x_'-->'_x not
+R16487:16487 PLF.RecordSub RecordSub :stlc::'('_x_')' not
+R16502:16503 PLF.RecordSub RecordSub :stlc::'('_x_')' not
+R16489:16489 PLF.RecordSub RecordSub :stlc::x_x not
+R16488:16488 PLF.RecordSub RecordSub.Examples z abbrev
+R16490:16490 PLF.RecordSub RecordSub :stlc::'('_x_')' not
+R16501:16501 PLF.RecordSub RecordSub :stlc::'('_x_')' not
+R16491:16492 PLF.RecordSub RecordSub :stlc::'\'_x_':'_x_','_x not
+R16494:16496 PLF.RecordSub RecordSub :stlc::'\'_x_':'_x_','_x not
+R16498:16499 PLF.RecordSub RecordSub :stlc::'\'_x_':'_x_','_x not
+R16493:16493 PLF.RecordSub RecordSub.Examples x abbrev
+R16497:16497 PLF.RecordSub RecordSub.Examples C abbrev
+R16500:16500 PLF.RecordSub RecordSub.Examples x abbrev
+R16509:16509 PLF.RecordSub RecordSub.Examples j abbrev
+R16525:16526 PLF.RecordSub RecordSub :stlc::'('_x_')' not
+R16549:16550 PLF.RecordSub RecordSub :stlc::'('_x_')' not
+R16527:16527 PLF.RecordSub RecordSub :stlc::'\'_x_':'_x_','_x not
+R16529:16531 PLF.RecordSub RecordSub :stlc::'\'_x_':'_x_','_x not
+R16540:16541 PLF.RecordSub RecordSub :stlc::'\'_x_':'_x_','_x not
+R16528:16528 PLF.RecordSub RecordSub.Examples z abbrev
+R16532:16532 PLF.RecordSub RecordSub :stlc_ty::'('_x_')' not
+R16539:16539 PLF.RecordSub RecordSub :stlc_ty::'('_x_')' not
+R16534:16537 PLF.RecordSub RecordSub :stlc_ty::x_'->'_x not
+R16533:16533 PLF.RecordSub RecordSub.Examples C abbrev
+R16538:16538 PLF.RecordSub RecordSub.Examples C abbrev
+R16542:16548 PLF.RecordSub RecordSub.Examples2 trcd_kj def
+R16556:16556 PLF.RecordSub RecordSub :stlc_ty::'('_x_')' not
+R16563:16563 PLF.RecordSub RecordSub :stlc_ty::'('_x_')' not
+R16558:16561 PLF.RecordSub RecordSub :stlc_ty::x_'->'_x not
+R16557:16557 PLF.RecordSub RecordSub.Examples B abbrev
+R16562:16562 PLF.RecordSub RecordSub.Examples B abbrev
+R16725:16727 PLF.RecordSub RecordSub :::'<{{'_x_'}}>' not
+R16742:16744 PLF.RecordSub RecordSub :::'<{{'_x_'}}>' not
+R16734:16735 PLF.RecordSub RecordSub :stlc_ty::x_'->'_x not
+R16728:16728 PLF.RecordSub RecordSub :stlc_ty::'('_x_')' not
+R16733:16733 PLF.RecordSub RecordSub :stlc_ty::'('_x_')' not
+R16730:16731 PLF.RecordSub RecordSub :stlc_ty::x_'->'_x not
+R16729:16729 PLF.RecordSub RecordSub.Examples C abbrev
+R16732:16732 PLF.RecordSub RecordSub.Examples C abbrev
+R16736:16741 PLF.RecordSub RecordSub.Examples TRcd_j def
+R16714:16718 PLF.RecordSub RecordSub T_App constr
+R16725:16727 PLF.RecordSub RecordSub :::'<{{'_x_'}}>' not
+R16742:16744 PLF.RecordSub RecordSub :::'<{{'_x_'}}>' not
+R16734:16735 PLF.RecordSub RecordSub :stlc_ty::x_'->'_x not
+R16728:16728 PLF.RecordSub RecordSub :stlc_ty::'('_x_')' not
+R16733:16733 PLF.RecordSub RecordSub :stlc_ty::'('_x_')' not
+R16730:16731 PLF.RecordSub RecordSub :stlc_ty::x_'->'_x not
+R16729:16729 PLF.RecordSub RecordSub.Examples C abbrev
+R16732:16732 PLF.RecordSub RecordSub.Examples C abbrev
+R16736:16741 PLF.RecordSub RecordSub.Examples TRcd_j def
+R16714:16718 PLF.RecordSub RecordSub T_App constr
+R16756:16760 PLF.RecordSub RecordSub T_Abs constr
+R16756:16760 PLF.RecordSub RecordSub T_Abs constr
+R16773:16778 PLF.RecordSub RecordSub.Examples TRcd_j def
+R16802:16807 PLF.RecordSub RecordSub.Examples TRcd_j def
+R16790:16795 PLF.RecordSub RecordSub T_Proj constr
+R16802:16807 PLF.RecordSub RecordSub.Examples TRcd_j def
+R16790:16795 PLF.RecordSub RecordSub T_Proj constr
+R16829:16832 PLF.RecordSub RecordSub :::'<{{'_x_'}}>' not
+R16841:16843 PLF.RecordSub RecordSub :::'<{{'_x_'}}>' not
+R16833:16833 PLF.RecordSub RecordSub :stlc_ty::'('_x_')' not
+R16840:16840 PLF.RecordSub RecordSub :stlc_ty::'('_x_')' not
+R16835:16838 PLF.RecordSub RecordSub :stlc_ty::x_'->'_x not
+R16834:16834 PLF.RecordSub RecordSub.Examples C abbrev
+R16839:16839 PLF.RecordSub RecordSub.Examples C abbrev
+R16818:16822 PLF.RecordSub RecordSub T_App constr
+R16829:16832 PLF.RecordSub RecordSub :::'<{{'_x_'}}>' not
+R16841:16843 PLF.RecordSub RecordSub :::'<{{'_x_'}}>' not
+R16833:16833 PLF.RecordSub RecordSub :stlc_ty::'('_x_')' not
+R16840:16840 PLF.RecordSub RecordSub :stlc_ty::'('_x_')' not
+R16835:16838 PLF.RecordSub RecordSub :stlc_ty::x_'->'_x not
+R16834:16834 PLF.RecordSub RecordSub.Examples C abbrev
+R16839:16839 PLF.RecordSub RecordSub.Examples C abbrev
+R16818:16822 PLF.RecordSub RecordSub T_App constr
+R16857:16861 PLF.RecordSub RecordSub T_Var constr
+R16857:16861 PLF.RecordSub RecordSub T_Var constr
+R16873:16878 PLF.RecordSub RecordSub.Examples TRcd_j def
+R16893:16897 PLF.RecordSub RecordSub T_Abs constr
+R16893:16897 PLF.RecordSub RecordSub T_Abs constr
+R16909:16914 PLF.RecordSub RecordSub.Examples TRcd_j def
+R16938:16944 PLF.RecordSub RecordSub.Examples TRcd_kj def
+R16927:16931 PLF.RecordSub RecordSub T_Sub constr
+R16938:16944 PLF.RecordSub RecordSub.Examples TRcd_kj def
+R16927:16931 PLF.RecordSub RecordSub T_Sub constr
+R16955:16961 PLF.RecordSub RecordSub.Examples2 trcd_kj def
+R16963:16969 PLF.RecordSub RecordSub.Examples TRcd_kj def
+R16971:16976 PLF.RecordSub RecordSub.Examples TRcd_j def
+R16987:16993 PLF.RecordSub RecordSub T_RCons constr
+R16987:16993 PLF.RecordSub RecordSub T_RCons constr
+R17005:17023 PLF.RecordSub RecordSub.Examples subtyping_example_1 ex
+R17005:17023 PLF.RecordSub RecordSub.Examples subtyping_example_1 ex
+R17048:17056 PLF.RecordSub RecordSub.Examples2 <> mod
+prf 17270:17281 RecordSub has_type__wf
+binder 17292:17296 <> Gamma:140
+binder 17298:17298 <> t:141
+binder 17300:17300 <> T:142
+R17323:17326 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17305:17312 PLF.RecordSub RecordSub has_type ind
+R17314:17318 PLF.RecordSub <> Gamma:140 var
+R17320:17320 PLF.RecordSub <> t:141 var
+R17322:17322 PLF.RecordSub <> T:142 var
+R17327:17340 PLF.RecordSub RecordSub well_formed_ty ind
+R17342:17342 PLF.RecordSub <> T:142 var
+R17477:17489 PLF.RecordSub RecordSub wf_rcd_lookup thm
+R17477:17489 PLF.RecordSub RecordSub wf_rcd_lookup thm
+R17520:17530 PLF.RecordSub RecordSub subtype__wf thm
+R17520:17530 PLF.RecordSub RecordSub subtype__wf thm
+prf 17568:17591 RecordSub step_preserves_record_tm
+binder 17602:17603 <> tr:143
+binder 17605:17607 <> tr':144
+R17624:17629 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17612:17620 PLF.RecordSub RecordSub record_tm ind
+R17622:17623 PLF.RecordSub <> tr:143 var
+R17640:17645 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17632:17636 PLF.RecordSub RecordSub :::x_'-->'_x not
+R17630:17631 PLF.RecordSub <> tr:143 var
+R17637:17639 PLF.RecordSub <> tr':144 var
+R17646:17654 PLF.RecordSub RecordSub record_tm ind
+R17656:17658 PLF.RecordSub <> tr':144 var
+prf 17857:17877 RecordSub lookup_field_in_value
+binder 17888:17888 <> v:145
+binder 17890:17890 <> T:146
+binder 17892:17892 <> i:147
+binder 17894:17895 <> Ti:148
+R17907:17912 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17900:17904 PLF.RecordSub RecordSub value ind
+R17906:17906 PLF.RecordSub <> v:145 var
+R17930:17935 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17918:17922 PLF.RecordSub RecordSub :::x_'|--'_x_'\in'_x not
+R17924:17928 PLF.RecordSub RecordSub :::x_'|--'_x_'\in'_x not
+R17913:17917 PLF.Maps <> empty def
+R17923:17923 PLF.RecordSub <> v:145 var
+R17929:17929 PLF.RecordSub <> T:146 var
+R17957:17962 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17947:17949 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R17936:17942 PLF.RecordSub RecordSub Tlookup def
+R17944:17944 PLF.RecordSub <> i:147 var
+R17946:17946 PLF.RecordSub <> T:146 var
+R17950:17953 Coq.Init.Datatypes <> Some constr
+R17955:17956 PLF.RecordSub <> Ti:148 var
+R17963:17969 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R17972:17973 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 17970:17971 <> vi:149
+R17995:17998 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R17985:17987 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R17974:17980 PLF.RecordSub RecordSub tlookup def
+R17982:17982 PLF.RecordSub <> i:147 var
+R17984:17984 PLF.RecordSub <> v:145 var
+R17988:17991 Coq.Init.Datatypes <> Some constr
+R17993:17994 PLF.RecordSub <> vi:149 var
+R18004:18008 PLF.RecordSub RecordSub :::x_'|--'_x_'\in'_x not
+R18011:18015 PLF.RecordSub RecordSub :::x_'|--'_x_'\in'_x not
+R17999:18003 PLF.Maps <> empty def
+R18009:18010 PLF.RecordSub <> vi:149 var
+R18016:18017 PLF.RecordSub <> Ti:148 var
+R18049:18053 PLF.Maps <> empty def
+R18049:18053 PLF.Maps <> empty def
+R18200:18214 PLF.RecordSub RecordSub rcd_types_match thm
+R18200:18214 PLF.RecordSub RecordSub rcd_types_match thm
+R18411:18420 Coq.Strings.String <> eqb def
+R18411:18420 Coq.Strings.String <> eqb def
+prf 18752:18781 RecordSub canonical_forms_of_arrow_types
+binder 18792:18796 <> Gamma:150
+binder 18798:18798 <> s:151
+binder 18800:18801 <> T1:152
+binder 18803:18804 <> T2:153
+R18838:18846 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R18817:18821 PLF.RecordSub RecordSub :::x_'|--'_x_'\in'_x not
+R18823:18827 PLF.RecordSub RecordSub :::x_'|--'_x_'\in'_x not
+R18812:18816 PLF.RecordSub <> Gamma:150 var
+R18822:18822 PLF.RecordSub <> s:151 var
+R18828:18828 PLF.RecordSub RecordSub :stlc_ty::'('_x_')' not
+R18837:18837 PLF.RecordSub RecordSub :stlc_ty::'('_x_')' not
+R18831:18834 PLF.RecordSub RecordSub :stlc_ty::x_'->'_x not
+R18829:18830 PLF.RecordSub <> T1:152 var
+R18835:18836 PLF.RecordSub <> T2:153 var
+R18854:18862 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R18847:18851 PLF.RecordSub RecordSub value ind
+R18853:18853 PLF.RecordSub <> s:151 var
+R18863:18869 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R18877:18886 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 18870:18870 <> x:154
+binder 18872:18873 <> S1:155
+binder 18875:18876 <> s2:156
+R18888:18890 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R18887:18887 PLF.RecordSub <> s:151 var
+R18891:18893 PLF.RecordSub RecordSub :::'<{'_x_'}>' not
+R18907:18909 PLF.RecordSub RecordSub :::'<{'_x_'}>' not
+R18894:18895 PLF.RecordSub RecordSub :stlc::'\'_x_':'_x_','_x not
+R18897:18900 PLF.RecordSub RecordSub :stlc::'\'_x_':'_x_','_x not
+R18903:18904 PLF.RecordSub RecordSub :stlc::'\'_x_':'_x_','_x not
+R18896:18896 PLF.RecordSub <> x:154 var
+R18901:18902 PLF.RecordSub <> S1:155 var
+R18905:18906 PLF.RecordSub <> s2:156 var
+R18951:18953 PLF.RecordSub RecordSub :::'<{{'_x_'}}>' not
+R18961:18963 PLF.RecordSub RecordSub :::'<{{'_x_'}}>' not
+R18956:18958 PLF.RecordSub RecordSub :stlc_ty::x_'->'_x not
+R18951:18953 PLF.RecordSub RecordSub :::'<{{'_x_'}}>' not
+R18961:18963 PLF.RecordSub RecordSub :::'<{{'_x_'}}>' not
+R18956:18958 PLF.RecordSub RecordSub :stlc_ty::x_'->'_x not
+R19116:19134 PLF.RecordSub RecordSub sub_inversion_arrow thm
+R19116:19134 PLF.RecordSub RecordSub sub_inversion_arrow thm
+R19247:19265 PLF.RecordSub RecordSub sub_inversion_arrow thm
+R19247:19265 PLF.RecordSub RecordSub sub_inversion_arrow thm
+prf 19365:19372 RecordSub progress
+binder 19383:19383 <> t:157
+binder 19385:19385 <> T:158
+R19410:19418 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R19398:19402 PLF.RecordSub RecordSub :::x_'|--'_x_'\in'_x not
+R19404:19408 PLF.RecordSub RecordSub :::x_'|--'_x_'\in'_x not
+R19393:19397 PLF.Maps <> empty def
+R19403:19403 PLF.RecordSub <> t:157 var
+R19409:19409 PLF.RecordSub <> T:158 var
+R19426:19429 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R19419:19423 PLF.RecordSub RecordSub value ind
+R19425:19425 PLF.RecordSub <> t:157 var
+R19430:19436 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R19439:19440 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 19437:19438 <> t':159
+R19442:19446 PLF.RecordSub RecordSub :::x_'-->'_x not
+R19441:19441 PLF.RecordSub <> t:157 var
+R19447:19448 PLF.RecordSub <> t':159 var
+R19497:19501 PLF.Maps <> empty def
+R19497:19501 PLF.Maps <> empty def
+R19770:19799 PLF.RecordSub RecordSub canonical_forms_of_arrow_types thm
+R19801:19805 PLF.Maps <> empty def
+R19770:19799 PLF.RecordSub RecordSub canonical_forms_of_arrow_types thm
+R19801:19805 PLF.Maps <> empty def
+R19876:19878 PLF.RecordSub RecordSub :::'<{'_x_'}>' not
+R19890:19892 PLF.RecordSub RecordSub :::'<{'_x_'}>' not
+R19879:19879 PLF.RecordSub RecordSub :stlc::'['_x_':='_x_']'_x not
+R19881:19882 PLF.RecordSub RecordSub :stlc::'['_x_':='_x_']'_x not
+R19885:19886 PLF.RecordSub RecordSub :stlc::'['_x_':='_x_']'_x not
+R19876:19878 PLF.RecordSub RecordSub :::'<{'_x_'}>' not
+R19890:19892 PLF.RecordSub RecordSub :::'<{'_x_'}>' not
+R19879:19879 PLF.RecordSub RecordSub :stlc::'['_x_':='_x_']'_x not
+R19881:19882 PLF.RecordSub RecordSub :stlc::'['_x_':='_x_']'_x not
+R19885:19886 PLF.RecordSub RecordSub :stlc::'['_x_':='_x_']'_x not
+R19962:19964 PLF.RecordSub RecordSub :::'<{'_x_'}>' not
+R19971:19973 PLF.RecordSub RecordSub :::'<{'_x_'}>' not
+R19967:19967 PLF.RecordSub RecordSub :stlc::x_x not
+R19962:19964 PLF.RecordSub RecordSub :::'<{'_x_'}>' not
+R19971:19973 PLF.RecordSub RecordSub :::'<{'_x_'}>' not
+R19967:19967 PLF.RecordSub RecordSub :stlc::x_x not
+R20039:20041 PLF.RecordSub RecordSub :::'<{'_x_'}>' not
+R20048:20050 PLF.RecordSub RecordSub :::'<{'_x_'}>' not
+R20045:20045 PLF.RecordSub RecordSub :stlc::x_x not
+R20039:20041 PLF.RecordSub RecordSub :::'<{'_x_'}>' not
+R20048:20050 PLF.RecordSub RecordSub :::'<{'_x_'}>' not
+R20045:20045 PLF.RecordSub RecordSub :stlc::x_x not
+R20141:20161 PLF.RecordSub RecordSub lookup_field_in_value thm
+R20141:20161 PLF.RecordSub RecordSub lookup_field_in_value thm
+R20264:20266 PLF.RecordSub RecordSub :::'<{'_x_'}>' not
+R20275:20277 PLF.RecordSub RecordSub :::'<{'_x_'}>' not
+R20269:20273 PLF.RecordSub RecordSub :stlc::x_'-->'_x not
+R20264:20266 PLF.RecordSub RecordSub :::'<{'_x_'}>' not
+R20275:20277 PLF.RecordSub RecordSub :::'<{'_x_'}>' not
+R20269:20273 PLF.RecordSub RecordSub :stlc::x_'-->'_x not
+R20456:20458 PLF.RecordSub RecordSub :::'<{'_x_'}>' not
+R20472:20474 PLF.RecordSub RecordSub :::'<{'_x_'}>' not
+R20460:20463 PLF.RecordSub RecordSub :stlc::x_':='_x_'::'_x not
+R20465:20468 PLF.RecordSub RecordSub :stlc::x_':='_x_'::'_x not
+R20456:20458 PLF.RecordSub RecordSub :::'<{'_x_'}>' not
+R20472:20474 PLF.RecordSub RecordSub :::'<{'_x_'}>' not
+R20460:20463 PLF.RecordSub RecordSub :stlc::x_':='_x_'::'_x not
+R20465:20468 PLF.RecordSub RecordSub :stlc::x_':='_x_'::'_x not
+R20554:20556 PLF.RecordSub RecordSub :::'<{'_x_'}>' not
+R20570:20571 PLF.RecordSub RecordSub :::'<{'_x_'}>' not
+R20558:20561 PLF.RecordSub RecordSub :stlc::x_':='_x_'::'_x not
+R20564:20567 PLF.RecordSub RecordSub :stlc::x_':='_x_'::'_x not
+R20554:20556 PLF.RecordSub RecordSub :::'<{'_x_'}>' not
+R20570:20571 PLF.RecordSub RecordSub :::'<{'_x_'}>' not
+R20558:20561 PLF.RecordSub RecordSub :stlc::x_':='_x_'::'_x not
+R20564:20567 PLF.RecordSub RecordSub :stlc::x_':='_x_'::'_x not
+prf 23785:23804 RecordSub typing_inversion_abs
+binder 23815:23819 <> Gamma:160
+binder 23821:23821 <> x:161
+binder 23823:23824 <> S1:162
+binder 23826:23827 <> t2:163
+binder 23829:23829 <> T:164
+R23865:23874 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R23956:23956 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R23842:23846 PLF.RecordSub RecordSub :::x_'|--'_x_'\in'_x not
+R23859:23863 PLF.RecordSub RecordSub :::x_'|--'_x_'\in'_x not
+R23837:23841 PLF.RecordSub <> Gamma:160 var
+R23847:23848 PLF.RecordSub RecordSub :stlc::'\'_x_':'_x_','_x not
+R23850:23852 PLF.RecordSub RecordSub :stlc::'\'_x_':'_x_','_x not
+R23855:23856 PLF.RecordSub RecordSub :stlc::'\'_x_':'_x_','_x not
+R23849:23849 PLF.RecordSub <> x:161 var
+R23853:23854 PLF.RecordSub <> S1:162 var
+R23857:23858 PLF.RecordSub <> t2:163 var
+R23864:23864 PLF.RecordSub <> T:164 var
+R23875:23881 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R23884:23885 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 23882:23883 <> S2:165
+R23907:23924 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R23902:23905 PLF.RecordSub RecordSub :::x_'<:'_x not
+R23886:23889 PLF.RecordSub RecordSub :::'<{{'_x_'}}>' not
+R23898:23901 PLF.RecordSub RecordSub :::'<{{'_x_'}}>' not
+R23892:23895 PLF.RecordSub RecordSub :stlc_ty::x_'->'_x not
+R23890:23891 PLF.RecordSub <> S1:162 var
+R23896:23897 PLF.RecordSub <> S2:165 var
+R23906:23906 PLF.RecordSub <> T:164 var
+R23925:23925 PLF.RecordSub RecordSub :::x_'|--'_x_'\in'_x not
+R23941:23946 PLF.RecordSub RecordSub :::x_'|--'_x_'\in'_x not
+R23949:23953 PLF.RecordSub RecordSub :::x_'|--'_x_'\in'_x not
+R23927:23931 PLF.Maps <> :::x_'|->'_x_';'_x not
+R23934:23935 PLF.Maps <> :::x_'|->'_x_';'_x not
+R23936:23940 PLF.RecordSub <> Gamma:160 var
+R23926:23926 PLF.RecordSub <> x:161 var
+R23932:23933 PLF.RecordSub <> S1:162 var
+R23947:23948 PLF.RecordSub <> t2:163 var
+R23954:23955 PLF.RecordSub <> S2:165 var
+R24016:24018 PLF.RecordSub RecordSub :::'<{'_x_'}>' not
+R24031:24033 PLF.RecordSub RecordSub :::'<{'_x_'}>' not
+R24019:24020 PLF.RecordSub RecordSub :stlc::'\'_x_':'_x_','_x not
+R24022:24024 PLF.RecordSub RecordSub :stlc::'\'_x_':'_x_','_x not
+R24027:24028 PLF.RecordSub RecordSub :stlc::'\'_x_':'_x_','_x not
+R24016:24018 PLF.RecordSub RecordSub :::'<{'_x_'}>' not
+R24031:24033 PLF.RecordSub RecordSub :::'<{'_x_'}>' not
+R24019:24020 PLF.RecordSub RecordSub :stlc::'\'_x_':'_x_','_x not
+R24022:24024 PLF.RecordSub RecordSub :stlc::'\'_x_':'_x_','_x not
+R24027:24028 PLF.RecordSub RecordSub :stlc::'\'_x_':'_x_','_x not
+R24147:24158 PLF.RecordSub RecordSub has_type__wf thm
+R24147:24158 PLF.RecordSub RecordSub has_type__wf thm
+prf 24267:24275 RecordSub abs_arrow
+binder 24286:24286 <> x:166
+binder 24288:24289 <> S1:167
+binder 24291:24292 <> s2:168
+binder 24294:24295 <> T1:169
+binder 24297:24298 <> T2:170
+R24339:24347 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R24308:24312 PLF.RecordSub RecordSub :::x_'|--'_x_'\in'_x not
+R24324:24328 PLF.RecordSub RecordSub :::x_'|--'_x_'\in'_x not
+R24303:24307 PLF.Maps <> empty def
+R24313:24313 PLF.RecordSub RecordSub :stlc::'\'_x_':'_x_','_x not
+R24315:24317 PLF.RecordSub RecordSub :stlc::'\'_x_':'_x_','_x not
+R24320:24321 PLF.RecordSub RecordSub :stlc::'\'_x_':'_x_','_x not
+R24314:24314 PLF.RecordSub <> x:166 var
+R24318:24319 PLF.RecordSub <> S1:167 var
+R24322:24323 PLF.RecordSub <> s2:168 var
+R24329:24329 PLF.RecordSub RecordSub :stlc_ty::'('_x_')' not
+R24338:24338 PLF.RecordSub RecordSub :stlc_ty::'('_x_')' not
+R24332:24335 PLF.RecordSub RecordSub :stlc_ty::x_'->'_x not
+R24330:24331 PLF.RecordSub <> T1:169 var
+R24336:24337 PLF.RecordSub <> T2:170 var
+R24356:24361 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R24350:24353 PLF.RecordSub RecordSub :::x_'<:'_x not
+R24348:24349 PLF.RecordSub <> T1:169 var
+R24354:24355 PLF.RecordSub <> S1:167 var
+R24362:24362 PLF.RecordSub RecordSub :::x_'|--'_x_'\in'_x not
+R24371:24376 PLF.RecordSub RecordSub :::x_'|--'_x_'\in'_x not
+R24379:24383 PLF.RecordSub RecordSub :::x_'|--'_x_'\in'_x not
+R24364:24368 PLF.Maps <> :::x_'|->'_x not
+R24363:24363 PLF.RecordSub <> x:166 var
+R24369:24370 PLF.RecordSub <> S1:167 var
+R24377:24378 PLF.RecordSub <> s2:168 var
+R24384:24385 PLF.RecordSub <> T2:170 var
+R24442:24461 PLF.RecordSub RecordSub typing_inversion_abs thm
+R24442:24461 PLF.RecordSub RecordSub typing_inversion_abs thm
+R24514:24532 PLF.RecordSub RecordSub sub_inversion_arrow thm
+R24514:24532 PLF.RecordSub RecordSub sub_inversion_arrow thm
+prf 24780:24788 RecordSub weakening
+binder 24799:24803 <> Gamma:171
+binder 24805:24810 <> Gamma':172
+binder 24812:24812 <> t:173
+binder 24814:24814 <> T:174
+R24845:24853 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R24822:24831 PLF.Maps <> includedin def
+R24839:24844 PLF.RecordSub <> Gamma':172 var
+R24833:24837 PLF.RecordSub <> Gamma:171 var
+R24872:24881 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R24859:24864 PLF.RecordSub RecordSub :::x_'|--'_x_'\in'_x not
+R24866:24870 PLF.RecordSub RecordSub :::x_'|--'_x_'\in'_x not
+R24854:24858 PLF.RecordSub <> Gamma:171 var
+R24865:24865 PLF.RecordSub <> t:173 var
+R24871:24871 PLF.RecordSub <> T:174 var
+R24888:24892 PLF.RecordSub RecordSub :::x_'|--'_x_'\in'_x not
+R24894:24898 PLF.RecordSub RecordSub :::x_'|--'_x_'\in'_x not
+R24882:24887 PLF.RecordSub <> Gamma':172 var
+R24893:24893 PLF.RecordSub <> t:173 var
+R24899:24899 PLF.RecordSub <> T:174 var
+R25000:25016 PLF.Maps <> includedin_update thm
+R25000:25016 PLF.Maps <> includedin_update thm
+R25000:25016 PLF.Maps <> includedin_update thm
+R25000:25016 PLF.Maps <> includedin_update thm
+R25000:25016 PLF.Maps <> includedin_update thm
+R25000:25016 PLF.Maps <> includedin_update thm
+R25000:25016 PLF.Maps <> includedin_update thm
+R25000:25016 PLF.Maps <> includedin_update thm
+prf 25031:25045 RecordSub weakening_empty
+binder 25056:25060 <> Gamma:175
+binder 25062:25062 <> t:176
+binder 25064:25064 <> T:177
+R25089:25098 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R25077:25081 PLF.RecordSub RecordSub :::x_'|--'_x_'\in'_x not
+R25083:25087 PLF.RecordSub RecordSub :::x_'|--'_x_'\in'_x not
+R25072:25076 PLF.Maps <> empty def
+R25082:25082 PLF.RecordSub <> t:176 var
+R25088:25088 PLF.RecordSub <> T:177 var
+R25104:25108 PLF.RecordSub RecordSub :::x_'|--'_x_'\in'_x not
+R25110:25114 PLF.RecordSub RecordSub :::x_'|--'_x_'\in'_x not
+R25099:25103 PLF.RecordSub <> Gamma:175 var
+R25109:25109 PLF.RecordSub <> t:176 var
+R25115:25115 PLF.RecordSub <> T:177 var
+R25154:25162 PLF.RecordSub RecordSub weakening thm
+R25154:25162 PLF.RecordSub RecordSub weakening thm
+prf 25290:25318 RecordSub substitution_preserves_typing
+binder 25329:25333 <> Gamma:178
+binder 25335:25335 <> x:179
+binder 25337:25337 <> U:180
+binder 25339:25339 <> t:181
+binder 25341:25341 <> v:182
+binder 25343:25343 <> T:183
+R25378:25384 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R25349:25349 PLF.RecordSub RecordSub :::x_'|--'_x_'\in'_x not
+R25365:25370 PLF.RecordSub RecordSub :::x_'|--'_x_'\in'_x not
+R25372:25376 PLF.RecordSub RecordSub :::x_'|--'_x_'\in'_x not
+R25351:25355 PLF.Maps <> :::x_'|->'_x_';'_x not
+R25357:25359 PLF.Maps <> :::x_'|->'_x_';'_x not
+R25360:25364 PLF.RecordSub <> Gamma:178 var
+R25350:25350 PLF.RecordSub <> x:179 var
+R25356:25356 PLF.RecordSub <> U:180 var
+R25371:25371 PLF.RecordSub <> t:181 var
+R25377:25377 PLF.RecordSub <> T:183 var
+R25402:25410 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R25390:25394 PLF.RecordSub RecordSub :::x_'|--'_x_'\in'_x not
+R25396:25400 PLF.RecordSub RecordSub :::x_'|--'_x_'\in'_x not
+R25385:25389 PLF.Maps <> empty def
+R25395:25395 PLF.RecordSub <> v:182 var
+R25401:25401 PLF.RecordSub <> U:180 var
+R25416:25420 PLF.RecordSub RecordSub :::x_'|--'_x_'\in'_x not
+R25428:25432 PLF.RecordSub RecordSub :::x_'|--'_x_'\in'_x not
+R25411:25415 PLF.RecordSub <> Gamma:178 var
+R25421:25421 PLF.RecordSub RecordSub :stlc::'['_x_':='_x_']'_x not
+R25423:25424 PLF.RecordSub RecordSub :stlc::'['_x_':='_x_']'_x not
+R25426:25426 PLF.RecordSub RecordSub :stlc::'['_x_':='_x_']'_x not
+R25422:25422 PLF.RecordSub <> x:179 var
+R25425:25425 PLF.RecordSub <> v:182 var
+R25427:25427 PLF.RecordSub <> t:181 var
+R25433:25433 PLF.RecordSub <> T:183 var
+R25495:25499 PLF.Maps <> :::x_'|->'_x_';'_x not
+R25501:25502 PLF.Maps <> :::x_'|->'_x_';'_x not
+R25495:25499 PLF.Maps <> :::x_'|->'_x_';'_x not
+R25501:25502 PLF.Maps <> :::x_'|->'_x_';'_x not
+R25650:25657 Coq.Strings.String <> eqb_spec thm
+R25650:25657 Coq.Strings.String <> eqb_spec thm
+R25717:25725 PLF.Maps <> update_eq thm
+R25717:25725 PLF.Maps <> update_eq thm
+R25717:25725 PLF.Maps <> update_eq thm
+R25776:25790 PLF.RecordSub RecordSub weakening_empty thm
+R25776:25790 PLF.RecordSub RecordSub weakening_empty thm
+R25834:25838 PLF.RecordSub RecordSub T_Var constr
+R25834:25838 PLF.RecordSub RecordSub T_Var constr
+R25870:25879 PLF.Maps <> update_neq thm
+R25870:25879 PLF.Maps <> update_neq thm
+R25870:25879 PLF.Maps <> update_neq thm
+R25870:25879 PLF.Maps <> update_neq thm
+R25958:25965 Coq.Strings.String <> eqb_spec thm
+R25992:25996 PLF.RecordSub RecordSub T_Abs constr
+R25958:25965 Coq.Strings.String <> eqb_spec thm
+R25992:25996 PLF.RecordSub RecordSub T_Abs constr
+R25992:25996 PLF.RecordSub RecordSub T_Abs constr
+R26052:26064 PLF.Maps <> update_shadow thm
+R26052:26064 PLF.Maps <> update_shadow thm
+R26052:26064 PLF.Maps <> update_shadow thm
+R26143:26156 PLF.Maps <> update_permute thm
+R26143:26156 PLF.Maps <> update_permute thm
+R26143:26156 PLF.Maps <> update_permute thm
+R26143:26156 PLF.Maps <> update_permute thm
+R26246:26252 PLF.RecordSub RecordSub T_RCons constr
+R26246:26252 PLF.RecordSub RecordSub T_RCons constr
+prf 26316:26327 RecordSub preservation
+binder 26338:26338 <> t:184
+binder 26340:26341 <> t':185
+binder 26343:26343 <> T:186
+R26368:26377 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R26356:26360 PLF.RecordSub RecordSub :::x_'|--'_x_'\in'_x not
+R26362:26366 PLF.RecordSub RecordSub :::x_'|--'_x_'\in'_x not
+R26351:26355 PLF.Maps <> empty def
+R26361:26361 PLF.RecordSub <> t:184 var
+R26367:26367 PLF.RecordSub <> T:186 var
+R26386:26395 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R26379:26383 PLF.RecordSub RecordSub :::x_'-->'_x not
+R26378:26378 PLF.RecordSub <> t:184 var
+R26384:26385 PLF.RecordSub <> t':185 var
+R26401:26405 PLF.RecordSub RecordSub :::x_'|--'_x_'\in'_x not
+R26408:26412 PLF.RecordSub RecordSub :::x_'|--'_x_'\in'_x not
+R26396:26400 PLF.Maps <> empty def
+R26406:26407 PLF.RecordSub <> t':185 var
+R26413:26413 PLF.RecordSub <> T:186 var
+R26490:26494 PLF.Maps <> empty def
+R26490:26494 PLF.Maps <> empty def
+R26678:26686 PLF.RecordSub RecordSub abs_arrow thm
+R26678:26686 PLF.RecordSub RecordSub abs_arrow thm
+R26729:26757 PLF.RecordSub RecordSub substitution_preserves_typing thm
+R26729:26757 PLF.RecordSub RecordSub substitution_preserves_typing thm
+R26828:26848 PLF.RecordSub RecordSub lookup_field_in_value thm
+R26828:26848 PLF.RecordSub RecordSub lookup_field_in_value thm
+R27003:27026 PLF.RecordSub RecordSub step_preserves_record_tm thm
+R27003:27026 PLF.RecordSub RecordSub step_preserves_record_tm thm
+R29945:29953 PLF.RecordSub RecordSub <> mod
