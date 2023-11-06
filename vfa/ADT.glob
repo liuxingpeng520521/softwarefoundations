@@ -1,0 +1,597 @@
+DIGEST acd8cae4aad918a5133355efd183991b
+FVFA.ADT
+R1303:1308 Coq.Strings.String <> <> lib
+R1361:1364 VFA.Perm <> <> lib
+R1391:1394 VFA.Maps <> <> lib
+R1421:1430 VFA.SearchTree <> <> lib
+modtype 2134:2138 <> Table
+ax 2255:2259 Table table
+def 2318:2320 Table key
+R2325:2327 Coq.Init.Datatypes <> nat ind
+ax 2386:2386 Table V
+ax 2461:2467 Table default
+R2471:2471 VFA.ADT Table V defax
+ax 2559:2563 Table empty
+R2567:2571 VFA.ADT Table table defax
+ax 2653:2655 Table get
+R2662:2665 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2659:2661 VFA.ADT Table key def
+R2671:2674 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2666:2670 VFA.ADT Table table defax
+R2675:2675 VFA.ADT Table V defax
+ax 2797:2799 Table set
+R2806:2809 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2803:2805 VFA.ADT Table key def
+R2811:2814 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2810:2810 VFA.ADT Table V defax
+R2820:2823 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2815:2819 VFA.ADT Table table defax
+R2824:2828 VFA.ADT Table table defax
+ax 2934:2950 Table get_empty_default
+R2966:2968 VFA.ADT Table key def
+binder 2962:2962 <> k:7
+R2989:2991 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2978:2980 VFA.ADT Table get defax
+R2982:2982 VFA.ADT <> k:7 var
+R2984:2988 VFA.ADT Table empty defax
+R2992:2998 VFA.ADT Table default defax
+ax 3010:3021 Table get_set_same
+R3037:3039 VFA.ADT Table key def
+binder 3033:3033 <> k:9
+R3047:3047 VFA.ADT Table V defax
+binder 3043:3043 <> v:10
+R3055:3059 VFA.ADT Table table defax
+binder 3051:3051 <> t:11
+R3086:3088 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3069:3071 VFA.ADT Table get defax
+R3073:3073 VFA.ADT <> k:9 var
+R3076:3078 VFA.ADT Table set defax
+R3080:3080 VFA.ADT <> k:9 var
+R3082:3082 VFA.ADT <> v:10 var
+R3084:3084 VFA.ADT <> t:11 var
+R3089:3089 VFA.ADT <> v:10 var
+ax 3101:3113 Table get_set_other
+R3132:3134 VFA.ADT Table key def
+binder 3125:3125 <> k:13
+binder 3127:3128 <> k':14
+R3142:3142 VFA.ADT Table V defax
+binder 3138:3138 <> v:15
+R3150:3154 VFA.ADT Table table defax
+binder 3146:3146 <> t:16
+R3171:3174 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3165:3168 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R3164:3164 VFA.ADT <> k:13 var
+R3169:3170 VFA.ADT <> k':14 var
+R3193:3195 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3175:3177 VFA.ADT Table get defax
+R3179:3180 VFA.ADT <> k':14 var
+R3183:3185 VFA.ADT Table set defax
+R3187:3187 VFA.ADT <> k:13 var
+R3189:3189 VFA.ADT <> v:15 var
+R3191:3191 VFA.ADT <> t:16 var
+R3196:3198 VFA.ADT Table get defax
+R3200:3201 VFA.ADT <> k':14 var
+R3203:3203 VFA.ADT <> t:16 var
+R3211:3215 VFA.ADT Table <> modtype
+modtype 3680:3686 <> ValType
+ax 3701:3701 ValType V
+ax 3723:3729 ValType default
+R3733:3733 VFA.ADT ValType V defax
+R3740:3746 VFA.ADT ValType <> modtype
+R4080:4086 VFA.ADT ValType <> mod
+R4092:4096 VFA.ADT Table <> mod
+mod 4065:4072 <> FunTable
+def 4113:4113 FunTable V
+R4118:4121 VFA.ADT VT V defax
+def 4137:4143 FunTable default
+R4148:4157 VFA.ADT VT default defax
+def 4173:4175 FunTable key
+R4180:4182 Coq.Init.Datatypes <> nat ind
+def 4253:4257 FunTable table
+R4265:4268 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4262:4264 VFA.ADT FunTable key def
+R4269:4269 VFA.ADT FunTable V def
+def 4286:4290 FunTable empty
+R4294:4298 VFA.ADT FunTable table def
+R4316:4322 VFA.ADT FunTable default def
+def 4339:4341 FunTable get
+R4348:4350 VFA.ADT FunTable key def
+binder 4344:4344 <> k:20
+R4358:4362 VFA.ADT FunTable table def
+binder 4354:4354 <> t:21
+R4367:4367 VFA.ADT FunTable V def
+R4376:4376 VFA.ADT <> t:21 var
+R4378:4378 VFA.ADT <> k:20 var
+def 4395:4397 FunTable set
+R4404:4406 VFA.ADT FunTable key def
+binder 4400:4400 <> k:22
+R4414:4414 VFA.ADT FunTable V def
+binder 4410:4410 <> v:23
+R4422:4426 VFA.ADT FunTable table def
+binder 4418:4418 <> t:24
+R4431:4435 VFA.ADT FunTable table def
+binder 4448:4449 <> k':25
+R4458:4461 Coq.Arith.PeanoNat <> ::nat_scope:x_'=?'_x not
+R4457:4457 VFA.ADT <> k:22 var
+R4462:4463 VFA.ADT <> k':25 var
+R4477:4477 VFA.ADT <> t:24 var
+R4479:4480 VFA.ADT <> k':25 var
+R4470:4470 VFA.ADT <> v:23 var
+prf 4593:4609 FunTable get_empty_default
+R4624:4626 VFA.ADT FunTable key def
+binder 4620:4620 <> k:26
+R4647:4649 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4636:4638 VFA.ADT FunTable get def
+R4640:4640 VFA.ADT <> k:26 var
+R4642:4646 VFA.ADT FunTable empty def
+R4650:4656 VFA.ADT FunTable default def
+R4683:4685 VFA.ADT FunTable get def
+R4688:4692 VFA.ADT FunTable empty def
+prf 4724:4735 FunTable get_set_same
+R4750:4752 VFA.ADT FunTable key def
+binder 4746:4746 <> k:27
+R4760:4760 VFA.ADT FunTable V def
+binder 4756:4756 <> v:28
+R4768:4772 VFA.ADT FunTable table def
+binder 4764:4764 <> t:29
+R4799:4801 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4782:4784 VFA.ADT FunTable get def
+R4786:4786 VFA.ADT <> k:27 var
+R4789:4791 VFA.ADT FunTable set def
+R4793:4793 VFA.ADT <> k:27 var
+R4795:4795 VFA.ADT <> v:28 var
+R4797:4797 VFA.ADT <> t:29 var
+R4802:4802 VFA.ADT <> v:28 var
+R4829:4831 VFA.ADT FunTable get def
+R4834:4836 VFA.ADT FunTable set def
+prf 4862:4874 FunTable get_set_other
+R4892:4894 VFA.ADT FunTable key def
+binder 4885:4885 <> k:30
+binder 4887:4888 <> k':31
+R4902:4902 VFA.ADT FunTable V def
+binder 4898:4898 <> v:32
+R4910:4914 VFA.ADT FunTable table def
+binder 4906:4906 <> t:33
+R4931:4934 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4925:4928 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R4924:4924 VFA.ADT <> k:30 var
+R4929:4930 VFA.ADT <> k':31 var
+R4953:4955 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4935:4937 VFA.ADT FunTable get def
+R4939:4940 VFA.ADT <> k':31 var
+R4943:4945 VFA.ADT FunTable set def
+R4947:4947 VFA.ADT <> k:30 var
+R4949:4949 VFA.ADT <> v:32 var
+R4951:4951 VFA.ADT <> t:33 var
+R4956:4958 VFA.ADT FunTable get def
+R4960:4961 VFA.ADT <> k':31 var
+R4963:4963 VFA.ADT <> t:33 var
+R4990:4992 VFA.ADT FunTable get def
+R4995:4997 VFA.ADT FunTable set def
+R5016:5023 VFA.ADT FunTable <> mod
+mod 5114:5122 <> StringVal
+def 5159:5159 StringVal V
+R5164:5169 Coq.Strings.String <> string ind
+def 5185:5191 StringVal default
+R5211:5219 VFA.ADT StringVal <> mod
+mod 5230:5245 <> FunTableExamples
+R5276:5283 VFA.ADT FunTable <> modtype
+R5285:5293 VFA.ADT StringVal <> modtype
+mod 5258:5271 <> FunTableExamples.StringFunTable
+R5305:5318 VFA.ADT FunTableExamples.StringFunTable <> mod
+def 5359:5361 FunTableExamples ex1
+R5376:5378 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5365:5367 VFA.ADT FunTableExamples get def
+R5371:5375 VFA.ADT FunTableExamples empty def
+def 5421:5423 FunTableExamples ex2
+R5450:5452 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5427:5429 VFA.ADT FunTableExamples get def
+R5434:5436 VFA.ADT FunTableExamples set def
+R5444:5448 VFA.ADT FunTableExamples empty def
+def 5496:5498 FunTableExamples ex3
+R5525:5527 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5502:5504 VFA.ADT FunTableExamples get def
+R5509:5511 VFA.ADT FunTableExamples set def
+R5519:5523 VFA.ADT FunTableExamples empty def
+R5564:5579 VFA.ADT FunTableExamples <> mod
+mod 5878:5896 <> NatFunTableExamples
+mod 5908:5913 <> NatFunTableExamples.NatVal
+def 5929:5929 NatFunTableExamples.NatVal V
+R5934:5936 Coq.Init.Datatypes <> nat ind
+def 5952:5958 NatFunTableExamples.NatVal default
+R5972:5977 VFA.ADT NatFunTableExamples.NatVal <> mod
+R6006:6013 VFA.ADT FunTable <> modtype
+R6015:6020 VFA.ADT NatFunTableExamples.NatVal <> modtype
+mod 5991:6001 <> NatFunTableExamples.NatFunTable
+R6032:6042 VFA.ADT NatFunTableExamples.NatFunTable <> mod
+def 6056:6058 NatFunTableExamples ex1
+R6073:6075 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6062:6064 VFA.ADT NatFunTableExamples get def
+R6068:6072 VFA.ADT NatFunTableExamples empty def
+def 6117:6119 NatFunTableExamples ex2
+R6144:6146 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6123:6125 VFA.ADT NatFunTableExamples get def
+R6130:6132 VFA.ADT NatFunTableExamples set def
+R6138:6142 VFA.ADT NatFunTableExamples empty def
+def 6188:6190 NatFunTableExamples ex3
+R6215:6217 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6194:6196 VFA.ADT NatFunTableExamples get def
+R6201:6203 VFA.ADT NatFunTableExamples set def
+R6209:6213 VFA.ADT NatFunTableExamples empty def
+R6252:6270 VFA.ADT NatFunTableExamples <> mod
+R6530:6536 VFA.ADT ValType <> mod
+R6542:6546 VFA.ADT Table <> mod
+mod 6513:6522 <> ListsTable
+def 6563:6563 ListsTable V
+R6568:6571 VFA.ADT VT V defax
+def 6587:6593 ListsTable default
+R6598:6607 VFA.ADT VT default defax
+def 6623:6625 ListsTable key
+R6630:6632 Coq.Init.Datatypes <> nat ind
+def 6648:6652 ListsTable table
+R6657:6660 Coq.Init.Datatypes <> list ind
+R6666:6668 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R6663:6665 VFA.ADT ListsTable key def
+R6669:6669 VFA.ADT ListsTable V def
+def 6687:6691 ListsTable empty
+R6695:6699 VFA.ADT ListsTable table def
+R6704:6705 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+def 6720:6722 ListsTable get
+R6729:6731 VFA.ADT ListsTable key def
+binder 6725:6725 <> k:34
+R6739:6743 VFA.ADT ListsTable table def
+binder 6735:6735 <> t:35
+R6748:6748 VFA.ADT ListsTable V def
+R6762:6762 VFA.ADT <> t:35 var
+R6776:6777 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R6782:6788 VFA.ADT ListsTable default def
+R6803:6806 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R6796:6796 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6799:6800 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6802:6802 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6817:6820 Coq.Arith.PeanoNat <> ::nat_scope:x_'=?'_x not
+R6816:6816 VFA.ADT <> k:34 var
+R6836:6838 VFA.ADT <> get:36 def
+R6840:6840 VFA.ADT <> k:34 var
+def 6868:6870 ListsTable set
+R6877:6879 VFA.ADT ListsTable key def
+binder 6873:6873 <> k:38
+R6887:6887 VFA.ADT ListsTable V def
+binder 6883:6883 <> v:39
+R6895:6899 VFA.ADT ListsTable table def
+binder 6891:6891 <> t:40
+R6904:6908 VFA.ADT ListsTable table def
+R6922:6925 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R6916:6916 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6918:6919 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6921:6921 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6917:6917 VFA.ADT <> k:38 var
+R6920:6920 VFA.ADT <> v:39 var
+R6926:6926 VFA.ADT <> t:40 var
+prf 6940:6956 ListsTable get_empty_default
+R6971:6973 VFA.ADT ListsTable key def
+binder 6967:6967 <> k:41
+R6994:6996 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6983:6985 VFA.ADT ListsTable get def
+R6987:6987 VFA.ADT <> k:41 var
+R6989:6993 VFA.ADT ListsTable empty def
+R6997:7003 VFA.ADT ListsTable default def
+prf 7044:7055 ListsTable get_set_same
+R7070:7072 VFA.ADT ListsTable key def
+binder 7066:7066 <> k:42
+R7080:7080 VFA.ADT ListsTable V def
+binder 7076:7076 <> v:43
+R7088:7092 VFA.ADT ListsTable table def
+binder 7084:7084 <> t:44
+R7119:7121 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7102:7104 VFA.ADT ListsTable get def
+R7106:7106 VFA.ADT <> k:42 var
+R7109:7111 VFA.ADT ListsTable set def
+R7113:7113 VFA.ADT <> k:42 var
+R7115:7115 VFA.ADT <> v:43 var
+R7117:7117 VFA.ADT <> t:44 var
+R7122:7122 VFA.ADT <> v:43 var
+R7157:7168 Coq.Arith.PeanoNat Nat eqb_refl thm
+R7157:7168 Coq.Arith.PeanoNat Nat eqb_refl thm
+R7157:7168 Coq.Arith.PeanoNat Nat eqb_refl thm
+prf 7200:7212 ListsTable get_set_other
+R7230:7232 VFA.ADT ListsTable key def
+binder 7223:7223 <> k:45
+binder 7225:7226 <> k':46
+R7240:7240 VFA.ADT ListsTable V def
+binder 7236:7236 <> v:47
+R7248:7252 VFA.ADT ListsTable table def
+binder 7244:7244 <> t:48
+R7269:7272 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7263:7266 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R7262:7262 VFA.ADT <> k:45 var
+R7267:7268 VFA.ADT <> k':46 var
+R7291:7293 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7273:7275 VFA.ADT ListsTable get def
+R7277:7278 VFA.ADT <> k':46 var
+R7281:7283 VFA.ADT ListsTable set def
+R7285:7285 VFA.ADT <> k:45 var
+R7287:7287 VFA.ADT <> v:47 var
+R7289:7289 VFA.ADT <> t:48 var
+R7294:7296 VFA.ADT ListsTable get def
+R7298:7299 VFA.ADT <> k':46 var
+R7301:7301 VFA.ADT <> t:48 var
+R7346:7349 Coq.Arith.PeanoNat <> ::nat_scope:x_'=?'_x not
+R7346:7349 Coq.Arith.PeanoNat <> ::nat_scope:x_'=?'_x not
+R7406:7415 VFA.ADT ListsTable <> mod
+mod 7488:7511 <> StringListsTableExamples
+R7544:7553 VFA.ADT ListsTable <> modtype
+R7555:7563 VFA.ADT StringVal <> modtype
+mod 7524:7539 <> StringListsTableExamples.StringListsTable
+R7575:7590 VFA.ADT StringListsTableExamples.StringListsTable <> mod
+def 7631:7633 StringListsTableExamples ex1
+R7648:7650 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7637:7639 VFA.ADT StringListsTableExamples get def
+R7643:7647 VFA.ADT StringListsTableExamples empty def
+def 7686:7688 StringListsTableExamples ex2
+R7715:7717 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7692:7694 VFA.ADT StringListsTableExamples get def
+R7699:7701 VFA.ADT StringListsTableExamples set def
+R7709:7713 VFA.ADT StringListsTableExamples empty def
+def 7754:7756 StringListsTableExamples ex3
+R7783:7785 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7760:7762 VFA.ADT StringListsTableExamples get def
+R7767:7769 VFA.ADT StringListsTableExamples set def
+R7777:7781 VFA.ADT StringListsTableExamples empty def
+R7815:7838 VFA.ADT StringListsTableExamples <> mod
+R8141:8147 VFA.ADT ValType <> mod
+R8153:8157 VFA.ADT Table <> mod
+mod 8125:8133 <> TreeTable
+def 8174:8174 TreeTable V
+R8179:8182 VFA.ADT VT V defax
+def 8198:8204 TreeTable default
+R8209:8218 VFA.ADT VT default defax
+def 8234:8236 TreeTable key
+R8241:8243 Coq.Init.Datatypes <> nat ind
+def 8259:8263 TreeTable table
+R8268:8271 VFA.SearchTree <> tree ind
+R8273:8273 VFA.ADT TreeTable V def
+def 8290:8294 TreeTable empty
+R8298:8302 VFA.ADT TreeTable table def
+R8312:8321 VFA.SearchTree <> empty_tree def
+R8323:8323 VFA.ADT TreeTable V def
+def 8340:8342 TreeTable get
+R8349:8351 VFA.ADT TreeTable key def
+binder 8345:8345 <> k:49
+R8358:8362 VFA.ADT TreeTable table def
+binder 8355:8355 <> t:50
+R8367:8367 VFA.ADT TreeTable V def
+R8376:8381 VFA.SearchTree <> lookup def
+R8393:8393 VFA.ADT <> t:50 var
+R8391:8391 VFA.ADT <> k:49 var
+R8383:8389 VFA.ADT TreeTable default def
+def 8410:8412 TreeTable set
+R8419:8421 VFA.ADT TreeTable key def
+binder 8415:8415 <> k:51
+R8429:8429 VFA.ADT TreeTable V def
+binder 8425:8425 <> v:52
+R8437:8441 VFA.ADT TreeTable table def
+binder 8433:8433 <> t:53
+R8446:8450 VFA.ADT TreeTable table def
+R8459:8464 VFA.SearchTree <> insert def
+R8470:8470 VFA.ADT <> t:53 var
+R8468:8468 VFA.ADT <> v:52 var
+R8466:8466 VFA.ADT <> k:51 var
+prf 8633:8649 TreeTable get_empty_default
+R8664:8666 VFA.ADT TreeTable key def
+binder 8660:8660 <> k:54
+R8687:8689 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8676:8678 VFA.ADT TreeTable get def
+R8680:8680 VFA.ADT <> k:54 var
+R8682:8686 VFA.ADT TreeTable empty def
+R8690:8696 VFA.ADT TreeTable default def
+R8718:8729 VFA.SearchTree <> lookup_empty thm
+R8718:8729 VFA.SearchTree <> lookup_empty thm
+prf 8750:8761 TreeTable get_set_same
+R8776:8778 VFA.ADT TreeTable key def
+binder 8772:8772 <> k:55
+R8786:8786 VFA.ADT TreeTable V def
+binder 8782:8782 <> v:56
+R8794:8798 VFA.ADT TreeTable table def
+binder 8790:8790 <> t:57
+R8825:8827 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8808:8810 VFA.ADT TreeTable get def
+R8812:8812 VFA.ADT <> k:55 var
+R8815:8817 VFA.ADT TreeTable set def
+R8819:8819 VFA.ADT <> k:55 var
+R8821:8821 VFA.ADT <> v:56 var
+R8823:8823 VFA.ADT <> t:57 var
+R8828:8828 VFA.ADT <> v:56 var
+R8859:8861 VFA.ADT TreeTable get def
+R8864:8866 VFA.ADT TreeTable set def
+R8875:8890 VFA.SearchTree <> lookup_insert_eq thm
+R8875:8890 VFA.SearchTree <> lookup_insert_eq thm
+prf 8911:8923 TreeTable get_set_other
+R8941:8943 VFA.ADT TreeTable key def
+binder 8934:8934 <> k:58
+binder 8936:8937 <> k':59
+R8951:8951 VFA.ADT TreeTable V def
+binder 8947:8947 <> v:60
+R8959:8963 VFA.ADT TreeTable table def
+binder 8955:8955 <> t:61
+R8980:8983 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8974:8977 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R8973:8973 VFA.ADT <> k:58 var
+R8978:8979 VFA.ADT <> k':59 var
+R9002:9004 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8984:8986 VFA.ADT TreeTable get def
+R8988:8989 VFA.ADT <> k':59 var
+R8992:8994 VFA.ADT TreeTable set def
+R8996:8996 VFA.ADT <> k:58 var
+R8998:8998 VFA.ADT <> v:60 var
+R9000:9000 VFA.ADT <> t:61 var
+R9005:9007 VFA.ADT TreeTable get def
+R9009:9010 VFA.ADT <> k':59 var
+R9012:9012 VFA.ADT <> t:61 var
+R9043:9045 VFA.ADT TreeTable get def
+R9048:9050 VFA.ADT TreeTable set def
+R9059:9075 VFA.SearchTree <> lookup_insert_neq thm
+R9059:9075 VFA.SearchTree <> lookup_insert_neq thm
+R9102:9110 VFA.ADT TreeTable <> mod
+modtype 9472:9491 <> ETable_first_attempt
+R9766:9770 VFA.ADT Table <> mod
+ax 9786:9790 ETable_first_attempt bound
+R9797:9800 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9794:9796 VFA.ADT ETable_first_attempt key def
+R9806:9809 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9801:9805 VFA.ADT ETable_first_attempt table defax
+R9810:9813 Coq.Init.Datatypes <> bool ind
+ax 9828:9835 ETable_first_attempt elements
+R9844:9847 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9839:9843 VFA.ADT ETable_first_attempt table defax
+R9848:9851 Coq.Init.Datatypes <> list ind
+R9857:9859 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R9854:9856 VFA.ADT ETable_first_attempt key def
+R9860:9860 VFA.ADT ETable_first_attempt V defax
+ax 9873:9889 ETable_first_attempt elements_complete
+R9905:9907 VFA.ADT ETable_first_attempt key def
+binder 9901:9901 <> k:64
+R9915:9915 VFA.ADT ETable_first_attempt V defax
+binder 9911:9911 <> v:65
+R9923:9927 VFA.ADT ETable_first_attempt table defax
+binder 9919:9919 <> t:66
+R9953:9962 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9946:9948 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9937:9941 VFA.ADT ETable_first_attempt bound defax
+R9943:9943 VFA.ADT <> k:64 var
+R9945:9945 VFA.ADT <> t:66 var
+R9949:9952 Coq.Init.Datatypes <> true constr
+R9974:9983 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9970:9972 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9963:9965 VFA.ADT ETable_first_attempt get defax
+R9967:9967 VFA.ADT <> k:64 var
+R9969:9969 VFA.ADT <> t:66 var
+R9973:9973 VFA.ADT <> v:65 var
+R9984:9985 Coq.Lists.List <> In def
+R9995:10002 VFA.ADT ETable_first_attempt elements defax
+R10004:10004 VFA.ADT <> t:66 var
+R9987:9987 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9989:9990 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9992:9992 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9988:9988 VFA.ADT <> k:64 var
+R9991:9991 VFA.ADT <> v:65 var
+ax 10017:10032 ETable_first_attempt elements_correct
+R10048:10050 VFA.ADT ETable_first_attempt key def
+binder 10044:10044 <> k:68
+R10058:10058 VFA.ADT ETable_first_attempt V defax
+binder 10054:10054 <> v:69
+R10066:10070 VFA.ADT ETable_first_attempt table defax
+binder 10062:10062 <> t:70
+R10102:10111 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10080:10081 Coq.Lists.List <> In def
+R10091:10098 VFA.ADT ETable_first_attempt elements defax
+R10100:10100 VFA.ADT <> t:70 var
+R10083:10083 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10085:10086 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10088:10088 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10084:10084 VFA.ADT <> k:68 var
+R10087:10087 VFA.ADT <> v:69 var
+R10128:10131 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R10121:10123 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10112:10116 VFA.ADT ETable_first_attempt bound defax
+R10118:10118 VFA.ADT <> k:68 var
+R10120:10120 VFA.ADT <> t:70 var
+R10124:10127 Coq.Init.Datatypes <> true constr
+R10139:10141 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10132:10134 VFA.ADT ETable_first_attempt get defax
+R10136:10136 VFA.ADT <> k:68 var
+R10138:10138 VFA.ADT <> t:70 var
+R10142:10142 VFA.ADT <> v:69 var
+R10150:10169 VFA.ADT ETable_first_attempt <> modtype
+R10381:10387 VFA.ADT ValType <> mod
+R10393:10412 VFA.ADT ETable_first_attempt <> mod
+mod 10350:10373 <> TreeETable_first_attempt
+R10509:10517 VFA.ADT TreeTable <> modtype
+R10519:10520 VFA.ADT VT <> modtype
+R10666:10669 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10663:10665 VFA.ADT TreeETable_first_attempt key def
+R10675:10678 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10670:10674 VFA.ADT TreeETable_first_attempt table def
+R10679:10679 VFA.ADT TreeETable_first_attempt V def
+R10657:10659 VFA.ADT TreeETable_first_attempt get def
+def 10696:10700 TreeETable_first_attempt bound
+R10707:10709 VFA.ADT TreeETable_first_attempt key def
+binder 10703:10703 <> k:72
+R10717:10721 VFA.ADT TreeETable_first_attempt table def
+binder 10713:10713 <> t:73
+R10726:10729 Coq.Init.Datatypes <> bool ind
+R10738:10753 VFA.SearchTree <> bound def
+R10757:10757 VFA.ADT <> t:73 var
+R10755:10755 VFA.ADT <> k:72 var
+def 10774:10781 TreeETable_first_attempt elements
+R10788:10792 VFA.ADT TreeETable_first_attempt table def
+binder 10784:10784 <> t:74
+R10797:10800 Coq.Init.Datatypes <> list ind
+R10806:10808 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R10803:10805 VFA.ADT TreeETable_first_attempt key def
+R10809:10809 VFA.ADT TreeETable_first_attempt V def
+R10819:10837 VFA.SearchTree <> elements def
+R10839:10839 VFA.ADT <> t:74 var
+prf 10853:10869 TreeETable_first_attempt elements_complete
+R10885:10887 VFA.ADT TreeETable_first_attempt key def
+binder 10881:10881 <> k:75
+R10895:10895 VFA.ADT TreeETable_first_attempt V def
+binder 10891:10891 <> v:76
+R10903:10907 VFA.ADT TreeETable_first_attempt table def
+binder 10899:10899 <> t:77
+R10933:10942 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10926:10928 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10917:10921 VFA.ADT TreeETable_first_attempt bound def
+R10923:10923 VFA.ADT <> k:75 var
+R10925:10925 VFA.ADT <> t:77 var
+R10929:10932 Coq.Init.Datatypes <> true constr
+R10954:10963 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10950:10952 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10943:10945 VFA.ADT TreeETable_first_attempt get def
+R10947:10947 VFA.ADT <> k:75 var
+R10949:10949 VFA.ADT <> t:77 var
+R10953:10953 VFA.ADT <> v:76 var
+R10964:10965 Coq.Lists.List <> In def
+R10975:10982 VFA.ADT TreeETable_first_attempt elements def
+R10984:10984 VFA.ADT <> t:77 var
+R10967:10967 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10969:10970 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10972:10972 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10968:10968 VFA.ADT <> k:75 var
+R10971:10971 VFA.ADT <> v:76 var
+R11037:11039 VFA.ADT TreeETable_first_attempt get def
+R11201:11228 VFA.SearchTree <> elements_complete thm
+R11201:11228 VFA.SearchTree <> elements_complete thm
+R11256:11277 VFA.SearchTree <> elements_complete_spec def
+R11318:11324 VFA.ADT TreeETable_first_attempt default def
+R11318:11324 VFA.ADT TreeETable_first_attempt default def
+prf 11419:11434 TreeETable_first_attempt elements_correct
+R11450:11452 VFA.ADT TreeETable_first_attempt key def
+binder 11446:11446 <> k:78
+R11460:11460 VFA.ADT TreeETable_first_attempt V def
+binder 11456:11456 <> v:79
+R11468:11472 VFA.ADT TreeETable_first_attempt table def
+binder 11464:11464 <> t:80
+R11504:11513 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11482:11483 Coq.Lists.List <> In def
+R11493:11500 VFA.ADT TreeETable_first_attempt elements def
+R11502:11502 VFA.ADT <> t:80 var
+R11485:11485 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11487:11488 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11490:11490 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11486:11486 VFA.ADT <> k:78 var
+R11489:11489 VFA.ADT <> v:79 var
+R11530:11533 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R11523:11525 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11514:11518 VFA.ADT TreeETable_first_attempt bound def
+R11520:11520 VFA.ADT <> k:78 var
+R11522:11522 VFA.ADT <> t:80 var
+R11526:11529 Coq.Init.Datatypes <> true constr
+R11541:11543 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11534:11536 VFA.ADT TreeETable_first_attempt get def
+R11538:11538 VFA.ADT <> k:78 var
+R11540:11540 VFA.ADT <> t:80 var
+R11544:11544 VFA.ADT <> v:79 var
+R11594:11620 VFA.SearchTree <> elements_correct thm
+R11594:11620 VFA.SearchTree <> elements_correct thm
+R11647:11667 VFA.SearchTree <> elements_correct_spec def

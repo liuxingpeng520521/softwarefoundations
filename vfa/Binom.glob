@@ -1,0 +1,917 @@
+DIGEST 344ca8073c5bba778ed1343e591f7e0f
+FVFA.Binom
+R898:911 Coq.Strings.String <> <> lib
+R963:966 VFA.Perm <> <> lib
+R993:1000 VFA.Priqueue <> <> lib
+R1025:1032 VFA.Priqueue PRIQUEUE <> mod
+mod 1011:1020 <> BinomQueue
+def 1047:1049 BinomQueue key
+R1054:1056 Coq.Init.Datatypes <> nat ind
+ind 1070:1073 BinomQueue tree
+constr 1088:1091 BinomQueue Node
+constr 1125:1128 BinomQueue Leaf
+R1097:1100 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1094:1096 VFA.Binom BinomQueue key def
+R1105:1108 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1101:1104 VFA.Binom <> tree:1 ind
+R1113:1116 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1109:1112 VFA.Binom <> tree:1 ind
+R1117:1120 VFA.Binom <> tree:1 ind
+R1132:1135 VFA.Binom <> tree:1 ind
+def 1460:1467 BinomQueue priqueue
+R1472:1475 Coq.Init.Datatypes <> list ind
+R1477:1480 VFA.Binom BinomQueue tree ind
+def 1495:1499 BinomQueue empty
+R1503:1510 VFA.Binom BinomQueue priqueue def
+R1515:1517 Coq.Init.Datatypes <> nil constr
+def 1532:1536 BinomQueue smash
+R1545:1548 VFA.Binom BinomQueue tree ind
+binder 1539:1539 <> t:3
+binder 1541:1541 <> u:4
+R1553:1556 VFA.Binom BinomQueue tree ind
+R1573:1573 VFA.Binom <> u:4 var
+R1569:1569 VFA.Binom <> t:3 var
+R1585:1588 VFA.Binom BinomQueue Node constr
+R1595:1598 VFA.Binom BinomQueue Leaf constr
+R1601:1604 VFA.Binom BinomQueue Node constr
+R1611:1614 VFA.Binom BinomQueue Leaf constr
+R1643:1646 VFA.Perm <> ::nat_scope:x_'>?'_x not
+R1718:1721 VFA.Binom BinomQueue Node constr
+R1726:1729 VFA.Binom BinomQueue Node constr
+R1740:1743 VFA.Binom BinomQueue Leaf constr
+R1654:1657 VFA.Binom BinomQueue Node constr
+R1662:1665 VFA.Binom BinomQueue Node constr
+R1676:1679 VFA.Binom BinomQueue Leaf constr
+R1758:1761 VFA.Binom BinomQueue Leaf constr
+def 1808:1812 BinomQueue carry
+R1818:1821 Coq.Init.Datatypes <> list ind
+R1823:1826 VFA.Binom BinomQueue tree ind
+binder 1815:1815 <> q:7
+R1833:1836 VFA.Binom BinomQueue tree ind
+binder 1830:1830 <> t:8
+R1841:1844 Coq.Init.Datatypes <> list ind
+R1846:1849 VFA.Binom BinomQueue tree ind
+R1865:1865 VFA.Binom <> t:8 var
+R1862:1862 VFA.Binom <> q:7 var
+R1876:1878 Coq.Init.Datatypes <> nil constr
+R1881:1884 VFA.Binom BinomQueue Leaf constr
+R1896:1898 Coq.Init.Datatypes <> nil constr
+R1904:1906 Coq.Init.Datatypes <> nil constr
+R1926:1929 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R1925:1925 VFA.Binom <> t:8 var
+R1930:1932 Coq.Init.Datatypes <> nil constr
+R1942:1945 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R1938:1941 VFA.Binom BinomQueue Leaf constr
+R1957:1960 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R1956:1956 VFA.Binom <> t:8 var
+R1969:1972 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R1977:1980 VFA.Binom BinomQueue Leaf constr
+R1987:1990 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R1999:2002 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R2022:2025 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R2018:2021 VFA.Binom BinomQueue Leaf constr
+R2026:2030 VFA.Binom <> carry:9 def
+R2036:2040 VFA.Binom BinomQueue smash def
+R2042:2042 VFA.Binom <> t:8 var
+def 2065:2070 BinomQueue insert
+R2076:2078 VFA.Binom BinomQueue key def
+binder 2073:2073 <> x:12
+R2085:2092 VFA.Binom BinomQueue priqueue def
+binder 2082:2082 <> q:13
+R2097:2104 VFA.Binom BinomQueue priqueue def
+R2114:2118 VFA.Binom BinomQueue carry def
+R2120:2120 VFA.Binom <> q:13 var
+R2123:2126 VFA.Binom BinomQueue Node constr
+R2128:2128 VFA.Binom <> x:12 var
+R2130:2133 VFA.Binom BinomQueue Leaf constr
+R2135:2138 VFA.Binom BinomQueue Leaf constr
+R2159:2167 Coq.Lists.List <> fold_left def
+R2212:2216 VFA.Binom BinomQueue empty def
+R2192:2192 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R2194:2194 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R2196:2196 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R2198:2198 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R2200:2200 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R2202:2202 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R2204:2204 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R2206:2206 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R2208:2208 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R2210:2210 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+binder 2174:2174 <> x:14
+binder 2176:2176 <> q:15
+R2180:2185 VFA.Binom BinomQueue insert def
+R2187:2187 VFA.Binom <> q:15 var
+R2189:2189 VFA.Binom <> x:14 var
+def 2460:2463 BinomQueue join
+R2471:2478 VFA.Binom BinomQueue priqueue def
+binder 2466:2466 <> p:16
+binder 2468:2468 <> q:17
+R2485:2488 VFA.Binom BinomQueue tree ind
+binder 2482:2482 <> c:18
+R2493:2500 VFA.Binom BinomQueue priqueue def
+R2519:2519 VFA.Binom <> c:18 var
+R2516:2516 VFA.Binom <> q:17 var
+R2513:2513 VFA.Binom <> p:16 var
+R2530:2531 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R2554:2558 VFA.Binom BinomQueue carry def
+R2560:2560 VFA.Binom <> q:17 var
+R2562:2562 VFA.Binom <> c:18 var
+R2571:2572 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R2592:2596 VFA.Binom BinomQueue carry def
+R2598:2598 VFA.Binom <> p:16 var
+R2600:2600 VFA.Binom <> c:18 var
+R2610:2611 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R2606:2609 VFA.Binom BinomQueue Leaf constr
+R2620:2621 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R2616:2619 VFA.Binom BinomQueue Leaf constr
+R2645:2648 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R2644:2644 VFA.Binom <> c:18 var
+R2649:2652 VFA.Binom <> join:19 def
+R2660:2663 VFA.Binom BinomQueue Leaf constr
+R2673:2674 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R2669:2672 VFA.Binom BinomQueue Leaf constr
+R2681:2682 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R2687:2690 VFA.Binom BinomQueue Leaf constr
+R2708:2711 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R2712:2715 VFA.Binom <> join:19 def
+R2723:2726 VFA.Binom BinomQueue Leaf constr
+R2736:2737 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R2732:2735 VFA.Binom BinomQueue Leaf constr
+R2744:2745 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R2750:2753 VFA.Binom BinomQueue Node constr
+R2769:2772 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R2765:2768 VFA.Binom BinomQueue Leaf constr
+R2773:2776 VFA.Binom <> join:19 def
+R2785:2789 VFA.Binom BinomQueue smash def
+R2791:2791 VFA.Binom <> c:18 var
+R2803:2804 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R2813:2814 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R2809:2812 VFA.Binom BinomQueue Leaf constr
+R2819:2822 VFA.Binom BinomQueue Leaf constr
+R2840:2843 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R2844:2847 VFA.Binom <> join:19 def
+R2855:2858 VFA.Binom BinomQueue Leaf constr
+R2866:2867 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R2876:2877 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R2872:2875 VFA.Binom BinomQueue Leaf constr
+R2881:2884 VFA.Binom BinomQueue Node constr
+R2901:2904 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R2897:2900 VFA.Binom BinomQueue Leaf constr
+R2905:2908 VFA.Binom <> join:19 def
+R2917:2921 VFA.Binom BinomQueue smash def
+R2923:2923 VFA.Binom <> c:18 var
+R2935:2936 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R2943:2944 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R2973:2976 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R2972:2972 VFA.Binom <> c:18 var
+R2977:2980 VFA.Binom <> join:19 def
+R2989:2993 VFA.Binom BinomQueue smash def
+def 3018:3022 BinomQueue unzip
+R3028:3031 VFA.Binom BinomQueue tree ind
+binder 3025:3025 <> t:23
+R3049:3052 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3041:3048 VFA.Binom BinomQueue priqueue def
+R3053:3060 VFA.Binom BinomQueue priqueue def
+binder 3035:3038 <> cont:24
+R3065:3072 VFA.Binom BinomQueue priqueue def
+R3085:3085 VFA.Binom <> t:23 var
+R3097:3100 VFA.Binom BinomQueue Node constr
+R3115:3119 VFA.Binom <> unzip:25 def
+binder 3129:3129 <> q:27
+R3148:3152 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R3134:3137 VFA.Binom BinomQueue Node constr
+R3144:3147 VFA.Binom BinomQueue Leaf constr
+R3153:3156 VFA.Binom <> cont:24 var
+R3158:3158 VFA.Binom <> q:27 var
+R3165:3168 VFA.Binom BinomQueue Leaf constr
+R3173:3176 VFA.Binom <> cont:24 var
+R3178:3180 Coq.Init.Datatypes <> nil constr
+def 3201:3215 BinomQueue heap_delete_max
+R3221:3224 VFA.Binom BinomQueue tree ind
+binder 3218:3218 <> t:28
+R3229:3236 VFA.Binom BinomQueue priqueue def
+R3249:3249 VFA.Binom <> t:28 var
+R3260:3263 VFA.Binom BinomQueue Node constr
+R3270:3273 VFA.Binom BinomQueue Leaf constr
+R3279:3283 VFA.Binom BinomQueue unzip def
+binder 3293:3293 <> u:30
+R3298:3298 VFA.Binom <> u:30 var
+R3310:3312 Coq.Init.Datatypes <> nil constr
+def 3381:3389 BinomQueue find_max'
+R3401:3403 VFA.Binom BinomQueue key def
+binder 3392:3398 <> current:31
+R3410:3417 VFA.Binom BinomQueue priqueue def
+binder 3407:3407 <> q:32
+R3422:3424 VFA.Binom BinomQueue key def
+R3437:3437 VFA.Binom <> q:32 var
+R3449:3450 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R3463:3469 VFA.Binom <> current:31 var
+R3479:3480 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R3475:3478 VFA.Binom BinomQueue Leaf constr
+R3487:3495 VFA.Binom <> find_max':33 def
+R3497:3503 VFA.Binom <> current:31 var
+R3522:3525 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R3512:3515 VFA.Binom BinomQueue Node constr
+R3532:3540 VFA.Binom <> find_max':33 def
+R3547:3550 VFA.Perm <> ::nat_scope:x_'>?'_x not
+R3551:3557 VFA.Binom <> current:31 var
+R3571:3577 VFA.Binom <> current:31 var
+def 3600:3607 BinomQueue find_max
+R3613:3620 VFA.Binom BinomQueue priqueue def
+binder 3610:3610 <> q:35
+R3625:3630 Coq.Init.Datatypes <> option ind
+R3632:3634 VFA.Binom BinomQueue key def
+R3647:3647 VFA.Binom <> q:35 var
+R3658:3659 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R3664:3667 Coq.Init.Datatypes <> None constr
+R3677:3678 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R3673:3676 VFA.Binom BinomQueue Leaf constr
+R3685:3692 VFA.Binom <> find_max:36 def
+R3711:3714 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R3701:3704 VFA.Binom BinomQueue Node constr
+R3721:3724 Coq.Init.Datatypes <> Some constr
+R3727:3735 VFA.Binom BinomQueue find_max' def
+def 3759:3772 BinomQueue delete_max_aux
+R3778:3780 VFA.Binom BinomQueue key def
+binder 3775:3775 <> m:38
+R3787:3794 VFA.Binom BinomQueue priqueue def
+binder 3784:3784 <> p:39
+R3807:3809 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R3799:3806 VFA.Binom BinomQueue priqueue def
+R3810:3817 VFA.Binom BinomQueue priqueue def
+R3830:3830 VFA.Binom <> p:39 var
+R3845:3848 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R3841:3844 VFA.Binom BinomQueue Leaf constr
+R3870:3883 VFA.Binom <> delete_max_aux:40 def
+R3885:3885 VFA.Binom <> m:38 var
+binder 3862:3862 <> j:42
+binder 3864:3864 <> k:43
+R3894:3894 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3902:3903 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3905:3905 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3899:3900 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R3895:3898 VFA.Binom BinomQueue Leaf constr
+R3901:3901 VFA.Binom <> j:42 var
+R3904:3904 VFA.Binom <> k:43 var
+R3925:3928 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R3911:3914 VFA.Binom BinomQueue Node constr
+R3921:3924 VFA.Binom BinomQueue Leaf constr
+R3946:3949 VFA.Perm <> ::nat_scope:x_'>?'_x not
+R3945:3945 VFA.Binom <> m:38 var
+R4049:4049 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4058:4059 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4092:4092 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4054:4055 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R4050:4053 VFA.Binom BinomQueue Leaf constr
+R4060:4074 VFA.Binom BinomQueue heap_delete_max def
+R4077:4080 VFA.Binom BinomQueue Node constr
+R4087:4090 VFA.Binom BinomQueue Leaf constr
+R3978:3991 VFA.Binom <> delete_max_aux:40 def
+R3993:3993 VFA.Binom <> m:38 var
+binder 3970:3970 <> j:44
+binder 3972:3972 <> k:45
+R4014:4014 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4032:4032 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4034:4034 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4029:4030 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R4015:4018 VFA.Binom BinomQueue Node constr
+R4025:4028 VFA.Binom BinomQueue Leaf constr
+R4031:4031 VFA.Binom <> j:44 var
+R4033:4033 VFA.Binom <> k:45 var
+R4103:4103 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4107:4108 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4112:4112 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4104:4106 Coq.Init.Datatypes <> nil constr
+R4109:4111 Coq.Init.Datatypes <> nil constr
+def 4151:4160 BinomQueue delete_max
+R4166:4173 VFA.Binom BinomQueue priqueue def
+binder 4163:4163 <> q:46
+R4178:4183 Coq.Init.Datatypes <> option ind
+R4189:4191 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R4186:4188 VFA.Binom BinomQueue key def
+R4192:4199 VFA.Binom BinomQueue priqueue def
+R4213:4220 VFA.Binom BinomQueue find_max def
+R4222:4222 VFA.Binom <> q:46 var
+R4233:4236 Coq.Init.Datatypes <> None constr
+R4241:4244 Coq.Init.Datatypes <> None constr
+R4250:4253 Coq.Init.Datatypes <> Some constr
+R4276:4289 VFA.Binom BinomQueue delete_max_aux def
+R4293:4293 VFA.Binom <> q:46 var
+binder 4266:4267 <> p':47
+binder 4269:4270 <> q':48
+R4326:4329 Coq.Init.Datatypes <> Some constr
+R4331:4331 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4333:4334 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4350:4350 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4335:4338 VFA.Binom BinomQueue join def
+R4340:4341 VFA.Binom <> p':47 var
+R4343:4344 VFA.Binom <> q':48 var
+R4346:4349 VFA.Binom BinomQueue Leaf constr
+def 4371:4375 BinomQueue merge
+R4383:4390 VFA.Binom BinomQueue priqueue def
+binder 4378:4378 <> p:49
+binder 4380:4380 <> q:50
+R4396:4399 VFA.Binom BinomQueue join def
+R4401:4401 VFA.Binom <> p:49 var
+R4403:4403 VFA.Binom <> q:50 var
+R4405:4408 VFA.Binom BinomQueue Leaf constr
+def 4605:4613 BinomQueue pow2heap'
+R4619:4621 Coq.Init.Datatypes <> nat ind
+binder 4616:4616 <> n:51
+R4628:4630 VFA.Binom BinomQueue key def
+binder 4625:4625 <> m:52
+R4637:4640 VFA.Binom BinomQueue tree ind
+binder 4634:4634 <> t:53
+R4659:4659 VFA.Binom <> t:53 var
+R4656:4656 VFA.Binom <> m:52 var
+R4653:4653 VFA.Binom <> n:51 var
+R4676:4679 VFA.Binom BinomQueue Leaf constr
+R4690:4693 Coq.Init.Logic <> True ind
+R4705:4708 VFA.Binom BinomQueue Node constr
+R4720:4724 Coq.Init.Logic <> False ind
+R4730:4730 Coq.Init.Datatypes <> S constr
+R4737:4740 VFA.Binom BinomQueue Leaf constr
+R4748:4752 Coq.Init.Logic <> False ind
+R4758:4758 Coq.Init.Datatypes <> S constr
+R4767:4770 VFA.Binom BinomQueue Node constr
+R4795:4798 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R4790:4793 Coq.Init.Peano <> ::nat_scope:x_'>='_x not
+R4789:4789 VFA.Binom <> m:52 var
+R4815:4818 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R4799:4807 VFA.Binom <> pow2heap':54 def
+R4819:4827 VFA.Binom <> pow2heap':54 def
+R4832:4832 VFA.Binom <> m:52 var
+def 4900:4907 BinomQueue pow2heap
+R4913:4915 Coq.Init.Datatypes <> nat ind
+binder 4910:4910 <> n:58
+R4922:4925 VFA.Binom BinomQueue tree ind
+binder 4919:4919 <> t:59
+R4939:4939 VFA.Binom <> t:59 var
+R4950:4953 VFA.Binom BinomQueue Node constr
+R4960:4963 VFA.Binom BinomQueue Leaf constr
+R4968:4976 VFA.Binom BinomQueue pow2heap' def
+R4978:4978 VFA.Binom <> n:58 var
+R4994:4998 Coq.Init.Logic <> False ind
+def 5066:5070 BinomQueue priq'
+R5077:5079 Coq.Init.Datatypes <> nat ind
+binder 5074:5074 <> i:61
+R5086:5089 Coq.Init.Datatypes <> list ind
+R5091:5094 VFA.Binom BinomQueue tree ind
+binder 5083:5083 <> l:62
+R5116:5116 VFA.Binom <> l:62 var
+R5128:5131 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R5138:5138 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R5161:5165 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R5145:5148 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R5140:5140 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5141:5144 VFA.Binom BinomQueue Leaf constr
+R5149:5156 VFA.Binom BinomQueue pow2heap def
+R5158:5158 VFA.Binom <> i:61 var
+R5166:5170 VFA.Binom <> priq':63 def
+R5173:5173 Coq.Init.Datatypes <> S constr
+R5175:5175 VFA.Binom <> i:61 var
+R5185:5187 Coq.Init.Datatypes <> nil constr
+R5192:5195 Coq.Init.Logic <> True ind
+def 5246:5249 BinomQueue priq
+R5255:5262 VFA.Binom BinomQueue priqueue def
+binder 5252:5252 <> q:65
+R5275:5279 VFA.Binom BinomQueue priq' def
+R5283:5283 VFA.Binom <> q:65 var
+prf 5685:5694 BinomQueue empty_priq
+R5697:5700 VFA.Binom BinomQueue priq def
+R5702:5706 VFA.Binom BinomQueue empty def
+prf 5807:5817 BinomQueue smash_valid
+binder 5834:5834 <> n:66
+binder 5836:5836 <> t:67
+binder 5838:5838 <> u:68
+R5853:5856 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5841:5848 VFA.Binom BinomQueue pow2heap def
+R5850:5850 VFA.Binom <> n:66 var
+R5852:5852 VFA.Binom <> t:67 var
+R5869:5872 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5857:5864 VFA.Binom BinomQueue pow2heap def
+R5866:5866 VFA.Binom <> n:66 var
+R5868:5868 VFA.Binom <> u:68 var
+R5873:5880 VFA.Binom BinomQueue pow2heap def
+R5883:5883 Coq.Init.Datatypes <> S constr
+R5885:5885 VFA.Binom <> n:66 var
+R5889:5893 VFA.Binom BinomQueue smash def
+R5895:5895 VFA.Binom <> t:67 var
+R5897:5897 VFA.Binom <> u:68 var
+R6054:6057 VFA.Perm <> ::nat_scope:x_'>?'_x not
+R6054:6057 VFA.Perm <> ::nat_scope:x_'>?'_x not
+prf 6181:6191 BinomQueue carry_valid
+binder 6212:6212 <> n:69
+binder 6214:6214 <> q:70
+R6227:6241 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6218:6222 VFA.Binom BinomQueue priq' def
+R6224:6224 VFA.Binom <> n:69 var
+R6226:6226 VFA.Binom <> q:70 var
+binder 6249:6249 <> t:71
+R6252:6252 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6275:6279 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6259:6262 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R6254:6254 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6253:6253 VFA.Binom <> t:71 var
+R6255:6258 VFA.Binom BinomQueue Leaf constr
+R6263:6270 VFA.Binom BinomQueue pow2heap def
+R6272:6272 VFA.Binom <> n:69 var
+R6274:6274 VFA.Binom <> t:71 var
+R6280:6284 VFA.Binom BinomQueue priq' def
+R6286:6286 VFA.Binom <> n:69 var
+R6289:6293 VFA.Binom BinomQueue carry def
+R6295:6295 VFA.Binom <> q:70 var
+R6297:6297 VFA.Binom <> t:71 var
+prf 6414:6424 BinomQueue insert_priq
+binder 6434:6434 <> x:72
+binder 6436:6436 <> q:73
+R6445:6448 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6439:6442 VFA.Binom BinomQueue priq def
+R6444:6444 VFA.Binom <> q:73 var
+R6449:6452 VFA.Binom BinomQueue priq def
+R6455:6460 VFA.Binom BinomQueue insert def
+R6462:6462 VFA.Binom <> x:72 var
+R6464:6464 VFA.Binom <> q:73 var
+R6482:6485 VFA.Binom BinomQueue priq def
+R6487:6492 VFA.Binom BinomQueue insert def
+R6509:6519 VFA.Binom BinomQueue carry_valid prfax
+R6509:6519 VFA.Binom BinomQueue carry_valid prfax
+prf 6781:6790 BinomQueue join_valid
+binder 6800:6800 <> p:74
+binder 6802:6802 <> q:75
+binder 6804:6804 <> c:76
+binder 6806:6806 <> n:77
+R6818:6821 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6809:6813 VFA.Binom BinomQueue priq' def
+R6815:6815 VFA.Binom <> n:77 var
+R6817:6817 VFA.Binom <> p:74 var
+R6831:6834 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6822:6826 VFA.Binom BinomQueue priq' def
+R6828:6828 VFA.Binom <> n:77 var
+R6830:6830 VFA.Binom <> q:75 var
+R6835:6835 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6858:6862 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6842:6845 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R6837:6837 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6836:6836 VFA.Binom <> c:76 var
+R6838:6841 VFA.Binom BinomQueue Leaf constr
+R6846:6853 VFA.Binom BinomQueue pow2heap def
+R6855:6855 VFA.Binom <> n:77 var
+R6857:6857 VFA.Binom <> c:76 var
+R6863:6867 VFA.Binom BinomQueue priq' def
+R6869:6869 VFA.Binom <> n:77 var
+R6872:6875 VFA.Binom BinomQueue join def
+R6877:6877 VFA.Binom <> p:74 var
+R6879:6879 VFA.Binom <> q:75 var
+R6881:6881 VFA.Binom <> c:76 var
+prf 6933:6942 BinomQueue merge_priq
+binder 6953:6953 <> p:78
+binder 6955:6955 <> q:79
+R6964:6967 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6958:6961 VFA.Binom BinomQueue priq def
+R6963:6963 VFA.Binom <> p:78 var
+R6974:6977 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6968:6971 VFA.Binom BinomQueue priq def
+R6973:6973 VFA.Binom <> q:79 var
+R6978:6981 VFA.Binom BinomQueue priq def
+R6984:6988 VFA.Binom BinomQueue merge def
+R6990:6990 VFA.Binom <> p:78 var
+R6992:6992 VFA.Binom <> q:79 var
+R7019:7023 VFA.Binom BinomQueue merge def
+R7032:7041 VFA.Binom BinomQueue join_valid prfax
+R7032:7041 VFA.Binom BinomQueue join_valid prfax
+prf 7137:7156 BinomQueue delete_max_Some_priq
+binder 7172:7172 <> p:80
+binder 7174:7174 <> q:81
+binder 7176:7176 <> k:82
+R7185:7188 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7179:7182 VFA.Binom BinomQueue priq def
+R7184:7184 VFA.Binom <> p:80 var
+R7213:7216 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7201:7203 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7189:7198 VFA.Binom BinomQueue delete_max def
+R7200:7200 VFA.Binom <> p:80 var
+R7204:7207 Coq.Init.Datatypes <> Some constr
+R7208:7208 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7210:7210 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7212:7212 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7209:7209 VFA.Binom <> k:82 var
+R7211:7211 VFA.Binom <> q:81 var
+R7217:7220 VFA.Binom BinomQueue priq def
+R7222:7222 VFA.Binom <> q:81 var
+ind 7491:7500 BinomQueue tree_elems
+constr 7533:7547 BinomQueue tree_elems_leaf
+constr 7572:7586 BinomQueue tree_elems_node
+R7507:7510 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7503:7506 VFA.Binom BinomQueue tree ind
+R7519:7522 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7511:7514 Coq.Init.Datatypes <> list ind
+R7516:7518 VFA.Binom BinomQueue key def
+R7550:7559 VFA.Binom <> tree_elems:83 ind
+R7566:7568 Coq.Init.Datatypes <> nil constr
+R7561:7564 VFA.Binom BinomQueue Leaf constr
+binder 7597:7598 <> bl:85
+binder 7600:7601 <> br:86
+binder 7603:7603 <> v:87
+binder 7605:7606 <> tl:88
+binder 7608:7609 <> tr:89
+binder 7611:7611 <> b:90
+R7641:7655 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7625:7634 VFA.Binom <> tree_elems:83 ind
+R7639:7640 VFA.Binom <> bl:85 var
+R7636:7637 VFA.Binom <> tl:88 var
+R7672:7686 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7656:7665 VFA.Binom <> tree_elems:83 ind
+R7670:7671 VFA.Binom <> br:86 var
+R7667:7668 VFA.Binom <> tr:89 var
+R7712:7726 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7687:7697 Coq.Sorting.Permutation <> Permutation ind
+R7703:7704 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R7702:7702 VFA.Binom <> v:87 var
+R7707:7708 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R7705:7706 VFA.Binom <> bl:85 var
+R7709:7710 VFA.Binom <> br:86 var
+R7699:7699 VFA.Binom <> b:90 var
+R7727:7736 VFA.Binom <> tree_elems:83 ind
+R7753:7753 VFA.Binom <> b:90 var
+R7739:7742 VFA.Binom BinomQueue Node constr
+R7744:7744 VFA.Binom <> v:87 var
+R7746:7747 VFA.Binom <> tl:88 var
+R7749:7750 VFA.Binom <> tr:89 var
+ind 8215:8228 BinomQueue priqueue_elems
+constr 8266:8283 BinomQueue priqueue_elems_nil
+constr 8310:8328 BinomQueue priqueue_elems_cons
+R8240:8243 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8231:8234 Coq.Init.Datatypes <> list ind
+R8236:8239 VFA.Binom BinomQueue tree ind
+R8252:8255 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8244:8247 Coq.Init.Datatypes <> list ind
+R8249:8251 VFA.Binom BinomQueue key def
+R8287:8300 VFA.Binom <> priqueue_elems:91 ind
+R8305:8306 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R8302:8303 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+binder 8339:8340 <> qh:93
+binder 8342:8343 <> qt:94
+binder 8345:8346 <> lh:95
+binder 8348:8349 <> lt:96
+binder 8351:8351 <> l:97
+R8383:8399 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8367:8376 VFA.Binom BinomQueue tree_elems ind
+R8378:8379 VFA.Binom <> qh:93 var
+R8381:8382 VFA.Binom <> lh:95 var
+R8420:8436 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8400:8413 VFA.Binom <> priqueue_elems:91 ind
+R8418:8419 VFA.Binom <> lt:96 var
+R8415:8416 VFA.Binom <> qt:94 var
+R8459:8475 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8437:8447 Coq.Sorting.Permutation <> Permutation ind
+R8454:8455 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R8452:8453 VFA.Binom <> lh:95 var
+R8456:8457 VFA.Binom <> lt:96 var
+R8449:8449 VFA.Binom <> l:97 var
+R8476:8489 VFA.Binom <> priqueue_elems:91 ind
+R8500:8500 VFA.Binom <> l:97 var
+R8494:8495 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R8492:8493 VFA.Binom <> qh:93 var
+R8496:8497 VFA.Binom <> qt:94 var
+def 8555:8585 BinomQueue manual_grade_for_priqueue_elems
+R8589:8594 Coq.Init.Datatypes <> option ind
+R8600:8600 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R8597:8599 Coq.Init.Datatypes <> nat ind
+R8601:8606 Coq.Strings.String <> string ind
+R8612:8615 Coq.Init.Datatypes <> None constr
+def 8640:8642 BinomQueue Abs
+R8648:8655 VFA.Binom BinomQueue priqueue def
+binder 8645:8645 <> p:98
+R8663:8666 Coq.Init.Datatypes <> list ind
+R8668:8670 VFA.Binom BinomQueue key def
+binder 8659:8660 <> al:99
+R8676:8689 VFA.Binom BinomQueue priqueue_elems ind
+R8691:8691 VFA.Binom <> p:98 var
+R8693:8694 VFA.Binom <> al:99 var
+prf 8945:8958 BinomQueue tree_elems_ext
+binder 8968:8968 <> t:100
+binder 8970:8971 <> e1:101
+binder 8973:8974 <> e2:102
+R8996:8999 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8979:8989 Coq.Sorting.Permutation <> Permutation ind
+R8994:8995 VFA.Binom <> e2:102 var
+R8991:8992 VFA.Binom <> e1:101 var
+R9015:9018 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9000:9009 VFA.Binom BinomQueue tree_elems ind
+R9011:9011 VFA.Binom <> t:100 var
+R9013:9014 VFA.Binom <> e1:101 var
+R9019:9028 VFA.Binom BinomQueue tree_elems ind
+R9030:9030 VFA.Binom <> t:100 var
+R9032:9033 VFA.Binom <> e2:102 var
+R9093:9107 VFA.Binom BinomQueue tree_elems_node constr
+R9093:9107 VFA.Binom BinomQueue tree_elems_node constr
+R9139:9153 Coq.Sorting.Permutation <> Permutation_sym thm
+R9139:9153 Coq.Sorting.Permutation <> Permutation_sym thm
+R9167:9176 Coq.Sorting.Permutation <> perm_trans constr
+R9167:9176 Coq.Sorting.Permutation <> perm_trans constr
+R9222:9236 Coq.Sorting.Permutation <> Permutation_nil thm
+R9222:9236 Coq.Sorting.Permutation <> Permutation_nil thm
+prf 9333:9341 BinomQueue tree_perm
+binder 9351:9351 <> t:103
+binder 9353:9354 <> e1:104
+binder 9356:9357 <> e2:105
+R9377:9380 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9362:9371 VFA.Binom BinomQueue tree_elems ind
+R9373:9373 VFA.Binom <> t:103 var
+R9375:9376 VFA.Binom <> e1:104 var
+R9396:9399 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9381:9390 VFA.Binom BinomQueue tree_elems ind
+R9392:9392 VFA.Binom <> t:103 var
+R9394:9395 VFA.Binom <> e2:105 var
+R9400:9410 Coq.Sorting.Permutation <> Permutation ind
+R9415:9416 VFA.Binom <> e2:105 var
+R9412:9413 VFA.Binom <> e1:104 var
+prf 9666:9683 BinomQueue priqueue_elems_ext
+binder 9693:9693 <> q:106
+binder 9695:9696 <> e1:107
+binder 9698:9699 <> e2:108
+R9721:9724 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9704:9714 Coq.Sorting.Permutation <> Permutation ind
+R9719:9720 VFA.Binom <> e2:108 var
+R9716:9717 VFA.Binom <> e1:107 var
+R9744:9747 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9725:9738 VFA.Binom BinomQueue priqueue_elems ind
+R9740:9740 VFA.Binom <> q:106 var
+R9742:9743 VFA.Binom <> e1:107 var
+R9748:9761 VFA.Binom BinomQueue priqueue_elems ind
+R9763:9763 VFA.Binom <> q:106 var
+R9765:9766 VFA.Binom <> e2:108 var
+R9813:9827 Coq.Sorting.Permutation <> Permutation_nil thm
+R9813:9827 Coq.Sorting.Permutation <> Permutation_nil thm
+R9848:9865 VFA.Binom BinomQueue priqueue_elems_nil constr
+R9848:9865 VFA.Binom BinomQueue priqueue_elems_nil constr
+R9884:9902 VFA.Binom BinomQueue priqueue_elems_cons constr
+R9884:9902 VFA.Binom BinomQueue priqueue_elems_cons constr
+R9932:9946 Coq.Sorting.Permutation <> Permutation_sym thm
+R9932:9946 Coq.Sorting.Permutation <> Permutation_sym thm
+R9963:9979 Coq.Sorting.Permutation <> Permutation_trans thm
+R9963:9979 Coq.Sorting.Permutation <> Permutation_trans thm
+prf 10061:10068 BinomQueue abs_perm
+binder 10078:10078 <> p:109
+binder 10080:10081 <> al:110
+binder 10083:10084 <> bl:111
+R10096:10099 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10090:10093 VFA.Binom BinomQueue priq def
+R10095:10095 VFA.Binom <> p:109 var
+R10108:10111 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10100:10102 VFA.Binom BinomQueue Abs def
+R10104:10104 VFA.Binom <> p:109 var
+R10106:10107 VFA.Binom <> al:110 var
+R10120:10123 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10112:10114 VFA.Binom BinomQueue Abs def
+R10116:10116 VFA.Binom <> p:109 var
+R10118:10119 VFA.Binom <> bl:111 var
+R10124:10134 Coq.Sorting.Permutation <> Permutation ind
+R10139:10140 VFA.Binom <> bl:111 var
+R10136:10137 VFA.Binom <> al:110 var
+prf 10249:10263 BinomQueue tree_can_relate
+binder 10273:10273 <> t:112
+R10276:10282 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R10285:10286 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 10283:10284 <> al:113
+R10287:10296 VFA.Binom BinomQueue tree_elems ind
+R10298:10298 VFA.Binom <> t:112 var
+R10300:10301 VFA.Binom <> al:113 var
+R10363:10364 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R10366:10367 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R10363:10364 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R10366:10367 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R10379:10393 VFA.Binom BinomQueue tree_elems_node constr
+R10379:10393 VFA.Binom BinomQueue tree_elems_node constr
+R10421:10422 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R10421:10422 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+prf 10452:10461 BinomQueue can_relate
+binder 10472:10472 <> p:114
+R10481:10484 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10475:10478 VFA.Binom BinomQueue priq def
+R10480:10480 VFA.Binom <> p:114 var
+R10485:10491 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R10494:10495 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 10492:10493 <> al:115
+R10496:10498 VFA.Binom BinomQueue Abs def
+R10500:10500 VFA.Binom <> p:114 var
+R10502:10503 VFA.Binom <> al:115 var
+prf 10749:10760 BinomQueue empty_relate
+R10764:10766 VFA.Binom BinomQueue Abs def
+R10768:10772 VFA.Binom BinomQueue empty def
+R10774:10776 Coq.Init.Datatypes <> nil constr
+prf 10911:10921 BinomQueue smash_elems
+binder 10931:10931 <> n:116
+binder 10933:10933 <> t:117
+binder 10935:10935 <> u:118
+binder 10937:10938 <> bt:119
+binder 10940:10941 <> bu:120
+R10977:10980 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10965:10972 VFA.Binom BinomQueue pow2heap def
+R10974:10974 VFA.Binom <> n:116 var
+R10976:10976 VFA.Binom <> t:117 var
+R10993:11017 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10981:10988 VFA.Binom BinomQueue pow2heap def
+R10990:10990 VFA.Binom <> n:116 var
+R10992:10992 VFA.Binom <> u:118 var
+R11033:11036 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11018:11027 VFA.Binom BinomQueue tree_elems ind
+R11029:11029 VFA.Binom <> t:117 var
+R11031:11032 VFA.Binom <> bt:119 var
+R11052:11076 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11037:11046 VFA.Binom BinomQueue tree_elems ind
+R11048:11048 VFA.Binom <> u:118 var
+R11050:11051 VFA.Binom <> bu:120 var
+R11077:11086 VFA.Binom BinomQueue tree_elems ind
+R11089:11093 VFA.Binom BinomQueue smash def
+R11095:11095 VFA.Binom <> t:117 var
+R11097:11097 VFA.Binom <> u:118 var
+R11103:11106 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R11101:11102 VFA.Binom <> bt:119 var
+R11107:11108 VFA.Binom <> bu:120 var
+prf 11407:11417 BinomQueue carry_elems
+binder 11433:11433 <> n:121
+binder 11435:11435 <> q:122
+R11448:11457 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11439:11443 VFA.Binom BinomQueue priq' def
+R11445:11445 VFA.Binom <> n:121 var
+R11447:11447 VFA.Binom <> q:122 var
+binder 11465:11465 <> t:123
+R11468:11468 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11491:11501 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11475:11478 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R11470:11470 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11469:11469 VFA.Binom <> t:123 var
+R11471:11474 VFA.Binom BinomQueue Leaf constr
+R11479:11486 VFA.Binom BinomQueue pow2heap def
+R11488:11488 VFA.Binom <> n:121 var
+R11490:11490 VFA.Binom <> t:123 var
+binder 11509:11510 <> eq:124
+binder 11512:11513 <> et:125
+R11535:11564 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11516:11529 VFA.Binom BinomQueue priqueue_elems ind
+R11531:11531 VFA.Binom <> q:122 var
+R11533:11534 VFA.Binom <> eq:124 var
+R11580:11609 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11565:11574 VFA.Binom BinomQueue tree_elems ind
+R11576:11576 VFA.Binom <> t:123 var
+R11578:11579 VFA.Binom <> et:125 var
+R11610:11623 VFA.Binom BinomQueue priqueue_elems ind
+R11626:11630 VFA.Binom BinomQueue carry def
+R11632:11632 VFA.Binom <> q:122 var
+R11634:11634 VFA.Binom <> t:123 var
+R11640:11641 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R11638:11639 VFA.Binom <> eq:124 var
+R11642:11643 VFA.Binom <> et:125 var
+prf 11760:11772 BinomQueue insert_relate
+binder 11790:11790 <> p:126
+binder 11792:11793 <> al:127
+binder 11795:11795 <> k:128
+R11804:11807 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11798:11801 VFA.Binom BinomQueue priq def
+R11803:11803 VFA.Binom <> p:126 var
+R11816:11819 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11808:11810 VFA.Binom BinomQueue Abs def
+R11812:11812 VFA.Binom <> p:126 var
+R11814:11815 VFA.Binom <> al:127 var
+R11820:11822 VFA.Binom BinomQueue Abs def
+R11825:11830 VFA.Binom BinomQueue insert def
+R11832:11832 VFA.Binom <> k:128 var
+R11834:11834 VFA.Binom <> p:126 var
+R11839:11840 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R11838:11838 VFA.Binom <> k:128 var
+R11841:11842 VFA.Binom <> al:127 var
+prf 11957:11966 BinomQueue join_elems
+binder 11992:11992 <> p:129
+binder 11994:11994 <> q:130
+binder 11996:11996 <> c:131
+binder 11998:11998 <> n:132
+R12032:12057 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12023:12027 VFA.Binom BinomQueue priq' def
+R12029:12029 VFA.Binom <> n:132 var
+R12031:12031 VFA.Binom <> p:129 var
+R12067:12092 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12058:12062 VFA.Binom BinomQueue priq' def
+R12064:12064 VFA.Binom <> n:132 var
+R12066:12066 VFA.Binom <> q:130 var
+R12093:12093 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12116:12138 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12100:12103 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R12095:12095 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R12094:12094 VFA.Binom <> c:131 var
+R12096:12099 VFA.Binom BinomQueue Leaf constr
+R12104:12111 VFA.Binom BinomQueue pow2heap def
+R12113:12113 VFA.Binom <> n:132 var
+R12115:12115 VFA.Binom <> c:131 var
+binder 12146:12147 <> pe:133
+binder 12149:12150 <> qe:134
+binder 12152:12153 <> ce:135
+R12204:12236 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12185:12198 VFA.Binom BinomQueue priqueue_elems ind
+R12200:12200 VFA.Binom <> p:129 var
+R12202:12203 VFA.Binom <> pe:133 var
+R12256:12288 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12237:12250 VFA.Binom BinomQueue priqueue_elems ind
+R12252:12252 VFA.Binom <> q:130 var
+R12254:12255 VFA.Binom <> qe:134 var
+R12304:12337 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12289:12298 VFA.Binom BinomQueue tree_elems ind
+R12300:12300 VFA.Binom <> c:131 var
+R12302:12303 VFA.Binom <> ce:135 var
+R12338:12351 VFA.Binom BinomQueue priqueue_elems ind
+R12354:12357 VFA.Binom BinomQueue join def
+R12359:12359 VFA.Binom <> p:129 var
+R12361:12361 VFA.Binom <> q:130 var
+R12363:12363 VFA.Binom <> c:131 var
+R12369:12370 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R12367:12368 VFA.Binom <> ce:135 var
+R12373:12374 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R12371:12372 VFA.Binom <> pe:133 var
+R12375:12376 VFA.Binom <> qe:134 var
+prf 12493:12504 BinomQueue merge_relate
+binder 12518:12518 <> p:136
+binder 12520:12520 <> q:137
+binder 12522:12523 <> pl:138
+binder 12525:12526 <> ql:139
+binder 12528:12529 <> al:140
+R12545:12548 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12539:12542 VFA.Binom BinomQueue priq def
+R12544:12544 VFA.Binom <> p:136 var
+R12555:12565 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12549:12552 VFA.Binom BinomQueue priq def
+R12554:12554 VFA.Binom <> q:137 var
+R12574:12577 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12566:12568 VFA.Binom BinomQueue Abs def
+R12570:12570 VFA.Binom <> p:136 var
+R12572:12573 VFA.Binom <> pl:138 var
+R12586:12589 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12578:12580 VFA.Binom BinomQueue Abs def
+R12582:12582 VFA.Binom <> q:137 var
+R12584:12585 VFA.Binom <> ql:139 var
+R12608:12618 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12590:12592 VFA.Binom BinomQueue Abs def
+R12595:12599 VFA.Binom BinomQueue merge def
+R12601:12601 VFA.Binom <> p:136 var
+R12603:12603 VFA.Binom <> q:137 var
+R12606:12607 VFA.Binom <> al:140 var
+R12619:12629 Coq.Sorting.Permutation <> Permutation ind
+R12637:12638 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R12635:12636 VFA.Binom <> pl:138 var
+R12639:12640 VFA.Binom <> ql:139 var
+R12631:12632 VFA.Binom <> al:140 var
+prf 12774:12795 BinomQueue delete_max_None_relate
+binder 12813:12813 <> p:141
+R12822:12826 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12860:12860 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12816:12819 VFA.Binom BinomQueue priq def
+R12821:12821 VFA.Binom <> p:141 var
+R12836:12840 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R12827:12829 VFA.Binom BinomQueue Abs def
+R12831:12831 VFA.Binom <> p:141 var
+R12833:12835 Coq.Init.Datatypes <> nil constr
+R12853:12855 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R12841:12850 VFA.Binom BinomQueue delete_max def
+R12852:12852 VFA.Binom <> p:141 var
+R12856:12859 Coq.Init.Datatypes <> None constr
+prf 12986:13007 BinomQueue delete_max_Some_relate
+R13025:13032 VFA.Binom BinomQueue priqueue def
+binder 13020:13020 <> p:142
+binder 13022:13022 <> q:143
+binder 13035:13035 <> k:144
+R13045:13048 Coq.Init.Datatypes <> list ind
+R13050:13052 VFA.Binom BinomQueue key def
+binder 13038:13039 <> pl:145
+binder 13041:13042 <> ql:146
+R13062:13068 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13056:13059 VFA.Binom BinomQueue priq def
+R13061:13061 VFA.Binom <> p:142 var
+R13077:13083 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13069:13071 VFA.Binom BinomQueue Abs def
+R13073:13073 VFA.Binom <> p:142 var
+R13075:13076 VFA.Binom <> pl:145 var
+R13109:13115 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13096:13098 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R13084:13093 VFA.Binom BinomQueue delete_max def
+R13095:13095 VFA.Binom <> p:142 var
+R13099:13102 Coq.Init.Datatypes <> Some constr
+R13104:13104 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R13106:13106 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R13108:13108 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R13105:13105 VFA.Binom <> k:144 var
+R13107:13107 VFA.Binom <> q:143 var
+R13124:13130 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13116:13118 VFA.Binom BinomQueue Abs def
+R13120:13120 VFA.Binom <> q:143 var
+R13122:13123 VFA.Binom <> ql:146 var
+R13153:13156 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R13131:13141 Coq.Sorting.Permutation <> Permutation ind
+R13148:13149 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R13147:13147 VFA.Binom <> k:144 var
+R13150:13151 VFA.Binom <> ql:146 var
+R13143:13144 VFA.Binom <> pl:145 var
+R13157:13162 Coq.Lists.List <> Forall ind
+R13171:13172 VFA.Binom <> ql:146 var
+R13165:13166 Coq.Init.Peano <> ge def
+R13168:13168 VFA.Binom <> k:144 var
+R13465:13474 VFA.Binom BinomQueue <> mod

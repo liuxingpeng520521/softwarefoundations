@@ -1,0 +1,1034 @@
+DIGEST 6b2873c53620e8826e897b4726e9612b
+FVFA.Trie
+R3301:3314 Coq.Strings.String <> <> lib
+R3367:3372 Coq.ZArith.ZArith <> <> lib
+R3399:3404 Coq.PArith.PArith <> <> lib
+R3431:3434 VFA.Perm <> <> lib
+R3461:3464 VFA.Maps <> <> lib
+R3474:3497 Coq.Logic.FunctionalExtensionality <> <> mod
+mod 3508:3515 <> VerySlow
+def 3528:3531 VerySlow loop
+R3541:3544 Coq.Init.Datatypes <> list ind
+R3546:3548 Coq.Init.Datatypes <> nat ind
+binder 3534:3538 <> input:1
+R3555:3557 Coq.Init.Datatypes <> nat ind
+binder 3552:3552 <> c:2
+R3568:3576 VFA.Maps <> total_map def
+R3578:3581 Coq.Init.Datatypes <> bool ind
+binder 3561:3565 <> table:3
+R3586:3588 Coq.Init.Datatypes <> nat ind
+R3601:3605 VFA.Trie <> input:1 var
+R3616:3618 Coq.Init.Datatypes <> nil constr
+R3623:3623 VFA.Trie <> c:2 var
+R3630:3631 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R3641:3645 VFA.Trie <> table:3 var
+R3715:3718 VFA.Trie <> loop:4 def
+R3726:3733 VFA.Maps <> t_update def
+R3743:3746 Coq.Init.Datatypes <> true constr
+R3735:3739 VFA.Trie <> table:3 var
+R3723:3723 VFA.Trie <> c:2 var
+R3672:3675 VFA.Trie <> loop:4 def
+R3686:3690 VFA.Trie <> table:3 var
+R3682:3682 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R3681:3681 VFA.Trie <> c:2 var
+def 3767:3776 VerySlow collisions
+R3786:3789 Coq.Init.Datatypes <> list ind
+R3791:3793 Coq.Init.Datatypes <> nat ind
+binder 3779:3783 <> input:6
+R3798:3800 Coq.Init.Datatypes <> nat ind
+R3812:3815 VFA.Trie VerySlow loop def
+R3817:3821 VFA.Trie <> input:6 var
+R3826:3832 VFA.Maps <> t_empty def
+R3834:3838 Coq.Init.Datatypes <> false constr
+def 3851:3863 VerySlow collisions_pi
+R3894:3896 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3866:3875 VFA.Trie VerySlow collisions def
+R3877:3877 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R3879:3879 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R3881:3881 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R3883:3883 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R3885:3885 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R3887:3887 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R3889:3889 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R3891:3891 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R3893:3893 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R4705:4707 Coq.Bool.Bool <> eqb def
+R5031:5038 VFA.Trie VerySlow <> mod
+mod 5478:5485 <> Integers
+ind 5539:5546 Integers positive
+constr 5561:5562 Integers xI
+constr 5591:5592 Integers xO
+constr 5621:5622 Integers xH
+R5574:5577 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5566:5573 VFA.Trie <> positive:7 ind
+R5578:5585 VFA.Trie <> positive:7 ind
+R5604:5607 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5596:5603 VFA.Trie <> positive:7 ind
+R5608:5615 VFA.Trie <> positive:7 ind
+R5626:5633 VFA.Trie <> positive:7 ind
+def 5820:5822 Integers ten
+R5827:5828 VFA.Trie Integers xO constr
+R5831:5832 VFA.Trie Integers xI constr
+R5835:5836 VFA.Trie Integers xO constr
+R5838:5839 VFA.Trie Integers xH constr
+def 5907:5918 Integers positive2nat
+R5924:5931 VFA.Trie Integers positive ind
+binder 5921:5921 <> p:9
+R5936:5938 Coq.Init.Datatypes <> nat ind
+R5951:5951 VFA.Trie <> p:9 var
+R5962:5963 VFA.Trie Integers xI constr
+R5971:5973 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R5975:5977 Coq.Init.Peano <> ::nat_scope:x_'*'_x not
+R5978:5989 VFA.Trie <> positive2nat:10 def
+R5997:5998 VFA.Trie Integers xO constr
+R6006:6008 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R6010:6012 Coq.Init.Peano <> ::nat_scope:x_'*'_x not
+R6013:6024 VFA.Trie <> positive2nat:10 def
+R6032:6033 VFA.Trie Integers xH constr
+R6063:6074 VFA.Trie Integers positive2nat def
+R6076:6078 VFA.Trie Integers ten def
+def 6278:6292 Integers print_in_binary
+R6298:6305 VFA.Trie Integers positive ind
+binder 6295:6295 <> p:12
+R6310:6313 Coq.Init.Datatypes <> list ind
+R6315:6317 Coq.Init.Datatypes <> nat ind
+R6330:6330 VFA.Trie <> p:12 var
+R6341:6342 VFA.Trie Integers xI constr
+R6366:6369 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R6349:6363 VFA.Trie <> print_in_binary:13 def
+R6370:6370 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R6372:6372 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R6378:6379 VFA.Trie Integers xO constr
+R6402:6405 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R6385:6399 VFA.Trie <> print_in_binary:13 def
+R6406:6406 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R6408:6408 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R6414:6415 VFA.Trie Integers xH constr
+R6420:6420 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R6422:6422 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R6447:6461 VFA.Trie Integers print_in_binary def
+R6463:6465 VFA.Trie Integers ten def
+R6634:6635 VFA.Trie Integers xI constr
+not 6622:6622 Integers :::x_'~'_'1'
+R6716:6717 VFA.Trie Integers xO constr
+not 6704:6704 Integers :::x_'~'_'0'
+R6784:6786 VFA.Trie Integers ten def
+def 7464:7467 Integers succ
+binder 7469:7469 <> x:15
+R7482:7482 VFA.Trie <> x:15 var
+R7496:7497 VFA.Trie Integers :::x_'~'_'1' not
+R7502:7502 VFA.Trie Integers :::x_'~'_'0' not
+R7509:7511 VFA.Trie Integers :::x_'~'_'0' not
+R7503:7506 VFA.Trie <> succ:16 def
+R7520:7521 VFA.Trie Integers :::x_'~'_'0' not
+R7527:7528 VFA.Trie Integers :::x_'~'_'1' not
+R7536:7537 VFA.Trie Integers xH constr
+R7544:7545 VFA.Trie Integers :::x_'~'_'0' not
+R7542:7543 VFA.Trie Integers xH constr
+def 7665:7668 Integers addc
+R7678:7681 Coq.Init.Datatypes <> bool ind
+binder 7671:7675 <> carry:18
+R7690:7697 VFA.Trie Integers positive ind
+binder 7685:7685 <> x:19
+binder 7687:7687 <> y:20
+R7713:7720 VFA.Trie Integers positive ind
+R7743:7743 VFA.Trie <> y:20 var
+R7740:7740 VFA.Trie <> x:19 var
+R7733:7737 VFA.Trie <> carry:18 var
+R7756:7760 Coq.Init.Datatypes <> false constr
+R7764:7765 VFA.Trie Integers :::x_'~'_'1' not
+R7769:7770 VFA.Trie Integers :::x_'~'_'1' not
+R7775:7775 VFA.Trie Integers :::x_'~'_'0' not
+R7789:7791 VFA.Trie Integers :::x_'~'_'0' not
+R7776:7779 VFA.Trie <> addc:21 def
+R7781:7784 Coq.Init.Datatypes <> true constr
+R7799:7803 Coq.Init.Datatypes <> false constr
+R7807:7808 VFA.Trie Integers :::x_'~'_'1' not
+R7812:7813 VFA.Trie Integers :::x_'~'_'0' not
+R7818:7818 VFA.Trie Integers :::x_'~'_'1' not
+R7833:7835 VFA.Trie Integers :::x_'~'_'1' not
+R7819:7822 VFA.Trie <> addc:21 def
+R7824:7828 Coq.Init.Datatypes <> false constr
+R7843:7847 Coq.Init.Datatypes <> false constr
+R7851:7852 VFA.Trie Integers :::x_'~'_'1' not
+R7855:7856 VFA.Trie Integers xH constr
+R7861:7861 VFA.Trie Integers :::x_'~'_'0' not
+R7868:7870 VFA.Trie Integers :::x_'~'_'0' not
+R7862:7865 VFA.Trie Integers succ def
+R7878:7882 Coq.Init.Datatypes <> false constr
+R7886:7887 VFA.Trie Integers :::x_'~'_'0' not
+R7891:7892 VFA.Trie Integers :::x_'~'_'1' not
+R7897:7897 VFA.Trie Integers :::x_'~'_'1' not
+R7912:7914 VFA.Trie Integers :::x_'~'_'1' not
+R7898:7901 VFA.Trie <> addc:21 def
+R7903:7907 Coq.Init.Datatypes <> false constr
+R7922:7926 Coq.Init.Datatypes <> false constr
+R7930:7931 VFA.Trie Integers :::x_'~'_'0' not
+R7935:7936 VFA.Trie Integers :::x_'~'_'0' not
+R7941:7941 VFA.Trie Integers :::x_'~'_'0' not
+R7956:7958 VFA.Trie Integers :::x_'~'_'0' not
+R7942:7945 VFA.Trie <> addc:21 def
+R7947:7951 Coq.Init.Datatypes <> false constr
+R7966:7970 Coq.Init.Datatypes <> false constr
+R7974:7975 VFA.Trie Integers :::x_'~'_'0' not
+R7978:7979 VFA.Trie Integers xH constr
+R7985:7986 VFA.Trie Integers :::x_'~'_'1' not
+R7994:7998 Coq.Init.Datatypes <> false constr
+R8001:8002 VFA.Trie Integers xH constr
+R8006:8007 VFA.Trie Integers :::x_'~'_'1' not
+R8012:8012 VFA.Trie Integers :::x_'~'_'0' not
+R8019:8021 VFA.Trie Integers :::x_'~'_'0' not
+R8013:8016 VFA.Trie Integers succ def
+R8029:8033 Coq.Init.Datatypes <> false constr
+R8036:8037 VFA.Trie Integers xH constr
+R8041:8042 VFA.Trie Integers :::x_'~'_'0' not
+R8048:8049 VFA.Trie Integers :::x_'~'_'1' not
+R8057:8061 Coq.Init.Datatypes <> false constr
+R8064:8065 VFA.Trie Integers xH constr
+R8068:8069 VFA.Trie Integers xH constr
+R8076:8077 VFA.Trie Integers :::x_'~'_'0' not
+R8074:8075 VFA.Trie Integers xH constr
+R8085:8088 Coq.Init.Datatypes <> true constr
+R8092:8093 VFA.Trie Integers :::x_'~'_'1' not
+R8097:8098 VFA.Trie Integers :::x_'~'_'1' not
+R8103:8103 VFA.Trie Integers :::x_'~'_'1' not
+R8117:8119 VFA.Trie Integers :::x_'~'_'1' not
+R8104:8107 VFA.Trie <> addc:21 def
+R8109:8112 Coq.Init.Datatypes <> true constr
+R8127:8130 Coq.Init.Datatypes <> true constr
+R8134:8135 VFA.Trie Integers :::x_'~'_'1' not
+R8139:8140 VFA.Trie Integers :::x_'~'_'0' not
+R8145:8145 VFA.Trie Integers :::x_'~'_'0' not
+R8159:8161 VFA.Trie Integers :::x_'~'_'0' not
+R8146:8149 VFA.Trie <> addc:21 def
+R8151:8154 Coq.Init.Datatypes <> true constr
+R8169:8172 Coq.Init.Datatypes <> true constr
+R8176:8177 VFA.Trie Integers :::x_'~'_'1' not
+R8180:8181 VFA.Trie Integers xH constr
+R8186:8186 VFA.Trie Integers :::x_'~'_'1' not
+R8193:8195 VFA.Trie Integers :::x_'~'_'1' not
+R8187:8190 VFA.Trie Integers succ def
+R8203:8206 Coq.Init.Datatypes <> true constr
+R8210:8211 VFA.Trie Integers :::x_'~'_'0' not
+R8215:8216 VFA.Trie Integers :::x_'~'_'1' not
+R8221:8221 VFA.Trie Integers :::x_'~'_'0' not
+R8235:8237 VFA.Trie Integers :::x_'~'_'0' not
+R8222:8225 VFA.Trie <> addc:21 def
+R8227:8230 Coq.Init.Datatypes <> true constr
+R8245:8248 Coq.Init.Datatypes <> true constr
+R8252:8253 VFA.Trie Integers :::x_'~'_'0' not
+R8257:8258 VFA.Trie Integers :::x_'~'_'0' not
+R8263:8263 VFA.Trie Integers :::x_'~'_'1' not
+R8278:8280 VFA.Trie Integers :::x_'~'_'1' not
+R8264:8267 VFA.Trie <> addc:21 def
+R8269:8273 Coq.Init.Datatypes <> false constr
+R8288:8291 Coq.Init.Datatypes <> true constr
+R8295:8296 VFA.Trie Integers :::x_'~'_'0' not
+R8299:8300 VFA.Trie Integers xH constr
+R8305:8305 VFA.Trie Integers :::x_'~'_'0' not
+R8312:8314 VFA.Trie Integers :::x_'~'_'0' not
+R8306:8309 VFA.Trie Integers succ def
+R8322:8325 Coq.Init.Datatypes <> true constr
+R8328:8329 VFA.Trie Integers xH constr
+R8333:8334 VFA.Trie Integers :::x_'~'_'1' not
+R8339:8339 VFA.Trie Integers :::x_'~'_'1' not
+R8346:8348 VFA.Trie Integers :::x_'~'_'1' not
+R8340:8343 VFA.Trie Integers succ def
+R8356:8359 Coq.Init.Datatypes <> true constr
+R8362:8363 VFA.Trie Integers xH constr
+R8367:8368 VFA.Trie Integers :::x_'~'_'0' not
+R8373:8373 VFA.Trie Integers :::x_'~'_'0' not
+R8380:8382 VFA.Trie Integers :::x_'~'_'0' not
+R8374:8377 VFA.Trie Integers succ def
+R8390:8393 Coq.Init.Datatypes <> true constr
+R8396:8397 VFA.Trie Integers xH constr
+R8400:8401 VFA.Trie Integers xH constr
+R8408:8409 VFA.Trie Integers :::x_'~'_'1' not
+R8406:8407 VFA.Trie Integers xH constr
+def 8430:8432 Integers add
+R8440:8447 VFA.Trie Integers positive ind
+binder 8435:8435 <> x:25
+binder 8437:8437 <> y:26
+R8452:8459 VFA.Trie Integers positive ind
+R8464:8467 VFA.Trie Integers addc def
+R8469:8473 Coq.Init.Datatypes <> false constr
+R8475:8475 VFA.Trie <> x:25 var
+R8477:8477 VFA.Trie <> y:26 var
+prf 8542:8553 Integers succ_correct
+binder 8563:8563 <> p:27
+R8590:8592 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8569:8580 VFA.Trie Integers positive2nat def
+R8583:8586 VFA.Trie Integers succ def
+R8588:8588 VFA.Trie <> p:27 var
+R8593:8593 Coq.Init.Datatypes <> S constr
+R8596:8607 VFA.Trie Integers positive2nat def
+R8609:8609 VFA.Trie <> p:27 var
+prf 9259:9270 Integers addc_correct
+R9284:9287 Coq.Init.Datatypes <> bool ind
+binder 9281:9281 <> c:28
+R9296:9303 VFA.Trie Integers positive ind
+binder 9291:9291 <> p:29
+binder 9293:9293 <> q:30
+R9335:9345 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9310:9321 VFA.Trie Integers positive2nat def
+R9324:9327 VFA.Trie Integers addc def
+R9329:9329 VFA.Trie <> c:28 var
+R9331:9331 VFA.Trie <> p:29 var
+R9333:9333 VFA.Trie <> q:30 var
+R9383:9385 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R9346:9346 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R9365:9368 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R9350:9350 VFA.Trie <> c:28 var
+R9369:9380 VFA.Trie Integers positive2nat def
+R9382:9382 VFA.Trie <> p:29 var
+R9386:9397 VFA.Trie Integers positive2nat def
+R9399:9399 VFA.Trie <> q:30 var
+R9528:9539 VFA.Trie Integers succ_correct thm
+R9528:9539 VFA.Trie Integers succ_correct thm
+R9528:9539 VFA.Trie Integers succ_correct thm
+R9561:9572 VFA.Trie Integers succ_correct thm
+R9561:9572 VFA.Trie Integers succ_correct thm
+R9561:9572 VFA.Trie Integers succ_correct thm
+R9643:9654 VFA.Trie Integers succ_correct thm
+R9643:9654 VFA.Trie Integers succ_correct thm
+R9643:9654 VFA.Trie Integers succ_correct thm
+R9711:9722 VFA.Trie Integers succ_correct thm
+R9711:9722 VFA.Trie Integers succ_correct thm
+R9711:9722 VFA.Trie Integers succ_correct thm
+R9711:9722 VFA.Trie Integers succ_correct thm
+R9711:9722 VFA.Trie Integers succ_correct thm
+R9711:9722 VFA.Trie Integers succ_correct thm
+R9711:9722 VFA.Trie Integers succ_correct thm
+R9711:9722 VFA.Trie Integers succ_correct thm
+R9711:9722 VFA.Trie Integers succ_correct thm
+R9711:9722 VFA.Trie Integers succ_correct thm
+prf 9763:9773 Integers add_correct
+R9789:9796 VFA.Trie Integers positive ind
+binder 9784:9784 <> p:31
+binder 9786:9786 <> q:32
+R9825:9827 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9803:9814 VFA.Trie Integers positive2nat def
+R9817:9819 VFA.Trie Integers add def
+R9821:9821 VFA.Trie <> p:31 var
+R9823:9823 VFA.Trie <> q:32 var
+R9842:9844 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R9828:9839 VFA.Trie Integers positive2nat def
+R9841:9841 VFA.Trie <> p:31 var
+R9845:9856 VFA.Trie Integers positive2nat def
+R9858:9858 VFA.Trie <> q:32 var
+R9883:9885 VFA.Trie Integers add def
+R9894:9905 VFA.Trie Integers addc_correct thm
+R9894:9905 VFA.Trie Integers addc_correct thm
+ind 10870:10879 Integers comparison
+constr 10894:10895 Integers Eq
+constr 10912:10913 Integers Lt
+constr 10930:10931 Integers Gt
+R10899:10908 VFA.Trie <> comparison:33 ind
+R10917:10926 VFA.Trie <> comparison:33 ind
+R10935:10944 VFA.Trie <> comparison:33 ind
+def 11015:11021 Integers compare
+binder 11023:11023 <> x:35
+binder 11025:11025 <> y:36
+R11051:11051 VFA.Trie <> y:36 var
+R11048:11048 VFA.Trie <> x:35 var
+R11065:11066 VFA.Trie Integers :::x_'~'_'1' not
+R11070:11071 VFA.Trie Integers :::x_'~'_'1' not
+R11076:11082 VFA.Trie <> compare:37 def
+R11095:11096 VFA.Trie Integers :::x_'~'_'1' not
+R11100:11101 VFA.Trie Integers :::x_'~'_'0' not
+R11112:11118 VFA.Trie <> compare:37 def
+R11129:11130 VFA.Trie Integers Lt constr
+R11135:11136 VFA.Trie Integers Lt constr
+R11145:11146 VFA.Trie Integers Gt constr
+R11159:11160 VFA.Trie Integers :::x_'~'_'1' not
+R11163:11164 VFA.Trie Integers xH constr
+R11169:11170 VFA.Trie Integers Gt constr
+R11179:11180 VFA.Trie Integers :::x_'~'_'0' not
+R11184:11185 VFA.Trie Integers :::x_'~'_'1' not
+R11196:11202 VFA.Trie <> compare:37 def
+R11213:11214 VFA.Trie Integers Gt constr
+R11219:11220 VFA.Trie Integers Gt constr
+R11229:11230 VFA.Trie Integers Lt constr
+R11243:11244 VFA.Trie Integers :::x_'~'_'0' not
+R11248:11249 VFA.Trie Integers :::x_'~'_'0' not
+R11254:11260 VFA.Trie <> compare:37 def
+R11273:11274 VFA.Trie Integers :::x_'~'_'0' not
+R11277:11278 VFA.Trie Integers xH constr
+R11283:11284 VFA.Trie Integers Gt constr
+R11292:11293 VFA.Trie Integers xH constr
+R11297:11298 VFA.Trie Integers :::x_'~'_'1' not
+R11303:11304 VFA.Trie Integers Lt constr
+R11312:11313 VFA.Trie Integers xH constr
+R11317:11318 VFA.Trie Integers :::x_'~'_'0' not
+R11323:11324 VFA.Trie Integers Lt constr
+R11332:11333 VFA.Trie Integers xH constr
+R11336:11337 VFA.Trie Integers xH constr
+R11342:11343 VFA.Trie Integers Eq constr
+prf 11359:11374 Integers positive2nat_pos
+binder 11385:11385 <> p:40
+R11402:11404 Coq.Init.Peano <> ::nat_scope:x_'>'_x not
+R11388:11399 VFA.Trie Integers positive2nat def
+R11401:11401 VFA.Trie <> p:40 var
+prf 11462:11476 Integers compare_correct
+binder 11487:11487 <> x:41
+binder 11489:11489 <> y:42
+R11500:11506 VFA.Trie Integers compare def
+R11508:11508 VFA.Trie <> x:41 var
+R11510:11510 VFA.Trie <> y:42 var
+R11521:11522 VFA.Trie Integers Lt constr
+R11541:11543 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R11527:11538 VFA.Trie Integers positive2nat def
+R11540:11540 VFA.Trie <> x:41 var
+R11544:11555 VFA.Trie Integers positive2nat def
+R11557:11557 VFA.Trie <> y:42 var
+R11563:11564 VFA.Trie Integers Eq constr
+R11583:11585 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11569:11580 VFA.Trie Integers positive2nat def
+R11582:11582 VFA.Trie <> x:41 var
+R11586:11597 VFA.Trie Integers positive2nat def
+R11599:11599 VFA.Trie <> y:42 var
+R11605:11606 VFA.Trie Integers Gt constr
+R11625:11627 Coq.Init.Peano <> ::nat_scope:x_'>'_x not
+R11611:11622 VFA.Trie Integers positive2nat def
+R11624:11624 VFA.Trie <> x:41 var
+R11628:11639 VFA.Trie Integers positive2nat def
+R11641:11641 VFA.Trie <> y:42 var
+R11725:11731 VFA.Trie Integers compare def
+R11725:11731 VFA.Trie Integers compare def
+R11784:11790 VFA.Trie Integers compare def
+R11784:11790 VFA.Trie Integers compare def
+R11819:11834 VFA.Trie Integers positive2nat_pos thm
+R11819:11834 VFA.Trie Integers positive2nat_pos thm
+R11879:11885 VFA.Trie Integers compare def
+R11879:11885 VFA.Trie Integers compare def
+R11938:11944 VFA.Trie Integers compare def
+R11938:11944 VFA.Trie Integers compare def
+R11973:11988 VFA.Trie Integers positive2nat_pos thm
+R11973:11988 VFA.Trie Integers positive2nat_pos thm
+R12009:12024 VFA.Trie Integers positive2nat_pos thm
+R12009:12024 VFA.Trie Integers positive2nat_pos thm
+R12045:12060 VFA.Trie Integers positive2nat_pos thm
+R12045:12060 VFA.Trie Integers positive2nat_pos thm
+ind 12416:12416 Integers Z
+constr 12431:12432 Integers Z0
+constr 12442:12445 Integers Zpos
+constr 12467:12470 Integers Zneg
+R12436:12436 VFA.Trie <> Z:43 ind
+R12457:12460 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12449:12456 VFA.Trie Integers positive ind
+R12461:12461 VFA.Trie <> Z:43 ind
+R12482:12485 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12474:12481 VFA.Trie Integers positive ind
+R12486:12486 VFA.Trie <> Z:43 ind
+R12803:12810 VFA.Trie Integers <> mod
+R13046:13053 Coq.Numbers.BinNums <> positive ind
+R13210:13220 Coq.PArith.BinPos Pos compare def
+R13275:13281 Coq.PArith.BinPos Pos add def
+R13332:13336 Coq.ZArith.BinInt Z add def
+mod 13654:13663 <> RatherSlow
+def 13678:13687 RatherSlow total_mapz
+binder 13690:13690 <> A:45
+R13703:13706 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13702:13702 Coq.Numbers.BinNums <> Z ind
+R13707:13707 VFA.Trie <> A:45 var
+def 13722:13726 RatherSlow empty
+binder 13729:13729 <> A:46
+R13747:13747 VFA.Trie <> A:46 var
+binder 13738:13744 <> default:47
+R13752:13761 VFA.Trie RatherSlow total_mapz def
+R13763:13763 VFA.Trie <> A:46 var
+R13777:13783 VFA.Trie <> default:47 var
+def 13797:13802 RatherSlow update
+binder 13805:13805 <> A:48
+R13818:13827 VFA.Trie RatherSlow total_mapz def
+R13829:13829 VFA.Trie <> A:48 var
+binder 13814:13814 <> m:49
+R13857:13857 Coq.Numbers.BinNums <> Z ind
+binder 13853:13853 <> x:50
+R13865:13865 VFA.Trie <> A:48 var
+binder 13861:13861 <> v:51
+binder 13877:13878 <> x':52
+R13886:13890 Coq.ZArith.BinInt Z eqb def
+R13892:13892 VFA.Trie <> x:50 var
+R13894:13895 VFA.Trie <> x':52 var
+R13909:13909 VFA.Trie <> m:49 var
+R13911:13912 VFA.Trie <> x':52 var
+R13902:13902 VFA.Trie <> v:51 var
+def 13925:13928 RatherSlow loop
+R13938:13941 Coq.Init.Datatypes <> list ind
+R13943:13943 Coq.Numbers.BinNums <> Z ind
+binder 13931:13935 <> input:53
+R13950:13950 Coq.Numbers.BinNums <> Z ind
+binder 13947:13947 <> c:54
+R13961:13970 VFA.Trie RatherSlow total_mapz def
+R13972:13975 Coq.Init.Datatypes <> bool ind
+binder 13954:13958 <> table:55
+R13980:13980 Coq.Numbers.BinNums <> Z ind
+R13993:13997 VFA.Trie <> input:53 var
+R14008:14010 Coq.Init.Datatypes <> nil constr
+R14015:14015 VFA.Trie <> c:54 var
+R14022:14023 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R14033:14037 VFA.Trie <> table:55 var
+R14107:14110 VFA.Trie <> loop:56 def
+R14118:14123 VFA.Trie RatherSlow update def
+R14133:14136 Coq.Init.Datatypes <> true constr
+R14125:14129 VFA.Trie <> table:55 var
+R14115:14115 VFA.Trie <> c:54 var
+R14064:14067 VFA.Trie <> loop:56 def
+R14078:14082 VFA.Trie <> table:55 var
+R14074:14074 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R14073:14073 VFA.Trie <> c:54 var
+def 14157:14166 RatherSlow collisions
+R14176:14179 Coq.Init.Datatypes <> list ind
+R14181:14181 Coq.Numbers.BinNums <> Z ind
+binder 14169:14173 <> input:58
+R14187:14190 VFA.Trie RatherSlow loop def
+R14192:14196 VFA.Trie <> input:58 var
+R14201:14205 VFA.Trie RatherSlow empty def
+R14207:14211 Coq.Init.Datatypes <> false constr
+def 14224:14236 RatherSlow collisions_pi
+R14269:14271 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14239:14248 VFA.Trie RatherSlow collisions def
+R14250:14250 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R14252:14252 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R14254:14254 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R14256:14256 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R14258:14258 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R14260:14260 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R14262:14262 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R14264:14264 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R14266:14266 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R14307:14316 VFA.Trie RatherSlow <> mod
+R16016:16023 Coq.Numbers.BinNums <> positive ind
+def 16137:16172 <> Unnamed_thm
+R16155:16157 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R16158:16159 Coq.Numbers.BinNums <> xO constr
+R16162:16163 Coq.Numbers.BinNums <> xI constr
+R16166:16167 Coq.Numbers.BinNums <> xO constr
+R16169:16170 Coq.Numbers.BinNums <> xH constr
+ind 16474:16477 <> trie
+constr 16499:16502 <> Leaf
+constr 16519:16522 <> Node
+binder 16480:16480 <> A:59
+R16506:16509 VFA.Trie <> trie:60 ind
+R16511:16511 VFA.Trie <> A:59 var
+R16532:16535 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16526:16529 VFA.Trie <> trie:60 ind
+R16531:16531 VFA.Trie <> A:59 var
+R16537:16540 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16536:16536 VFA.Trie <> A:59 var
+R16547:16550 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16541:16544 VFA.Trie <> trie:60 ind
+R16546:16546 VFA.Trie <> A:59 var
+R16551:16554 VFA.Trie <> trie:60 ind
+R16556:16556 VFA.Trie <> A:59 var
+R16569:16572 VFA.Trie <> Leaf constr
+R16569:16572 VFA.Trie <> Leaf constr
+R16589:16592 VFA.Trie <> Node constr
+R16589:16592 VFA.Trie <> Node constr
+def 16617:16626 <> trie_table
+binder 16629:16629 <> A:62
+R16650:16652 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R16649:16649 VFA.Trie <> A:62 var
+R16653:16656 VFA.Trie <> trie ind
+R16658:16658 VFA.Trie <> A:62 var
+def 16679:16683 <> empty
+binder 16686:16686 <> A:63
+R16705:16705 VFA.Trie <> A:63 var
+binder 16696:16702 <> default:64
+R16710:16719 VFA.Trie <> trie_table def
+R16721:16721 VFA.Trie <> A:63 var
+R16732:16732 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R16740:16741 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R16746:16746 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R16733:16739 VFA.Trie <> default:64 var
+R16742:16745 VFA.Trie <> Leaf constr
+def 16759:16762 <> look
+binder 16765:16765 <> A:65
+R16784:16784 VFA.Trie <> A:65 var
+binder 16775:16781 <> default:66
+R16791:16798 Coq.Numbers.BinNums <> positive ind
+binder 16788:16788 <> i:67
+R16805:16808 VFA.Trie <> trie ind
+R16810:16810 VFA.Trie <> A:65 var
+binder 16802:16802 <> m:68
+R16814:16814 VFA.Trie <> A:65 var
+R16829:16829 VFA.Trie <> m:68 var
+R16842:16845 VFA.Trie <> Leaf constr
+R16850:16856 VFA.Trie <> default:66 var
+R16864:16867 VFA.Trie <> Node constr
+R16892:16892 VFA.Trie <> i:67 var
+R16909:16910 Coq.Numbers.BinNums <> xH constr
+R16927:16928 Coq.Numbers.BinNums <> xO constr
+R16936:16939 VFA.Trie <> look:69 def
+R16941:16947 VFA.Trie <> default:66 var
+R16964:16965 Coq.Numbers.BinNums <> xI constr
+R16973:16976 VFA.Trie <> look:69 def
+R16978:16984 VFA.Trie <> default:66 var
+def 17024:17029 <> lookup
+binder 17032:17032 <> A:72
+R17045:17052 Coq.Numbers.BinNums <> positive ind
+binder 17042:17042 <> i:73
+R17059:17068 VFA.Trie <> trie_table def
+R17070:17070 VFA.Trie <> A:72 var
+binder 17056:17056 <> t:74
+R17075:17075 VFA.Trie <> A:72 var
+R17083:17086 VFA.Trie <> look def
+R17099:17101 Coq.Init.Datatypes <> snd def
+R17103:17103 VFA.Trie <> t:74 var
+R17096:17096 VFA.Trie <> i:73 var
+R17089:17091 Coq.Init.Datatypes <> fst def
+R17093:17093 VFA.Trie <> t:74 var
+def 17117:17119 <> ins
+binder 17122:17122 <> A:75
+binder 17131:17137 <> default:76
+R17143:17150 Coq.Numbers.BinNums <> positive ind
+binder 17140:17140 <> i:77
+R17157:17157 VFA.Trie <> A:75 var
+binder 17154:17154 <> a:78
+R17164:17167 VFA.Trie <> trie ind
+R17169:17169 VFA.Trie <> A:75 var
+binder 17161:17161 <> m:79
+R17173:17176 VFA.Trie <> trie ind
+R17178:17178 VFA.Trie <> A:75 var
+R17193:17193 VFA.Trie <> m:79 var
+R17206:17209 VFA.Trie <> Leaf constr
+R17228:17228 VFA.Trie <> i:77 var
+R17245:17246 Coq.Numbers.BinNums <> xH constr
+R17251:17254 VFA.Trie <> Node constr
+R17263:17266 VFA.Trie <> Leaf constr
+R17261:17261 VFA.Trie <> a:78 var
+R17256:17259 VFA.Trie <> Leaf constr
+R17278:17279 Coq.Numbers.BinNums <> xO constr
+R17287:17290 VFA.Trie <> Node constr
+R17324:17327 VFA.Trie <> Leaf constr
+R17316:17322 VFA.Trie <> default:76 var
+R17293:17295 VFA.Trie <> ins:80 def
+R17310:17313 VFA.Trie <> Leaf constr
+R17308:17308 VFA.Trie <> a:78 var
+R17297:17303 VFA.Trie <> default:76 var
+R17339:17340 Coq.Numbers.BinNums <> xI constr
+R17348:17351 VFA.Trie <> Node constr
+R17367:17369 VFA.Trie <> ins:80 def
+R17384:17387 VFA.Trie <> Leaf constr
+R17382:17382 VFA.Trie <> a:78 var
+R17371:17377 VFA.Trie <> default:76 var
+R17358:17364 VFA.Trie <> default:76 var
+R17353:17356 VFA.Trie <> Leaf constr
+R17408:17411 VFA.Trie <> Node constr
+R17436:17436 VFA.Trie <> i:77 var
+R17453:17454 Coq.Numbers.BinNums <> xH constr
+R17459:17462 VFA.Trie <> Node constr
+R17466:17466 VFA.Trie <> a:78 var
+R17480:17481 Coq.Numbers.BinNums <> xO constr
+R17489:17492 VFA.Trie <> Node constr
+R17495:17497 VFA.Trie <> ins:80 def
+R17510:17510 VFA.Trie <> a:78 var
+R17499:17505 VFA.Trie <> default:76 var
+R17529:17530 Coq.Numbers.BinNums <> xI constr
+R17538:17541 VFA.Trie <> Node constr
+R17548:17550 VFA.Trie <> ins:80 def
+R17563:17563 VFA.Trie <> a:78 var
+R17552:17558 VFA.Trie <> default:76 var
+def 17601:17606 <> insert
+binder 17609:17609 <> A:84
+R17622:17629 Coq.Numbers.BinNums <> positive ind
+binder 17619:17619 <> i:85
+R17636:17636 VFA.Trie <> A:84 var
+binder 17633:17633 <> a:86
+R17643:17652 VFA.Trie <> trie_table def
+R17654:17654 VFA.Trie <> A:84 var
+binder 17640:17640 <> t:87
+R17676:17685 VFA.Trie <> trie_table def
+R17687:17687 VFA.Trie <> A:84 var
+R17694:17694 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R17700:17701 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R17725:17725 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R17695:17697 Coq.Init.Datatypes <> fst def
+R17699:17699 VFA.Trie <> t:87 var
+R17702:17704 VFA.Trie <> ins def
+R17719:17721 Coq.Init.Datatypes <> snd def
+R17723:17723 VFA.Trie <> t:87 var
+R17716:17716 VFA.Trie <> a:86 var
+R17714:17714 VFA.Trie <> i:85 var
+R17707:17709 Coq.Init.Datatypes <> fst def
+R17711:17711 VFA.Trie <> t:87 var
+def 17740:17748 <> three_ten
+R17752:17761 VFA.Trie <> trie_table def
+R17763:17766 Coq.Init.Datatypes <> bool ind
+R17772:17777 VFA.Trie <> insert def
+R17787:17792 VFA.Trie <> insert def
+R17803:17807 VFA.Trie <> empty def
+R17809:17813 Coq.Init.Datatypes <> false constr
+R17797:17800 Coq.Init.Datatypes <> true constr
+R17781:17784 Coq.Init.Datatypes <> true constr
+R17835:17843 VFA.Trie <> three_ten def
+R18040:18042 Coq.Lists.List <> map def
+R18074:18074 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R18076:18076 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R18078:18078 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R18080:18080 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R18082:18082 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R18084:18084 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+binder 18049:18049 <> i:88
+R18054:18059 VFA.Trie <> lookup def
+R18063:18071 VFA.Trie <> three_ten def
+R18061:18061 VFA.Trie <> i:88 var
+mod 18279:18288 <> FastEnough
+def 18301:18304 FastEnough loop
+R18314:18317 Coq.Init.Datatypes <> list ind
+R18319:18326 Coq.Numbers.BinNums <> positive ind
+binder 18307:18311 <> input:89
+R18333:18335 Coq.Init.Datatypes <> nat ind
+binder 18330:18330 <> c:90
+R18346:18355 VFA.Trie <> trie_table def
+R18357:18360 Coq.Init.Datatypes <> bool ind
+binder 18339:18343 <> table:91
+R18365:18367 Coq.Init.Datatypes <> nat ind
+R18380:18384 VFA.Trie <> input:89 var
+R18395:18397 Coq.Init.Datatypes <> nil constr
+R18402:18402 VFA.Trie <> c:90 var
+R18409:18410 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R18420:18425 VFA.Trie <> lookup def
+R18429:18433 VFA.Trie <> table:91 var
+R18501:18504 VFA.Trie <> loop:92 def
+R18512:18517 VFA.Trie <> insert def
+R18526:18530 VFA.Trie <> table:91 var
+R18521:18524 Coq.Init.Datatypes <> true constr
+R18509:18509 VFA.Trie <> c:90 var
+R18458:18461 VFA.Trie <> loop:92 def
+R18472:18476 VFA.Trie <> table:91 var
+R18468:18468 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R18469:18469 VFA.Trie <> c:90 var
+def 18551:18560 FastEnough collisions
+R18570:18573 Coq.Init.Datatypes <> list ind
+R18575:18582 Coq.Numbers.BinNums <> positive ind
+binder 18563:18567 <> input:94
+R18588:18591 VFA.Trie FastEnough loop def
+R18593:18597 VFA.Trie <> input:94 var
+R18602:18606 VFA.Trie <> empty def
+R18608:18612 Coq.Init.Datatypes <> false constr
+def 18625:18637 FastEnough collisions_pi
+R18677:18679 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R18640:18649 VFA.Trie FastEnough collisions def
+R18651:18651 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R18653:18653 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R18655:18655 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R18657:18657 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R18659:18659 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R18661:18661 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R18663:18663 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R18665:18665 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R18667:18667 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R18713:18722 VFA.Trie FastEnough <> mod
+def 19733:19777 <> manual_grade_for_successor_of_Z_constant_time
+R19781:19786 Coq.Init.Datatypes <> option ind
+R19792:19792 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R19789:19791 Coq.Init.Datatypes <> nat ind
+R19793:19798 Coq.Strings.String <> string ind
+R19804:19807 Coq.Init.Datatypes <> None constr
+prf 20875:20883 <> look_leaf
+binder 20894:20894 <> A:95
+R20899:20899 VFA.Trie <> A:95 var
+binder 20897:20897 <> a:96
+binder 20902:20902 <> j:97
+R20918:20920 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R20905:20908 VFA.Trie <> look def
+R20914:20917 VFA.Trie <> Leaf constr
+R20912:20912 VFA.Trie <> j:97 var
+R20910:20910 VFA.Trie <> a:96 var
+R20921:20921 VFA.Trie <> a:96 var
+prf 21150:21162 <> look_ins_same
+binder 21173:21173 <> A:98
+binder 21176:21176 <> a:99
+binder 21178:21178 <> k:100
+R21183:21183 VFA.Trie <> A:98 var
+binder 21181:21181 <> v:101
+binder 21186:21186 <> t:102
+R21211:21213 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R21189:21192 VFA.Trie <> look def
+R21199:21201 VFA.Trie <> ins def
+R21209:21209 VFA.Trie <> t:102 var
+R21207:21207 VFA.Trie <> v:101 var
+R21205:21205 VFA.Trie <> k:100 var
+R21203:21203 VFA.Trie <> a:99 var
+R21196:21196 VFA.Trie <> k:100 var
+R21194:21194 VFA.Trie <> a:99 var
+R21214:21214 VFA.Trie <> v:101 var
+prf 21551:21564 <> look_ins_other
+binder 21575:21575 <> A:103
+binder 21578:21578 <> a:104
+binder 21580:21580 <> j:105
+binder 21582:21582 <> k:106
+R21587:21587 VFA.Trie <> A:103 var
+binder 21585:21585 <> v:107
+binder 21590:21590 <> t:108
+R21602:21605 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R21597:21600 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R21596:21596 VFA.Trie <> j:105 var
+R21601:21601 VFA.Trie <> k:106 var
+R21628:21630 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R21606:21609 VFA.Trie <> look def
+R21616:21618 VFA.Trie <> ins def
+R21626:21626 VFA.Trie <> t:108 var
+R21624:21624 VFA.Trie <> v:107 var
+R21622:21622 VFA.Trie <> k:106 var
+R21620:21620 VFA.Trie <> a:104 var
+R21613:21613 VFA.Trie <> j:105 var
+R21611:21611 VFA.Trie <> a:104 var
+R21631:21634 VFA.Trie <> look def
+R21640:21640 VFA.Trie <> t:108 var
+R21638:21638 VFA.Trie <> j:105 var
+R21636:21636 VFA.Trie <> a:104 var
+R21778:21786 VFA.Trie <> look_leaf thm
+R21778:21786 VFA.Trie <> look_leaf thm
+R21879:21887 VFA.Trie <> look_leaf thm
+R21879:21887 VFA.Trie <> look_leaf thm
+R21956:21964 VFA.Trie <> look_leaf thm
+R21956:21964 VFA.Trie <> look_leaf thm
+R22049:22057 VFA.Trie <> look_leaf thm
+R22049:22057 VFA.Trie <> look_leaf thm
+R22147:22155 VFA.Trie <> look_leaf thm
+R22147:22155 VFA.Trie <> look_leaf thm
+R22248:22256 VFA.Trie <> look_leaf thm
+R22248:22256 VFA.Trie <> look_leaf thm
+def 22902:22908 <> nat2pos
+R22914:22916 Coq.Init.Datatypes <> nat ind
+binder 22911:22911 <> n:109
+R22921:22928 Coq.Numbers.BinNums <> positive ind
+R22933:22947 Coq.PArith.BinPos Pos of_succ_nat def
+R22949:22949 VFA.Trie <> n:109 var
+def 22963:22969 <> pos2nat
+R22975:22982 Coq.Numbers.BinNums <> positive ind
+binder 22972:22972 <> n:110
+R22987:22989 Coq.Init.Datatypes <> nat ind
+R22994:22997 Coq.Init.Peano <> pred abbrev
+R23000:23009 Coq.PArith.BinPos Pos to_nat def
+R23011:23011 VFA.Trie <> n:110 var
+prf 23022:23032 <> pos2nat2pos
+binder 23042:23042 <> p:111
+R23064:23066 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R23045:23051 VFA.Trie <> nat2pos def
+R23054:23060 VFA.Trie <> pos2nat def
+R23062:23062 VFA.Trie <> p:111 var
+R23067:23067 VFA.Trie <> p:111 var
+R23132:23138 VFA.Trie <> nat2pos def
+R23141:23147 VFA.Trie <> pos2nat def
+R23162:23171 Coq.PArith.Pnat Pos2Nat id thm
+R23162:23171 Coq.PArith.Pnat Pos2Nat id thm
+R23162:23171 Coq.PArith.Pnat Pos2Nat id thm
+R23192:23201 Coq.PArith.BinPos Pos to_nat def
+R23192:23201 Coq.PArith.BinPos Pos to_nat def
+R23225:23238 Coq.PArith.Pnat Pos2Nat is_pos thm
+R23225:23238 Coq.PArith.Pnat Pos2Nat is_pos thm
+R23260:23274 Coq.PArith.BinPos Pos of_nat_succ thm
+R23260:23274 Coq.PArith.BinPos Pos of_nat_succ thm
+R23260:23274 Coq.PArith.BinPos Pos of_nat_succ thm
+prf 23302:23312 <> nat2pos2nat
+binder 23322:23322 <> i:112
+R23344:23346 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R23325:23331 VFA.Trie <> pos2nat def
+R23334:23340 VFA.Trie <> nat2pos def
+R23342:23342 VFA.Trie <> i:112 var
+R23347:23347 VFA.Trie <> i:112 var
+R23412:23418 VFA.Trie <> nat2pos def
+R23421:23427 VFA.Trie <> pos2nat def
+R23438:23456 Coq.PArith.Pnat SuccNat2Pos id_succ thm
+R23438:23456 Coq.PArith.Pnat SuccNat2Pos id_succ thm
+R23438:23456 Coq.PArith.Pnat SuccNat2Pos id_succ thm
+prf 23617:23633 <> pos2nat_injective
+binder 23643:23643 <> p:113
+binder 23645:23645 <> q:114
+R23669:23672 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R23657:23659 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R23648:23654 VFA.Trie <> pos2nat def
+R23656:23656 VFA.Trie <> p:113 var
+R23660:23666 VFA.Trie <> pos2nat def
+R23668:23668 VFA.Trie <> q:114 var
+R23674:23674 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R23673:23673 VFA.Trie <> p:113 var
+R23675:23675 VFA.Trie <> q:114 var
+R23708:23718 VFA.Trie <> pos2nat2pos thm
+R23708:23718 VFA.Trie <> pos2nat2pos thm
+R23708:23718 VFA.Trie <> pos2nat2pos thm
+R23757:23767 VFA.Trie <> pos2nat2pos thm
+R23757:23767 VFA.Trie <> pos2nat2pos thm
+prf 23783:23799 <> nat2pos_injective
+binder 23809:23809 <> i:115
+binder 23811:23811 <> j:116
+R23835:23838 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R23823:23825 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R23814:23820 VFA.Trie <> nat2pos def
+R23822:23822 VFA.Trie <> i:115 var
+R23826:23832 VFA.Trie <> nat2pos def
+R23834:23834 VFA.Trie <> j:116 var
+R23840:23840 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R23839:23839 VFA.Trie <> i:115 var
+R23841:23841 VFA.Trie <> j:116 var
+R23874:23884 VFA.Trie <> nat2pos2nat thm
+R23874:23884 VFA.Trie <> nat2pos2nat thm
+R23874:23884 VFA.Trie <> nat2pos2nat thm
+R23923:23933 VFA.Trie <> nat2pos2nat thm
+R23923:23933 VFA.Trie <> nat2pos2nat thm
+def 24256:24262 <> is_trie
+binder 24265:24265 <> A:117
+R24278:24287 VFA.Trie <> trie_table def
+R24289:24289 VFA.Trie <> A:117 var
+binder 24275:24275 <> t:118
+R24302:24305 Coq.Init.Logic <> True ind
+def 24693:24700 <> abstract
+binder 24703:24703 <> A:119
+R24716:24725 VFA.Trie <> trie_table def
+R24727:24727 VFA.Trie <> A:119 var
+binder 24713:24713 <> t:120
+R24734:24736 Coq.Init.Datatypes <> nat ind
+binder 24731:24731 <> n:121
+R24741:24741 VFA.Trie <> A:119 var
+R24748:24753 VFA.Trie <> lookup def
+R24767:24767 VFA.Trie <> t:120 var
+R24756:24762 VFA.Trie <> nat2pos def
+R24764:24764 VFA.Trie <> n:121 var
+def 24782:24784 <> Abs
+binder 24787:24787 <> A:122
+R24800:24809 VFA.Trie <> trie_table def
+R24811:24811 VFA.Trie <> A:122 var
+binder 24797:24797 <> t:123
+R24818:24826 VFA.Maps <> total_map def
+R24828:24828 VFA.Trie <> A:122 var
+binder 24815:24815 <> m:124
+R24846:24848 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R24836:24843 VFA.Trie <> abstract def
+R24845:24845 VFA.Trie <> t:123 var
+R24849:24849 VFA.Trie <> m:124 var
+prf 25147:25159 <> empty_is_trie
+binder 25170:25170 <> A:125
+R25183:25183 VFA.Trie <> A:125 var
+binder 25174:25180 <> default:126
+R25187:25193 VFA.Trie <> is_trie def
+R25196:25200 VFA.Trie <> empty def
+R25202:25208 VFA.Trie <> default:126 var
+prf 25254:25267 <> insert_is_trie
+binder 25278:25278 <> A:127
+binder 25281:25281 <> i:128
+binder 25283:25283 <> x:129
+R25289:25298 VFA.Trie <> trie_table def
+R25300:25300 VFA.Trie <> A:127 var
+binder 25286:25286 <> t:130
+R25316:25319 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R25307:25313 VFA.Trie <> is_trie def
+R25315:25315 VFA.Trie <> t:130 var
+R25320:25326 VFA.Trie <> is_trie def
+R25329:25334 VFA.Trie <> insert def
+R25340:25340 VFA.Trie <> t:130 var
+R25338:25338 VFA.Trie <> x:129 var
+R25336:25336 VFA.Trie <> i:128 var
+prf 25641:25652 <> empty_relate
+binder 25663:25663 <> A:131
+R25676:25676 VFA.Trie <> A:131 var
+binder 25667:25673 <> default:132
+R25684:25686 VFA.Trie <> Abs def
+R25705:25711 VFA.Maps <> t_empty def
+R25713:25719 VFA.Trie <> default:132 var
+R25689:25693 VFA.Trie <> empty def
+R25695:25701 VFA.Trie <> default:132 var
+R25749:25751 VFA.Trie <> Abs def
+R25754:25761 VFA.Trie <> abstract def
+R25764:25770 VFA.Maps <> t_empty def
+R25802:25807 VFA.Trie <> lookup def
+R25827:25835 VFA.Trie <> look_leaf thm
+R25827:25835 VFA.Trie <> look_leaf thm
+prf 26003:26015 <> lookup_relate
+binder 26026:26026 <> A:133
+binder 26029:26029 <> i:134
+R26035:26044 VFA.Trie <> trie_table def
+R26046:26046 VFA.Trie <> A:133 var
+binder 26032:26032 <> t:135
+binder 26049:26049 <> m:136
+R26065:26068 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R26056:26062 VFA.Trie <> is_trie def
+R26064:26064 VFA.Trie <> t:135 var
+R26076:26079 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R26069:26071 VFA.Trie <> Abs def
+R26075:26075 VFA.Trie <> m:136 var
+R26073:26073 VFA.Trie <> t:135 var
+R26090:26092 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R26080:26085 VFA.Trie <> lookup def
+R26089:26089 VFA.Trie <> t:135 var
+R26087:26087 VFA.Trie <> i:134 var
+R26093:26093 VFA.Trie <> m:136 var
+R26096:26102 VFA.Trie <> pos2nat def
+R26104:26104 VFA.Trie <> i:134 var
+R26134:26136 VFA.Trie <> Abs def
+R26139:26146 VFA.Trie <> abstract def
+R26149:26155 VFA.Maps <> t_empty def
+R26190:26200 VFA.Trie <> pos2nat2pos thm
+R26190:26200 VFA.Trie <> pos2nat2pos thm
+R26190:26200 VFA.Trie <> pos2nat2pos thm
+prf 26727:26739 <> insert_relate
+binder 26750:26750 <> A:137
+binder 26753:26753 <> k:138
+R26759:26759 VFA.Trie <> A:137 var
+binder 26756:26756 <> v:139
+binder 26762:26762 <> t:140
+binder 26764:26766 <> cts:141
+R26782:26789 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R26773:26779 VFA.Trie <> is_trie def
+R26781:26781 VFA.Trie <> t:140 var
+R26799:26806 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R26790:26792 VFA.Trie <> Abs def
+R26796:26798 VFA.Trie <> cts:141 var
+R26794:26794 VFA.Trie <> t:140 var
+R26807:26809 VFA.Trie <> Abs def
+R26827:26834 VFA.Maps <> t_update def
+R26852:26852 VFA.Trie <> v:139 var
+R26841:26847 VFA.Trie <> pos2nat def
+R26849:26849 VFA.Trie <> k:138 var
+R26836:26838 VFA.Trie <> cts:141 var
+R26812:26817 VFA.Trie <> insert def
+R26823:26823 VFA.Trie <> t:140 var
+R26821:26821 VFA.Trie <> v:139 var
+R26819:26819 VFA.Trie <> k:138 var
+R26882:26884 VFA.Trie <> Abs def
+R26887:26894 VFA.Trie <> abstract def
+R26897:26903 VFA.Maps <> t_empty def
+R26906:26913 VFA.Maps <> t_update def
+R26950:26955 VFA.Trie <> lookup def
+R26999:27002 Coq.Arith.PeanoNat <> ::nat_scope:x_'=?'_x not
+R26990:26996 VFA.Trie <> pos2nat def
+R26999:27002 Coq.Arith.PeanoNat <> ::nat_scope:x_'=?'_x not
+R26990:26996 VFA.Trie <> pos2nat def
+R27038:27048 VFA.Trie <> pos2nat2pos thm
+R27038:27048 VFA.Trie <> pos2nat2pos thm
+R27038:27048 VFA.Trie <> pos2nat2pos thm
+R27061:27073 VFA.Trie <> look_ins_same thm
+R27061:27073 VFA.Trie <> look_ins_same thm
+R27106:27111 VFA.Trie <> lookup def
+R27131:27144 VFA.Trie <> look_ins_other thm
+R27131:27144 VFA.Trie <> look_ins_other thm
+R27196:27206 VFA.Trie <> pos2nat2pos thm
+R27196:27206 VFA.Trie <> pos2nat2pos thm
+R27196:27206 VFA.Trie <> pos2nat2pos thm
+R27230:27246 VFA.Trie <> nat2pos_injective thm
+R27230:27246 VFA.Trie <> nat2pos_injective thm
+def 27401:27413 <> Abs_three_ten
+R27420:27422 VFA.Trie <> Abs def
+R27486:27493 VFA.Maps <> t_update def
+R27552:27555 Coq.Init.Datatypes <> true constr
+R27541:27547 VFA.Trie <> pos2nat def
+R27496:27503 VFA.Maps <> t_update def
+R27534:27537 Coq.Init.Datatypes <> true constr
+R27522:27528 VFA.Trie <> pos2nat def
+R27506:27512 VFA.Maps <> t_empty def
+R27514:27518 Coq.Init.Datatypes <> false constr
+R27432:27437 VFA.Trie <> insert def
+R27447:27452 VFA.Trie <> insert def
+R27463:27467 VFA.Trie <> empty def
+R27469:27473 Coq.Init.Datatypes <> false constr
+R27457:27460 Coq.Init.Datatypes <> true constr
+R27441:27444 Coq.Init.Datatypes <> true constr
+R27577:27589 VFA.Trie <> insert_relate thm
+R27577:27589 VFA.Trie <> insert_relate thm
+R27620:27632 VFA.Trie <> insert_relate thm
+R27620:27632 VFA.Trie <> insert_relate thm
+R27663:27674 VFA.Trie <> empty_relate thm
+R27663:27674 VFA.Trie <> empty_relate thm

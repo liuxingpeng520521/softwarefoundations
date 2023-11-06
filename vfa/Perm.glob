@@ -1,0 +1,818 @@
+DIGEST 893b5cf23f3e61f6d31abd6819ffd1ff
+FVFA.Perm
+R1342:1355 Coq.Strings.String <> <> lib
+R1408:1416 Coq.Bool.Bool <> <> lib
+R1443:1453 Coq.Arith.Arith <> <> lib
+R1480:1493 Coq.Arith.PeanoNat <> <> lib
+R1520:1530 Coq.Arith.EqNat <> <> lib
+R1557:1559 Coq.micromega.Lia <> <> lib
+R1586:1595 Coq.Lists.List <> <> lib
+R1605:1617 Coq.Lists.List ListNotations <> mod
+R1644:1654 Coq.Sorting.Permutation <> <> lib
+R2167:2170 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2164:2166 Coq.Init.Datatypes <> nat ind
+R2174:2177 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2171:2173 Coq.Init.Datatypes <> nat ind
+R2159:2160 Coq.Init.Peano <> lt def
+R2378:2381 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2375:2377 Coq.Init.Datatypes <> nat ind
+R2385:2388 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2382:2384 Coq.Init.Datatypes <> nat ind
+R2389:2392 Coq.Init.Datatypes <> bool ind
+R2365:2371 Coq.Arith.PeanoNat Nat ltb def
+R2578:2580 Coq.Init.Datatypes <> nat ind
+binder 2572:2572 <> n:1
+binder 2574:2574 <> m:2
+R2598:2602 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R2583:2583 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2590:2593 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2585:2588 Coq.Arith.PeanoNat <> ::nat_scope:x_'<?'_x not
+R2584:2584 VFA.Perm <> n:1 var
+R2589:2589 VFA.Perm <> m:2 var
+R2594:2597 Coq.Init.Datatypes <> true constr
+R2604:2606 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R2603:2603 VFA.Perm <> n:1 var
+R2607:2607 VFA.Perm <> m:2 var
+R2552:2561 Coq.Arith.PeanoNat Nat ltb_lt thm
+R2671:2676 Coq.Arith.PeanoNat Nat lt def
+def 2804:2806 <> geb
+R2815:2817 Coq.Init.Datatypes <> nat ind
+binder 2809:2809 <> n:3
+binder 2811:2811 <> m:4
+R2824:2828 Coq.Arith.PeanoNat <> ::nat_scope:x_'<=?'_x not
+R2823:2823 VFA.Perm <> m:4 var
+R2829:2829 VFA.Perm <> n:3 var
+R2844:2846 VFA.Perm <> geb def
+R2871:2873 VFA.Perm <> geb def
+not 2862:2862 <> ::nat_scope:x_'>=?'_x
+def 2914:2916 <> gtb
+R2925:2927 Coq.Init.Datatypes <> nat ind
+binder 2919:2919 <> n:5
+binder 2921:2921 <> m:6
+R2934:2937 Coq.Arith.PeanoNat <> ::nat_scope:x_'<?'_x not
+R2933:2933 VFA.Perm <> m:6 var
+R2938:2938 VFA.Perm <> n:5 var
+R2953:2955 VFA.Perm <> gtb def
+R2979:2981 VFA.Perm <> gtb def
+not 2971:2971 <> ::nat_scope:x_'>?'_x
+prf 3258:3269 <> lia_example1
+binder 3280:3280 <> i:7
+binder 3282:3282 <> j:8
+binder 3284:3284 <> k:9
+R3296:3303 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3292:3294 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R3291:3291 VFA.Perm <> i:7 var
+R3295:3295 VFA.Perm <> j:8 var
+R3318:3324 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3304:3306 Coq.Init.Logic <> ::type_scope:'~'_x not
+R3317:3317 Coq.Init.Logic <> ::type_scope:'~'_x not
+R3312:3315 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R3308:3310 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R3307:3307 VFA.Perm <> k:9 var
+R3316:3316 VFA.Perm <> j:8 var
+R3326:3328 Coq.Init.Peano <> ::nat_scope:x_'>'_x not
+R3325:3325 VFA.Perm <> k:9 var
+R3329:3329 VFA.Perm <> i:7 var
+R3485:3488 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3477:3478 Coq.Init.Logic <> ::type_scope:'~'_x not
+R3480:3483 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R3501:3506 Coq.Arith.Compare_dec <> not_le thm
+R3501:3506 Coq.Arith.Compare_dec <> not_le thm
+R3597:3598 Coq.Init.Peano <> gt def
+R3616:3617 Coq.Init.Peano <> gt def
+R3704:3707 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3700:3702 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R3713:3716 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3709:3711 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R3718:3720 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R3733:3744 Coq.Arith.PeanoNat Nat lt_trans thm
+R3733:3744 Coq.Arith.PeanoNat Nat lt_trans thm
+R3793:3793 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R3773:3784 Coq.Arith.PeanoNat Nat lt_trans thm
+R3793:3793 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R3773:3784 Coq.Arith.PeanoNat Nat lt_trans thm
+prf 3965:3985 <> truncated_subtraction
+R3988:3990 Coq.Init.Logic <> ::type_scope:'~'_x not
+R4014:4014 Coq.Init.Logic <> ::type_scope:'~'_x not
+R4000:4002 Coq.Init.Datatypes <> nat ind
+binder 3998:3998 <> k:10
+R4006:4008 Coq.Init.Peano <> ::nat_scope:x_'>'_x not
+R4005:4005 VFA.Perm <> k:10 var
+R4010:4012 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R4009:4009 VFA.Perm <> k:10 var
+prf 4314:4325 <> lia_example1
+binder 4336:4336 <> i:11
+binder 4338:4338 <> j:12
+binder 4340:4340 <> k:13
+R4352:4359 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4348:4350 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R4347:4347 VFA.Perm <> i:11 var
+R4351:4351 VFA.Perm <> j:12 var
+R4374:4380 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4360:4362 Coq.Init.Logic <> ::type_scope:'~'_x not
+R4373:4373 Coq.Init.Logic <> ::type_scope:'~'_x not
+R4368:4371 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R4364:4366 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R4363:4363 VFA.Perm <> k:13 var
+R4372:4372 VFA.Perm <> j:12 var
+R4382:4384 Coq.Init.Peano <> ::nat_scope:x_'>'_x not
+R4381:4381 VFA.Perm <> k:13 var
+R4385:4385 VFA.Perm <> i:11 var
+R4430:4435 Coq.Arith.Compare_dec <> not_le thm
+R4430:4435 Coq.Arith.Compare_dec <> not_le thm
+R4453:4454 Coq.Init.Peano <> gt def
+R4472:4473 Coq.Init.Peano <> gt def
+R4528:4531 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4524:4526 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R4538:4541 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4533:4536 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R4543:4545 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R4558:4572 Coq.Arith.PeanoNat Nat lt_le_trans thm
+R4558:4572 Coq.Arith.PeanoNat Nat lt_le_trans thm
+R4621:4621 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R4601:4612 Coq.Arith.PeanoNat Nat le_trans thm
+R4621:4621 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R4601:4612 Coq.Arith.PeanoNat Nat le_trans thm
+R4641:4644 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4637:4639 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R4646:4649 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R4662:4675 Coq.Arith.PeanoNat Nat lt_le_incl thm
+R4662:4675 Coq.Arith.PeanoNat Nat lt_le_incl thm
+R4694:4705 Coq.Arith.PeanoNat Nat le_sub_l thm
+R4694:4705 Coq.Arith.PeanoNat Nat le_sub_l thm
+prf 4775:4786 <> lia_example2
+binder 4797:4797 <> i:14
+binder 4799:4799 <> j:15
+binder 4801:4801 <> k:16
+R4813:4820 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4809:4811 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R4808:4808 VFA.Perm <> i:14 var
+R4812:4812 VFA.Perm <> j:15 var
+R4835:4841 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4821:4823 Coq.Init.Logic <> ::type_scope:'~'_x not
+R4834:4834 Coq.Init.Logic <> ::type_scope:'~'_x not
+R4829:4832 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R4825:4827 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R4824:4824 VFA.Perm <> k:16 var
+R4833:4833 VFA.Perm <> j:15 var
+R4843:4845 Coq.Init.Peano <> ::nat_scope:x_'>'_x not
+R4842:4842 VFA.Perm <> k:16 var
+R4846:4846 VFA.Perm <> i:14 var
+prf 5507:5519 <> lia_example_3
+R5538:5541 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5535:5537 Coq.Init.Datatypes <> nat ind
+R5545:5548 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5542:5544 Coq.Init.Datatypes <> nat ind
+R5549:5551 Coq.Init.Datatypes <> nat ind
+binder 5531:5531 <> f:17
+binder 5554:5554 <> a:18
+binder 5556:5556 <> b:19
+binder 5558:5558 <> x:20
+binder 5560:5560 <> y:21
+R5580:5583 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5572:5574 Coq.Init.Peano <> ::nat_scope:x_'>'_x not
+R5567:5567 VFA.Perm <> f:17 var
+R5571:5571 VFA.Perm <> y:21 var
+R5569:5569 VFA.Perm <> x:20 var
+R5576:5578 Coq.Init.Peano <> ::nat_scope:x_'*'_x not
+R5575:5575 VFA.Perm <> a:18 var
+R5579:5579 VFA.Perm <> b:19 var
+R5593:5596 Coq.Init.Peano <> ::nat_scope:x_'>='_x not
+R5589:5591 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R5584:5584 VFA.Perm <> f:17 var
+R5588:5588 VFA.Perm <> y:21 var
+R5586:5586 VFA.Perm <> x:20 var
+R5598:5600 Coq.Init.Peano <> ::nat_scope:x_'*'_x not
+R5597:5597 VFA.Perm <> a:18 var
+R5601:5601 VFA.Perm <> b:19 var
+def 5926:5935 <> maybe_swap
+R5942:5945 Coq.Init.Datatypes <> list ind
+R5947:5949 Coq.Init.Datatypes <> nat ind
+binder 5938:5939 <> al:22
+R5954:5957 Coq.Init.Datatypes <> list ind
+R5959:5961 Coq.Init.Datatypes <> nat ind
+R5974:5975 VFA.Perm <> al:22 var
+R5987:5990 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R5992:5995 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R6006:6009 VFA.Perm <> ::nat_scope:x_'>?'_x not
+R6036:6039 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R6041:6044 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R6018:6021 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R6023:6026 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R6057:6058 VFA.Perm <> al:22 var
+def 6076:6089 <> maybe_swap_123
+R6114:6116 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6094:6103 VFA.Perm <> maybe_swap def
+R6105:6105 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R6107:6108 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R6110:6111 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R6113:6113 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R6117:6117 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R6119:6120 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R6122:6123 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R6125:6125 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+def 6162:6175 <> maybe_swap_321
+R6200:6202 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6180:6189 VFA.Perm <> maybe_swap def
+R6191:6191 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R6193:6194 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R6196:6197 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R6199:6199 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R6203:6203 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R6205:6206 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R6208:6209 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R6211:6211 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+prf 6376:6396 <> maybe_swap_idempotent
+binder 6406:6407 <> al:24
+R6440:6442 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6414:6423 VFA.Perm <> maybe_swap def
+R6426:6435 VFA.Perm <> maybe_swap def
+R6437:6438 VFA.Perm <> al:24 var
+R6443:6452 VFA.Perm <> maybe_swap def
+R6454:6455 VFA.Perm <> al:24 var
+R6529:6532 VFA.Perm <> ::nat_scope:x_'>?'_x not
+R6529:6532 VFA.Perm <> ::nat_scope:x_'>?'_x not
+R6566:6569 VFA.Perm <> ::nat_scope:x_'>?'_x not
+R6566:6569 VFA.Perm <> ::nat_scope:x_'>?'_x not
+R7520:7526 Coq.Bool.Bool <> reflect ind
+binder 7822:7822 <> P:25
+R7837:7840 Coq.Init.Datatypes <> bool ind
+binder 7833:7833 <> b:26
+R7862:7865 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7849:7853 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R7848:7848 VFA.Perm <> P:25 var
+R7855:7857 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7854:7854 VFA.Perm <> b:26 var
+R7858:7861 Coq.Init.Datatypes <> true constr
+R7866:7872 Coq.Bool.Bool <> reflect ind
+R7874:7874 VFA.Perm <> P:25 var
+R7876:7876 VFA.Perm <> b:26 var
+R7800:7810 Coq.Bool.Bool <> iff_reflect thm
+prf 8031:8041 <> eqb_reflect
+binder 8052:8052 <> x:27
+binder 8054:8054 <> y:28
+R8057:8063 Coq.Bool.Bool <> reflect ind
+R8067:8069 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8066:8066 VFA.Perm <> x:27 var
+R8070:8070 VFA.Perm <> y:28 var
+R8075:8078 Coq.Arith.PeanoNat <> ::nat_scope:x_'=?'_x not
+R8074:8074 VFA.Perm <> x:27 var
+R8079:8079 VFA.Perm <> y:28 var
+R8110:8120 Coq.Bool.Bool <> iff_reflect thm
+R8110:8120 Coq.Bool.Bool <> iff_reflect thm
+R8141:8150 Coq.Arith.PeanoNat Nat eqb_eq thm
+R8141:8150 Coq.Arith.PeanoNat Nat eqb_eq thm
+prf 8165:8175 <> ltb_reflect
+binder 8186:8186 <> x:29
+binder 8188:8188 <> y:30
+R8191:8197 Coq.Bool.Bool <> reflect ind
+R8201:8203 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R8200:8200 VFA.Perm <> x:29 var
+R8204:8204 VFA.Perm <> y:30 var
+R8209:8212 Coq.Arith.PeanoNat <> ::nat_scope:x_'<?'_x not
+R8208:8208 VFA.Perm <> x:29 var
+R8213:8213 VFA.Perm <> y:30 var
+R8244:8254 Coq.Bool.Bool <> iff_reflect thm
+R8244:8254 Coq.Bool.Bool <> iff_reflect thm
+R8275:8284 Coq.Arith.PeanoNat Nat ltb_lt thm
+R8275:8284 Coq.Arith.PeanoNat Nat ltb_lt thm
+prf 8299:8309 <> leb_reflect
+binder 8320:8320 <> x:31
+binder 8322:8322 <> y:32
+R8325:8331 Coq.Bool.Bool <> reflect ind
+R8335:8338 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R8334:8334 VFA.Perm <> x:31 var
+R8339:8339 VFA.Perm <> y:32 var
+R8344:8348 Coq.Arith.PeanoNat <> ::nat_scope:x_'<=?'_x not
+R8343:8343 VFA.Perm <> x:31 var
+R8349:8349 VFA.Perm <> y:32 var
+R8380:8390 Coq.Bool.Bool <> iff_reflect thm
+R8380:8390 Coq.Bool.Bool <> iff_reflect thm
+R8411:8420 Coq.Arith.PeanoNat Nat leb_le thm
+R8411:8420 Coq.Arith.PeanoNat Nat leb_le thm
+prf 8435:8445 <> gtb_reflect
+binder 8456:8456 <> x:33
+binder 8458:8458 <> y:34
+R8461:8467 Coq.Bool.Bool <> reflect ind
+R8471:8473 Coq.Init.Peano <> ::nat_scope:x_'>'_x not
+R8470:8470 VFA.Perm <> x:33 var
+R8474:8474 VFA.Perm <> y:34 var
+R8479:8482 VFA.Perm <> ::nat_scope:x_'>?'_x not
+R8478:8478 VFA.Perm <> x:33 var
+R8483:8483 VFA.Perm <> y:34 var
+R8514:8524 Coq.Bool.Bool <> iff_reflect thm
+R8514:8524 Coq.Bool.Bool <> iff_reflect thm
+R8545:8554 Coq.Arith.PeanoNat Nat ltb_lt thm
+R8545:8554 Coq.Arith.PeanoNat Nat ltb_lt thm
+prf 8569:8579 <> geb_reflect
+binder 8590:8590 <> x:35
+binder 8592:8592 <> y:36
+R8595:8601 Coq.Bool.Bool <> reflect ind
+R8605:8608 Coq.Init.Peano <> ::nat_scope:x_'>='_x not
+R8604:8604 VFA.Perm <> x:35 var
+R8609:8609 VFA.Perm <> y:36 var
+R8614:8618 VFA.Perm <> ::nat_scope:x_'>=?'_x not
+R8613:8613 VFA.Perm <> x:35 var
+R8619:8619 VFA.Perm <> y:36 var
+R8650:8660 Coq.Bool.Bool <> iff_reflect thm
+R8650:8660 Coq.Bool.Bool <> iff_reflect thm
+R8681:8690 Coq.Arith.PeanoNat Nat leb_le thm
+R8681:8690 Coq.Arith.PeanoNat Nat leb_le thm
+def 8954:8969 <> reflect_example1
+binder 8979:8979 <> a:37
+R8986:8986 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R9010:9013 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R8991:8994 Coq.Arith.PeanoNat <> ::nat_scope:x_'<?'_x not
+R8990:8990 VFA.Perm <> a:37 var
+R9002:9002 VFA.Perm <> a:37 var
+R9158:9164 Coq.Bool.Bool <> reflect ind
+R9168:9170 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R9176:9179 Coq.Arith.PeanoNat <> ::nat_scope:x_'<?'_x not
+R9193:9203 VFA.Perm <> ltb_reflect thm
+R9158:9164 Coq.Bool.Bool <> reflect ind
+R9168:9170 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R9176:9179 Coq.Arith.PeanoNat <> ::nat_scope:x_'<?'_x not
+R9193:9203 VFA.Perm <> ltb_reflect thm
+R9219:9222 Coq.Arith.PeanoNat <> ::nat_scope:x_'<?'_x not
+R9219:9222 Coq.Arith.PeanoNat <> ::nat_scope:x_'<?'_x not
+def 10092:10108 <> reflect_example1'
+binder 10118:10118 <> a:38
+R10125:10125 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R10149:10152 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R10130:10133 Coq.Arith.PeanoNat <> ::nat_scope:x_'<?'_x not
+R10129:10129 VFA.Perm <> a:38 var
+R10141:10141 VFA.Perm <> a:38 var
+R10185:10195 VFA.Perm <> ltb_reflect thm
+R10185:10195 VFA.Perm <> ltb_reflect thm
+R11469:11475 Coq.Bool.Bool <> reflect ind
+R11573:11578 Coq.Arith.Compare_dec <> not_lt thm
+R11593:11598 Coq.Arith.Compare_dec <> not_le thm
+def 11693:11708 <> reflect_example2
+binder 11718:11718 <> a:39
+R11725:11725 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R11749:11752 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R11730:11733 Coq.Arith.PeanoNat <> ::nat_scope:x_'<?'_x not
+R11729:11729 VFA.Perm <> a:39 var
+R11741:11741 VFA.Perm <> a:39 var
+R11787:11790 Coq.Arith.PeanoNat <> ::nat_scope:x_'<?'_x not
+R11787:11790 Coq.Arith.PeanoNat <> ::nat_scope:x_'<?'_x not
+prf 12078:12098 <> maybe_swap_idempotent
+binder 12108:12109 <> al:40
+R12142:12144 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R12116:12125 VFA.Perm <> maybe_swap def
+R12128:12137 VFA.Perm <> maybe_swap def
+R12139:12140 VFA.Perm <> al:40 var
+R12145:12154 VFA.Perm <> maybe_swap def
+R12156:12157 VFA.Perm <> al:40 var
+R12232:12235 VFA.Perm <> ::nat_scope:x_'>?'_x not
+R12232:12235 VFA.Perm <> ::nat_scope:x_'>?'_x not
+R12335:12338 VFA.Perm <> ::nat_scope:x_'>?'_x not
+R12335:12338 VFA.Perm <> ::nat_scope:x_'>?'_x not
+R12478:12481 VFA.Perm <> ::nat_scope:x_'>?'_x not
+R12478:12481 VFA.Perm <> ::nat_scope:x_'>?'_x not
+R13318:13328 Coq.Sorting.Permutation <> Permutation ind
+R15174:15184 Coq.Sorting.Permutation <> Permutation ind
+def 15436:15474 <> manual_grade_for_Permutation_properties
+R15478:15483 Coq.Init.Datatypes <> option ind
+R15489:15489 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R15486:15488 Coq.Init.Datatypes <> nat ind
+R15490:15495 Coq.Strings.String <> string ind
+R15501:15504 Coq.Init.Datatypes <> None constr
+def 15620:15628 <> butterfly
+R15656:15658 Coq.Init.Datatypes <> nat ind
+binder 15638:15638 <> b:41
+binder 15640:15640 <> u:42
+binder 15642:15642 <> t:43
+binder 15644:15644 <> e:44
+binder 15646:15646 <> r:45
+binder 15648:15648 <> f:46
+binder 15650:15650 <> l:47
+binder 15652:15652 <> y:48
+R15663:15673 Coq.Sorting.Permutation <> Permutation ind
+R15716:15717 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R15701:15701 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R15703:15703 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R15705:15705 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R15707:15707 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R15709:15709 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R15711:15711 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R15713:15713 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R15715:15715 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R15702:15702 VFA.Perm <> f:46 var
+R15704:15704 VFA.Perm <> l:47 var
+R15706:15706 VFA.Perm <> u:42 var
+R15708:15708 VFA.Perm <> t:43 var
+R15710:15710 VFA.Perm <> t:43 var
+R15712:15712 VFA.Perm <> e:44 var
+R15714:15714 VFA.Perm <> r:45 var
+R15718:15718 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R15720:15720 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R15722:15722 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R15719:15719 VFA.Perm <> b:41 var
+R15721:15721 VFA.Perm <> y:48 var
+R15689:15690 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R15676:15676 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R15678:15678 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R15680:15680 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R15682:15682 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R15684:15684 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R15686:15686 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R15688:15688 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R15677:15677 VFA.Perm <> b:41 var
+R15679:15679 VFA.Perm <> u:42 var
+R15681:15681 VFA.Perm <> t:43 var
+R15683:15683 VFA.Perm <> t:43 var
+R15685:15685 VFA.Perm <> e:44 var
+R15687:15687 VFA.Perm <> r:45 var
+R15691:15691 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R15693:15693 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R15695:15695 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R15697:15697 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R15692:15692 VFA.Perm <> f:46 var
+R15694:15694 VFA.Perm <> l:47 var
+R15696:15696 VFA.Perm <> y:48 var
+R15970:15970 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R15972:15972 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R15974:15974 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R15976:15976 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R15978:15978 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R15980:15980 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R15982:15982 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R15993:15994 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R15990:15990 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R15992:15992 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R15995:15995 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R15997:15997 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R15999:15999 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R16001:16001 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R16003:16003 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R16005:16005 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R15970:15970 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R15972:15972 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R15974:15974 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R15976:15976 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R15978:15978 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R15980:15980 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R15982:15982 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R15993:15994 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R15990:15990 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R15992:15992 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R15995:15995 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R15997:15997 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R15999:15999 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R16001:16001 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R16003:16003 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R16005:16005 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R16018:16018 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R16020:16020 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R16022:16022 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R16024:16024 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R16026:16026 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R16028:16028 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R16030:16030 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R16032:16032 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R16045:16046 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R16040:16040 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R16042:16042 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R16044:16044 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R16047:16047 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R16049:16049 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R16051:16051 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R16053:16053 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R16055:16055 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R16057:16057 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R16018:16018 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R16020:16020 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R16022:16022 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R16024:16024 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R16026:16026 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R16028:16028 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R16030:16030 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R16032:16032 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R16045:16046 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R16040:16040 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R16042:16042 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R16044:16044 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R16047:16047 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R16049:16049 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R16051:16051 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R16053:16053 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R16055:16055 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R16057:16057 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R16238:16238 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R16240:16240 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R16242:16242 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R16244:16244 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R16246:16246 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R16248:16248 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R16238:16238 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R16240:16240 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R16242:16242 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R16244:16244 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R16246:16246 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R16248:16248 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R16356:16356 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R16358:16358 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R16360:16360 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R16362:16362 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R16375:16376 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R16370:16370 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R16372:16372 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R16374:16374 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R16377:16377 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R16379:16379 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R16356:16356 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R16358:16358 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R16360:16360 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R16362:16362 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R16375:16376 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R16370:16370 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R16372:16372 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R16374:16374 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R16377:16377 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R16379:16379 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R16394:16394 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R16396:16396 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R16398:16398 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R16394:16394 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R16396:16396 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R16398:16398 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R16640:16640 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R16652:16656 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R16643:16646 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R16657:16657 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R16659:16659 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R16661:16661 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R16672:16675 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R16681:16684 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R16685:16685 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R16687:16687 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R16689:16689 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R16705:16713 Coq.Lists.List <> app_assoc thm
+R16640:16640 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R16652:16656 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R16643:16646 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R16657:16657 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R16659:16659 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R16661:16661 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R16672:16675 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R16681:16684 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R16685:16685 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R16687:16687 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R16689:16689 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R16705:16713 Coq.Lists.List <> app_assoc thm
+R16898:16901 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R16905:16909 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R16922:16922 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R16902:16902 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R16904:16904 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R16913:16916 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R16910:16910 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R16912:16912 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R16879:16888 Coq.Sorting.Permutation <> perm_trans constr
+R16898:16901 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R16905:16909 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R16922:16922 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R16902:16902 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R16904:16904 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R16913:16916 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R16910:16910 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R16912:16912 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R16879:16888 Coq.Sorting.Permutation <> perm_trans constr
+R16941:16944 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R16948:16951 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R16945:16945 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R16947:16947 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R16955:16958 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R16952:16952 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R16954:16954 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R16972:16972 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R16982:16986 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R16975:16978 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R16979:16979 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R16981:16981 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R16990:16993 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R16987:16987 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R16989:16989 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R16941:16944 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R16948:16951 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R16945:16945 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R16947:16947 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R16955:16958 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R16952:16952 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R16954:16954 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R16972:16972 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R16982:16986 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R16975:16978 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R16979:16979 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R16981:16981 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R16990:16993 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R16987:16987 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R16989:16989 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R17014:17033 Coq.Sorting.Permutation <> Permutation_app_comm thm
+R17014:17033 Coq.Sorting.Permutation <> Permutation_app_comm thm
+R17053:17061 Coq.Lists.List <> app_assoc thm
+R17053:17061 Coq.Lists.List <> app_assoc thm
+R17053:17061 Coq.Lists.List <> app_assoc thm
+R17147:17166 Coq.Sorting.Permutation <> Permutation_app_head thm
+R17147:17166 Coq.Sorting.Permutation <> Permutation_app_head thm
+R17238:17241 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R17245:17248 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R17242:17242 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R17244:17244 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R17249:17249 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R17251:17251 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R17216:17225 Coq.Sorting.Permutation <> perm_trans constr
+R17238:17241 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R17245:17248 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R17242:17242 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R17244:17244 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R17249:17249 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R17251:17251 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R17216:17225 Coq.Sorting.Permutation <> perm_trans constr
+R17273:17276 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R17270:17270 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R17272:17272 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R17280:17283 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R17277:17277 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R17279:17279 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R17297:17297 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R17308:17312 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R17301:17304 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R17298:17298 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R17300:17300 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R17305:17305 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R17307:17307 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R17273:17276 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R17270:17270 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R17272:17272 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R17280:17283 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R17277:17277 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R17279:17279 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R17297:17297 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R17308:17312 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R17301:17304 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R17298:17298 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R17300:17300 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R17305:17305 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R17307:17307 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R17335:17354 Coq.Sorting.Permutation <> Permutation_app_comm thm
+R17335:17354 Coq.Sorting.Permutation <> Permutation_app_comm thm
+R17373:17381 Coq.Lists.List <> app_assoc thm
+R17373:17381 Coq.Lists.List <> app_assoc thm
+R17373:17381 Coq.Lists.List <> app_assoc thm
+R17409:17428 Coq.Sorting.Permutation <> Permutation_app_head thm
+R17409:17428 Coq.Sorting.Permutation <> Permutation_app_head thm
+R17499:17507 Coq.Sorting.Permutation <> perm_swap constr
+R17499:17507 Coq.Sorting.Permutation <> perm_swap constr
+R18351:18359 Coq.Sorting.Permutation <> perm_skip constr
+R18368:18377 Coq.Sorting.Permutation <> perm_trans constr
+R18386:18401 Coq.Sorting.Permutation <> Permutation_refl thm
+R18410:18429 Coq.Sorting.Permutation <> Permutation_app_comm thm
+R18438:18446 Coq.Lists.List <> app_assoc thm
+R18455:18463 Coq.Lists.List <> app_nil_r thm
+R18472:18484 Coq.Lists.List <> app_comm_cons thm
+def 18496:18509 <> permut_example
+R18525:18528 Coq.Init.Datatypes <> list ind
+R18530:18532 Coq.Init.Datatypes <> nat ind
+binder 18520:18520 <> a:49
+binder 18522:18522 <> b:50
+R18538:18548 Coq.Sorting.Permutation <> Permutation ind
+R18570:18570 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R18577:18582 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R18595:18595 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R18572:18575 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R18576:18576 VFA.Perm <> b:50 var
+R18584:18587 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R18589:18592 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R18588:18588 VFA.Perm <> a:49 var
+R18593:18594 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R18552:18555 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R18557:18560 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R18562:18565 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R18561:18561 VFA.Perm <> a:49 var
+R18566:18566 VFA.Perm <> b:50 var
+R18627:18629 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R18631:18633 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R18635:18637 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R18648:18649 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R18650:18650 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R18655:18657 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R18652:18653 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R18627:18629 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R18631:18633 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R18635:18637 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R18648:18649 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R18650:18650 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R18655:18657 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R18652:18653 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R18672:18672 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R18679:18683 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R18674:18677 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R18685:18688 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R18690:18693 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R18694:18695 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R18705:18709 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R18729:18729 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R18711:18714 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R18715:18715 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R18722:18726 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R18717:18720 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R18727:18728 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R18672:18672 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R18679:18683 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R18674:18677 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R18685:18688 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R18690:18693 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R18694:18695 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R18705:18709 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R18729:18729 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R18711:18714 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R18715:18715 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R18722:18726 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R18717:18720 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R18727:18728 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R18746:18749 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R18746:18749 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R18783:18791 Coq.Lists.List <> app_nil_r thm
+R18783:18791 Coq.Lists.List <> app_nil_r thm
+R18783:18791 Coq.Lists.List <> app_nil_r thm
+R18802:18810 Coq.Sorting.Permutation <> perm_skip constr
+R18802:18810 Coq.Sorting.Permutation <> perm_skip constr
+R18821:18840 Coq.Sorting.Permutation <> Permutation_app_comm thm
+R18821:18840 Coq.Sorting.Permutation <> Permutation_app_comm thm
+R19025:19044 Coq.Sorting.Permutation <> Permutation_cons_inv thm
+R19053:19076 Coq.Sorting.Permutation <> Permutation_length_1_inv thm
+def 19088:19104 <> not_a_permutation
+R19109:19110 Coq.Init.Logic <> ::type_scope:'~'_x not
+R19111:19121 Coq.Sorting.Permutation <> Permutation ind
+R19129:19129 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R19131:19131 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R19133:19133 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R19123:19123 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R19125:19125 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R19127:19127 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R19152:19154 Coq.Init.Logic <> not def
+R19173:19192 Coq.Sorting.Permutation <> Permutation_cons_inv thm
+R19173:19192 Coq.Sorting.Permutation <> Permutation_cons_inv thm
+R19208:19231 Coq.Sorting.Permutation <> Permutation_length_1_inv thm
+R19208:19231 Coq.Sorting.Permutation <> Permutation_length_1_inv thm
+prf 19501:19515 <> maybe_swap_perm
+binder 19525:19526 <> al:51
+R19531:19541 Coq.Sorting.Permutation <> Permutation ind
+R19547:19556 VFA.Perm <> maybe_swap def
+R19558:19559 VFA.Perm <> al:51 var
+R19543:19544 VFA.Perm <> al:51 var
+R19603:19612 VFA.Perm <> maybe_swap def
+R19667:19674 Coq.Sorting.Permutation <> perm_nil constr
+R19667:19674 Coq.Sorting.Permutation <> perm_nil constr
+R19687:19702 Coq.Sorting.Permutation <> Permutation_refl thm
+R19687:19702 Coq.Sorting.Permutation <> Permutation_refl thm
+R19721:19724 VFA.Perm <> ::nat_scope:x_'>?'_x not
+R19721:19724 VFA.Perm <> ::nat_scope:x_'>?'_x not
+R19741:19749 Coq.Sorting.Permutation <> perm_swap constr
+R19741:19749 Coq.Sorting.Permutation <> perm_swap constr
+R19764:19779 Coq.Sorting.Permutation <> Permutation_refl thm
+R19764:19779 Coq.Sorting.Permutation <> Permutation_refl thm
+def 19922:19936 <> first_le_second
+R19943:19946 Coq.Init.Datatypes <> list ind
+R19948:19950 Coq.Init.Datatypes <> nat ind
+binder 19939:19940 <> al:52
+R19971:19972 VFA.Perm <> al:52 var
+R19984:19987 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R19989:19992 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R19999:20002 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R20014:20017 Coq.Init.Logic <> True ind
+prf 20035:20052 <> maybe_swap_correct
+binder 20062:20063 <> al:54
+R20100:20107 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R20070:20080 Coq.Sorting.Permutation <> Permutation ind
+R20086:20095 VFA.Perm <> maybe_swap def
+R20097:20098 VFA.Perm <> al:54 var
+R20082:20083 VFA.Perm <> al:54 var
+R20108:20122 VFA.Perm <> first_le_second def
+R20125:20134 VFA.Perm <> maybe_swap def
+R20136:20137 VFA.Perm <> al:54 var
+R20175:20189 VFA.Perm <> maybe_swap_perm thm
+R20175:20189 VFA.Perm <> maybe_swap_perm thm
+R20229:20238 VFA.Perm <> maybe_swap def
+R20307:20310 VFA.Perm <> ::nat_scope:x_'>?'_x not
+R20307:20310 VFA.Perm <> ::nat_scope:x_'>?'_x not
+prf 21179:21189 <> Forall_perm
+binder 21200:21200 <> A:55
+R21208:21211 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R21207:21207 VFA.Perm <> A:55 var
+binder 21204:21204 <> f:56
+binder 21218:21219 <> al:57
+binder 21221:21222 <> bl:58
+R21244:21249 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R21227:21237 Coq.Sorting.Permutation <> Permutation ind
+R21242:21243 VFA.Perm <> bl:58 var
+R21239:21240 VFA.Perm <> al:57 var
+R21261:21264 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R21250:21255 Coq.Lists.List <> Forall ind
+R21259:21260 VFA.Perm <> al:57 var
+R21257:21257 VFA.Perm <> f:56 var
+R21265:21270 Coq.Lists.List <> Forall ind
+R21274:21275 VFA.Perm <> bl:58 var
+R21272:21272 VFA.Perm <> f:56 var
